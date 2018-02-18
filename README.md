@@ -1,2 +1,2 @@
 # openmv-boards
-OpenMV boards schematics and layout.
+OpenMV boards, schematics, and layout.
