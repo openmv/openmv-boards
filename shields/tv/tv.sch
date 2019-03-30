@@ -2066,16 +2066,20 @@ Metric Code Size 1608</description>
 <plain>
 <wire x1="314.96" y1="231.14" x2="314.96" y2="0" width="0.1524" layer="94"/>
 <wire x1="198.12" y1="231.14" x2="314.96" y2="231.14" width="0.1524" layer="94"/>
-<wire x1="198.12" y1="231.14" x2="198.12" y2="0" width="0.1524" layer="94"/>
+<wire x1="198.12" y1="231.14" x2="198.12" y2="121.92" width="0.1524" layer="94"/>
+<wire x1="198.12" y1="121.92" x2="198.12" y2="0" width="0.1524" layer="94"/>
 <wire x1="314.96" y1="0" x2="198.12" y2="0" width="0.1524" layer="94"/>
 <wire x1="198.12" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
 <text x="203.2" y="223.52" size="5.08" layer="150" ratio="10">OpenMV</text>
-<text x="2.54" y="15.24" size="3.81" layer="150">Copyright (c) 2013 Ibrahim Abd Elkader &lt;i.abdalkader@gmail.com&gt;</text>
+<text x="2.54" y="15.24" size="3.81" layer="150">Copyright (c) 2019 kaizhi &lt;kaizhi@singtown.com&gt;</text>
 <text x="2.54" y="10.16" size="3.81" layer="150">This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 License.</text>
 <text x="2.54" y="5.08" size="3.81" layer="150">To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/</text>
 <text x="307.34" y="7.62" size="2.54" layer="94" ratio="12">2</text>
 <wire x1="198.12" y1="231.14" x2="0" y2="231.14" width="0.1524" layer="94"/>
 <wire x1="0" y1="231.14" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="121.92" x2="198.12" y2="121.92" width="0.1524" layer="94"/>
+<text x="5.08" y="223.52" size="5.08" layer="150" ratio="10">NTSC Generate</text>
+<text x="5.08" y="111.76" size="5.08" layer="150" ratio="10">5.8G Transmitter</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$2" x="213.36" y="0" smashed="yes">
