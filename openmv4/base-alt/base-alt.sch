@@ -8714,10 +8714,10 @@ included in the embedded driver.</text>
 <approved hash="208,1,223.52,231.14,VDDA,out,,,,"/>
 <approved hash="208,1,236.22,236.22,VDDA,sup,,,,"/>
 <approved hash="208,1,396.24,88.9,VDDA,sup,,,,"/>
-<approved hash="113,1,403.639,-30.701,FRAME1,,,,,"/>
-<approved hash="113,1,299.957,223.716,JP2,,,,,"/>
-<approved hash="113,1,350.757,223.716,JP1,,,,,"/>
-<approved hash="113,1,424.417,221.176,JP3,,,,,"/>
+<approved hash="113,1,403.631,-30.7086,FRAME1,,,,,"/>
+<approved hash="113,1,299.957,223.746,JP2,,,,,"/>
+<approved hash="113,1,350.757,223.746,JP1,,,,,"/>
+<approved hash="113,1,424.417,221.206,JP3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
