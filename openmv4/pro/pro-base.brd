@@ -8866,6 +8866,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="DCMI_D5" class="5">
 <contactref element="X3" pad="33"/>
+<contactref element="U10" pad="D11"/>
+<wire x1="17.7" y1="30.15" x2="14.03" y2="38.8399" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DCMI_D6" class="5">
 <contactref element="X3" pad="24"/>
@@ -9091,8 +9093,6 @@ design rules under a new name.</description>
 <signal name="DRAM_D5" class="3">
 <contactref element="U14" pad="M8"/>
 <contactref element="U10" pad="P8"/>
-<contactref element="U10" pad="D11"/>
-<wire x1="15.75" y1="23.65" x2="17.7" y2="30.15" width="0" layer="19" extent="1-1"/>
 <wire x1="18" y1="17.6" x2="15.75" y2="23.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRAM_D6" class="3">

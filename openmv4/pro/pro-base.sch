@@ -18527,6 +18527,11 @@ LEDs</text>
 <label x="340.36" y="246.38" size="1.778" layer="95"/>
 <pinref part="X3" gate="G$1" pin="33"/>
 </segment>
+<segment>
+<pinref part="U10" gate="G$2" pin="PD3/SPI2_SCK/I2S2_CK/USART2_CTS/FMC_CLK/DCMI_D5"/>
+<wire x1="66.04" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
+<label x="48.26" y="78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DCMI_D6" class="5">
 <segment>
@@ -19074,11 +19079,6 @@ LEDs</text>
 <wire x1="246.38" y1="238.76" x2="231.14" y2="238.76" width="0.1524" layer="91"/>
 <label x="233.68" y="238.76" size="1.778" layer="95"/>
 <pinref part="U10" gate="G$2" pin="PE8/FSMC_D5/TIM1_CH1N/UART7_TX"/>
-</segment>
-<segment>
-<pinref part="U10" gate="G$2" pin="PD3/SPI2_SCK/I2S2_CK/USART2_CTS/FMC_CLK/DCMI_D5"/>
-<wire x1="66.04" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
-<label x="48.26" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRAM_D6" class="3">
