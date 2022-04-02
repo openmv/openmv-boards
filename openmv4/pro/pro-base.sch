@@ -17740,7 +17740,11 @@ LEDs</text>
 <segment>
 <pinref part="C68" gate="G$1" pin="1"/>
 <pinref part="P+34" gate="VCC" pin="VCC"/>
-<wire x1="12.7" y1="320.04" x2="12.7" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="320.04" x2="12.7" y2="322.58" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$0" pin="VCC"/>
+<wire x1="12.7" y1="322.58" x2="12.7" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="322.58" x2="12.7" y2="322.58" width="0.1524" layer="91"/>
+<junction x="12.7" y="322.58"/>
 </segment>
 </net>
 <net name="DCMI_D0" class="5">
