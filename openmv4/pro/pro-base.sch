@@ -13108,6 +13108,57 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="0.9525" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.9525" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
+<package name="LED-1206-BOTTOM" urn="urn:adsk.eagle:footprint:39312/1" library_version="1">
+<description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
+
+1206, surface mount. 
+
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Area: 0.125" x 0.06"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="-2" y1="0.4" x2="-2" y2="-0.4" width="0.127" layer="49"/>
+<wire x1="-2.4" y1="0" x2="-1.6" y2="0" width="0.127" layer="49"/>
+<wire x1="1.6" y1="0" x2="2.4" y2="0" width="0.127" layer="49"/>
+<wire x1="-1.27" y1="0" x2="-0.381" y2="0" width="0.127" layer="49"/>
+<wire x1="-0.381" y1="0" x2="-0.381" y2="0.635" width="0.127" layer="49"/>
+<wire x1="-0.381" y1="0.635" x2="0.254" y2="0" width="0.127" layer="49"/>
+<wire x1="0.254" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="49"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0" width="0.127" layer="49"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="0.635" width="0.127" layer="49"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-0.635" width="0.127" layer="49"/>
+<wire x1="0.254" y1="0" x2="1.27" y2="0" width="0.127" layer="49"/>
+<wire x1="2.7686" y1="1.016" x2="2.7686" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.7686" y1="1.016" x2="2.7686" y2="-1.016" width="0.127" layer="22"/>
+<rectangle x1="-0.75" y1="-0.75" x2="0.75" y2="0.75" layer="51"/>
+<smd name="A" x="-1.8" y="0" dx="1.5" dy="1.6" layer="1"/>
+<smd name="C" x="1.8" y="0" dx="1.5" dy="1.6" layer="1"/>
+<hole x="0" y="0" drill="2.3"/>
+<polygon width="0" layer="51">
+<vertex x="1.1" y="-0.5"/>
+<vertex x="1.1" y="0.5"/>
+<vertex x="1.6" y="0.5"/>
+<vertex x="1.6" y="0.25" curve="90"/>
+<vertex x="1.4" y="0.05"/>
+<vertex x="1.4" y="-0.05" curve="90"/>
+<vertex x="1.6" y="-0.25"/>
+<vertex x="1.6" y="-0.5"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-1.1" y="0.5"/>
+<vertex x="-1.1" y="-0.5"/>
+<vertex x="-1.6" y="-0.5"/>
+<vertex x="-1.6" y="-0.25" curve="90"/>
+<vertex x="-1.4" y="-0.05"/>
+<vertex x="-1.4" y="0.05" curve="90"/>
+<vertex x="-1.6" y="0.25"/>
+<vertex x="-1.6" y="0.5"/>
+</polygon>
+<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="LED-0603" urn="urn:adsk.eagle:package:39354/1" type="box" library_version="1">
@@ -13138,6 +13189,21 @@ Example device(s):
 LED</description>
 <packageinstances>
 <packageinstance name="LED-1206"/>
+</packageinstances>
+</package3d>
+<package3d name="LED-1206-BOTTOM" urn="urn:adsk.eagle:package:39358/1" type="box" library_version="1">
+<description>LED 1206 SMT
+
+1206, surface mount. 
+
+Specifications:
+Pin count: 2
+Area: 0.125" x 0.06"
+
+Example device(s):
+LED</description>
+<packageinstances>
+<packageinstance name="LED-1206-BOTTOM"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -13230,6 +13296,89 @@ LED</description>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-11154" constant="no"/>
 <attribute name="VALUE" value="Red" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-GREEN" urn="urn:adsk.eagle:component:39390/1" prefix="D" uservalue="yes" library_version="1">
+<description>&lt;h3&gt;Green SMD LED&lt;/h3&gt;
+&lt;p&gt;Used in manufacturing of various products at SparkFun&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/9894312-LTST-C190GKT.aspx?CrossPart=HSMG-C190&amp;IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;LilyPad 1206&lt;/b&gt; - SMD1206 LilyPad package &lt;a href="http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=IN150NGHARVATEKCORPORATION2049943&amp;IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href=http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/8315665-LTST-C150KGKT.aspx?IM=0"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 1206 Bottom Mount&lt;/b&gt; -SMD 1206 Bottom Mount &lt;a href=http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-1-ND/386854"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/821”&gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;RedBoard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13720”&gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11076”&gt;Makey Makey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39354/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-00821" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LILYPAD" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39352/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09910"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39352/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-00862" constant="no"/>
+<attribute name="VALUE" value="GREEN" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206-BOTTOM" package="LED-1206-BOTTOM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39358/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-11076" constant="no"/>
+<attribute name="VALUE" value="Green" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -15028,6 +15177,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R44" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1.18K"/>
 <part name="R45" library="sfe" deviceset="RESISTOR" device="0402-RES" value="46.4K"/>
 <part name="J6" library="RSP-122811-01" deviceset="RSP-122811-01" device=""/>
+<part name="R46" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1.5K"/>
+<part name="D26" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
+<part name="JP3" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
+<part name="JP4" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -15130,7 +15283,7 @@ calculated as below:
 <text x="101.6" y="276.86" size="2.54" layer="150" font="vector" ratio="20">* For 1uF 0402 caps use +/- 10% 6.3V X5R caps e.g. (GMC04X5R105K6R3NT)</text>
 <text x="96.52" y="391.16" size="1.27" layer="150" font="vector" ratio="20">* Swapped to make
   layout easier</text>
-<text x="134.62" y="358.14" size="7.62" layer="94" font="vector" ratio="20">Battery Charging</text>
+<text x="134.62" y="360.68" size="7.62" layer="94" font="vector" ratio="20">Battery Charging</text>
 <wire x1="132.08" y1="370.84" x2="271.78" y2="370.84" width="0.1524" layer="94" style="longdash"/>
 <text x="134.62" y="419.1" size="7.62" layer="94" font="vector" ratio="20">Power</text>
 <text x="101.6" y="266.7" size="2.54" layer="150" font="vector" ratio="20">* For 0402 resistors use +/- 5% (or 1% if required) - 1/16W</text>
@@ -16135,6 +16288,22 @@ resetting in low power</text>
 <instance part="J6" gate="G$1" x="403.86" y="96.52" smashed="yes" rot="MR0">
 <attribute name="NAME" x="407.67" y="100.584" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="407.924" y="92.202" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="R46" gate="G$1" x="165.1" y="355.6" smashed="yes">
+<attribute name="NAME" x="161.29" y="357.0986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="352.298" size="1.778" layer="96"/>
+</instance>
+<instance part="D26" gate="G$1" x="154.94" y="355.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="150.368" y="359.029" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="150.368" y="353.695" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="JP3" gate="G$1" x="177.8" y="355.6" smashed="yes">
+<attribute name="NAME" x="175.26" y="358.14" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="180.34" y="360.68" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="JP4" gate="G$1" x="177.8" y="350.52" smashed="yes">
+<attribute name="NAME" x="175.26" y="353.06" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="180.34" y="355.6" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -19577,18 +19746,22 @@ resetting in low power</text>
 <wire x1="193.04" y1="337.82" x2="190.5" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="337.82" x2="215.9" y2="337.82" width="0.1524" layer="91"/>
 <junction x="193.04" y="337.82"/>
-<wire x1="193.04" y1="350.52" x2="193.04" y2="345.44" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="345.44" x2="193.04" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="337.82" x2="241.3" y2="337.82" width="0.1524" layer="91"/>
 <junction x="215.9" y="337.82"/>
-<pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="350.52" x2="170.18" y2="350.52" width="0.1524" layer="91"/>
 <pinref part="U11" gate="G$0" pin="EN2"/>
 <wire x1="165.1" y1="322.58" x2="162.56" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="322.58" x2="162.56" y2="345.44" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="345.44" x2="193.04" y2="345.44" width="0.1524" layer="91"/>
 <junction x="193.04" y="345.44"/>
+<wire x1="193.04" y1="355.6" x2="193.04" y2="350.52" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="350.52" x2="193.04" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="355.6" x2="193.04" y2="355.6" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="350.52" x2="193.04" y2="350.52" width="0.1524" layer="91"/>
+<junction x="193.04" y="350.52"/>
 </segment>
 </net>
 <net name="LED_B_INT" class="0">
@@ -19742,6 +19915,36 @@ resetting in low power</text>
 <pinref part="R33" gate="G$1" pin="1"/>
 <pinref part="D14" gate="G$1" pin="A"/>
 <wire x1="160.02" y1="350.52" x2="157.48" y2="350.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="D26" gate="G$1" pin="A"/>
+<pinref part="R46" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="355.6" x2="160.02" y2="355.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="D26" gate="G$1" pin="C"/>
+<wire x1="149.86" y1="355.6" x2="142.24" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="355.6" x2="142.24" y2="307.34" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$0" pin="!PGOOD!"/>
+<wire x1="142.24" y1="307.34" x2="165.1" y2="307.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R33" gate="G$1" pin="2"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="350.52" x2="172.72" y2="350.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R46" gate="G$1" pin="2"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="355.6" x2="172.72" y2="355.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
