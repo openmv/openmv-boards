@@ -9648,7 +9648,7 @@ FIDUCIAL</description>
 </classes>
 <parts>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U1" library="openmv5" deviceset="OPENMV5-BOTTOM" device=""/>
+<part name="J2" library="openmv5" deviceset="OPENMV5-BOTTOM" device=""/>
 <part name="VIN2" library="supply" deviceset="VIN" device=""/>
 <part name="J1" library="GMJXHT-MM-S-88" deviceset="GMJXHT-MM-S-88" device="">
 <attribute name="MPN" value="GMJXHT-MM-S-88"/>
@@ -9659,10 +9659,10 @@ FIDUCIAL</description>
 <part name="T1" library="PT61018PEL" deviceset="PT61018PEL" device="">
 <attribute name="MPN" value="PT61018PEL"/>
 </part>
-<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="0.1uF">
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="0.1uF">
 <attribute name="MPN" value="CL03A104KQ3NNNC"/>
 </part>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="0.1uF">
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="0.1uF">
 <attribute name="MPN" value="CL03A104KQ3NNNC"/>
 </part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9673,20 +9673,20 @@ FIDUCIAL</description>
 <part name="BR2" library="MB6S-TP" deviceset="MB6S-TP" device="">
 <attribute name="MPN" value="MB6S-TP"/>
 </part>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100uF">
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100uF">
 <attribute name="MPN" value="CL31A107MQHNNWE"/>
 </part>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="L1" library="NR6045T1R8N" deviceset="NR6045T1R8N" device="">
+<part name="L7" library="NR6045T1R8N" deviceset="NR6045T1R8N" device="">
 <attribute name="MPN" value="NR6045T1R8N"/>
 </part>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
 <attribute name="MPN" value="GRM155R60J106ME05D"/>
 </part>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
 <attribute name="MPN" value="GRM155R60J106ME05D"/>
 </part>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="100">
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="100">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -9695,7 +9695,7 @@ FIDUCIAL</description>
 </spice>
 <attribute name="MPN" value="RC2512JK-07100RL"/>
 </part>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="100">
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="100">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -9704,7 +9704,7 @@ FIDUCIAL</description>
 </spice>
 <attribute name="MPN" value="RC2512JK-07100RL"/>
 </part>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="100">
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="100">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -9713,7 +9713,7 @@ FIDUCIAL</description>
 </spice>
 <attribute name="MPN" value="RC2512JK-07100RL"/>
 </part>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="100">
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="100">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -9723,8 +9723,35 @@ FIDUCIAL</description>
 <attribute name="MPN" value="RC2512JK-07100RL"/>
 </part>
 <part name="VIN1" library="supply" deviceset="VIN" device=""/>
-<part name="D1" library="FM240A" deviceset="FM240A" device="">
+<part name="D2" library="FM240A" deviceset="FM240A" device="">
 <attribute name="MPN" value="FM240A"/>
+</part>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="0402WGF750JTCE"/>
+</part>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="0402WGF750JTCE"/>
+</part>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="0402WGF750JTCE"/>
 </part>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75">
 <spice>
@@ -9735,78 +9762,51 @@ FIDUCIAL</description>
 </spice>
 <attribute name="MPN" value="0402WGF750JTCE"/>
 </part>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="MPN" value="0402WGF750JTCE"/>
-</part>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="MPN" value="0402WGF750JTCE"/>
-</part>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75">
-<spice>
-<pinmapping spiceprefix="R">
-<pinmap gate="G$1" pin="1" pinorder="1"/>
-<pinmap gate="G$1" pin="2" pinorder="2"/>
-</pinmapping>
-</spice>
-<attribute name="MPN" value="0402WGF750JTCE"/>
-</part>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
 <attribute name="MPN" value="1206B102K252CT"/>
 </part>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1812" package3d_urn="urn:adsk.eagle:package:23622/2" value="4.7nF">
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1812" package3d_urn="urn:adsk.eagle:package:23622/2" value="4.7nF">
 <attribute name="MPN" value="202S43W472KV4E"/>
 </part>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1812" package3d_urn="urn:adsk.eagle:package:23622/2" value="4.7nF">
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1812" package3d_urn="urn:adsk.eagle:package:23622/2" value="4.7nF">
 <attribute name="MPN" value="202S43W472KV4E"/>
 </part>
-<part name="L2" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
-<attribute name="MPN" value="BBPY00100505102Y00"/>
-</part>
-<part name="L3" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
+<part name="L6" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
 <attribute name="MPN" value="BBPY00100505102Y00"/>
 </part>
 <part name="L4" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
 <attribute name="MPN" value="BBPY00100505102Y00"/>
 </part>
+<part name="L2" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
+<attribute name="MPN" value="BBPY00100505102Y00"/>
+</part>
 <part name="L5" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
 <attribute name="MPN" value="BBPY00100505102Y00"/>
 </part>
-<part name="L6" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
+<part name="L3" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
 <attribute name="MPN" value="BBPY00100505102Y00"/>
 </part>
-<part name="L7" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
+<part name="L1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
 <attribute name="MPN" value="BBPY00100505102Y00"/>
 </part>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
 <attribute name="MPN" value="1206B102K252CT"/>
 </part>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
 <attribute name="MPN" value="1206B102K252CT"/>
 </part>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
 <attribute name="MPN" value="1206B102K252CT"/>
 </part>
-<part name="LED1" library="LTST-S270K" deviceset="LTST-S270KGKT" device="">
+<part name="LED2" library="LTST-S270K" deviceset="LTST-S270KGKT" device="">
 <attribute name="MPN" value="LTST-S270KGKT"/>
 </part>
-<part name="LED2" library="LTST-S270K" deviceset="LTST-S270KSKT" device="">
+<part name="LED1" library="LTST-S270K" deviceset="LTST-S270KSKT" device="">
 <attribute name="MPN" value="LTST-S270KSKT"/>
 </part>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470">
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -9815,15 +9815,15 @@ FIDUCIAL</description>
 </spice>
 <attribute name="MPN" value="0603WAJ0471T5E"/>
 </part>
-<part name="D2" library="SMAJ58A-13-F" deviceset="SMAJ58A-13-F" device="">
+<part name="D1" library="SMAJ58A-13-F" deviceset="SMAJ58A-13-F" device="">
 <attribute name="MPN" value="SMAJ58A/TR13"/>
 </part>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
 <attribute name="MPN" value="1206B102K252CT"/>
 </part>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1M">
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1M">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -9833,12 +9833,12 @@ FIDUCIAL</description>
 <attribute name="MPN" value="RMCF1206FT1M00"/>
 </part>
 <part name="FD1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="FD4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="FD3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD5" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD6" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
-<part name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
-<part name="FD3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD7" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
-<part name="FD4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD8" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 </parts>
 <sheets>
@@ -9886,7 +9886,7 @@ the PoE shield to get warm.</text>
 <instance part="GND4" gate="1" x="281.94" y="190.5" smashed="yes">
 <attribute name="VALUE" x="279.4" y="187.96" size="1.778" layer="96"/>
 </instance>
-<instance part="U1" gate="G$1" x="337.82" y="218.44" smashed="yes">
+<instance part="J2" gate="G$1" x="337.82" y="218.44" smashed="yes">
 <attribute name="NAME" x="325.12" y="231.14" size="1.778" layer="95"/>
 <attribute name="VALUE" x="340.36" y="198.12" size="1.778" layer="96"/>
 </instance>
@@ -9908,12 +9908,12 @@ the PoE shield to get warm.</text>
 <attribute name="VALUE" x="143.51" y="241.3" size="1.778" layer="96" align="center-left"/>
 <attribute name="MPN" x="119.38" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C22" gate="G$1" x="162.56" y="208.28" smashed="yes" rot="MR0">
+<instance part="C5" gate="G$1" x="162.56" y="208.28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="161.036" y="208.661" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="161.036" y="203.581" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MPN" x="162.56" y="208.28" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="C1" gate="G$1" x="152.4" y="208.28" smashed="yes" rot="MR0">
+<instance part="C4" gate="G$1" x="152.4" y="208.28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="150.876" y="208.661" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="150.876" y="203.581" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MPN" x="152.4" y="208.28" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -9934,7 +9934,7 @@ the PoE shield to get warm.</text>
 <attribute name="VALUE" x="41.91" y="114.3" size="1.778" layer="96" align="center-left"/>
 <attribute name="MPN" x="22.86" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C2" gate="G$1" x="170.18" y="114.3" smashed="yes">
+<instance part="C6" gate="G$1" x="170.18" y="114.3" smashed="yes">
 <attribute name="NAME" x="171.704" y="114.681" size="1.778" layer="95"/>
 <attribute name="VALUE" x="171.704" y="109.601" size="1.778" layer="96"/>
 <attribute name="MPN" x="170.18" y="114.3" size="1.778" layer="96" display="off"/>
@@ -9942,37 +9942,37 @@ the PoE shield to get warm.</text>
 <instance part="GND3" gate="1" x="165.1" y="83.82" smashed="yes">
 <attribute name="VALUE" x="162.56" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="185.42" y="121.92" smashed="yes">
+<instance part="L7" gate="G$1" x="185.42" y="121.92" smashed="yes">
 <attribute name="NAME" x="201.93" y="128.27" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="201.93" y="125.73" size="1.778" layer="96" align="center-left"/>
 <attribute name="MPN" x="185.42" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C3" gate="G$1" x="180.34" y="114.3" smashed="yes">
+<instance part="C7" gate="G$1" x="180.34" y="114.3" smashed="yes">
 <attribute name="NAME" x="181.864" y="114.681" size="1.778" layer="95"/>
 <attribute name="VALUE" x="181.864" y="109.601" size="1.778" layer="96"/>
 <attribute name="MPN" x="180.34" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="210.82" y="114.3" smashed="yes">
+<instance part="C11" gate="G$1" x="210.82" y="114.3" smashed="yes">
 <attribute name="NAME" x="212.344" y="114.681" size="1.778" layer="95"/>
 <attribute name="VALUE" x="212.344" y="109.601" size="1.778" layer="96"/>
 <attribute name="MPN" x="210.82" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="226.06" y="111.76" smashed="yes" rot="R90">
+<instance part="R6" gate="G$1" x="226.06" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="224.5614" y="107.95" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="229.362" y="107.95" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="226.06" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R2" gate="G$1" x="233.68" y="111.76" smashed="yes" rot="R90">
+<instance part="R7" gate="G$1" x="233.68" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="232.1814" y="107.95" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="236.982" y="107.95" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="233.68" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R3" gate="G$1" x="241.3" y="111.76" smashed="yes" rot="R90">
+<instance part="R8" gate="G$1" x="241.3" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="239.8014" y="107.95" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="244.602" y="107.95" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="241.3" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R4" gate="G$1" x="248.92" y="111.76" smashed="yes" rot="R90">
+<instance part="R9" gate="G$1" x="248.92" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="247.4214" y="107.95" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="252.222" y="107.95" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="248.92" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
@@ -9980,32 +9980,32 @@ the PoE shield to get warm.</text>
 <instance part="VIN1" gate="G$1" x="248.92" y="147.32" smashed="yes">
 <attribute name="VALUE" x="246.38" y="144.78" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D1" gate="G$1" x="302.26" y="233.68" smashed="yes" rot="R180">
+<instance part="D2" gate="G$1" x="302.26" y="233.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="290.83" y="228.6" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="290.83" y="231.14" size="1.778" layer="96" rot="R180" align="center-left"/>
 <attribute name="MPN" x="302.26" y="233.68" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R5" gate="G$1" x="187.96" y="233.68" smashed="yes" rot="R90">
+<instance part="R2" gate="G$1" x="187.96" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="186.4614" y="229.87" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="191.262" y="229.87" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="187.96" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="198.12" y="233.68" smashed="yes" rot="R90">
+<instance part="R3" gate="G$1" x="198.12" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="196.6214" y="229.87" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="201.422" y="229.87" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="198.12" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R7" gate="G$1" x="208.28" y="233.68" smashed="yes" rot="R90">
+<instance part="R4" gate="G$1" x="208.28" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="206.7814" y="229.87" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="211.582" y="229.87" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="208.28" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R8" gate="G$1" x="218.44" y="233.68" smashed="yes" rot="R90">
+<instance part="R5" gate="G$1" x="218.44" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="216.9414" y="229.87" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="221.742" y="229.87" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="218.44" y="233.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C9" gate="G$1" x="208.28" y="220.98" smashed="yes">
+<instance part="C10" gate="G$1" x="208.28" y="220.98" smashed="yes">
 <attribute name="NAME" x="209.804" y="221.361" size="1.778" layer="95"/>
 <attribute name="VALUE" x="209.804" y="216.281" size="1.778" layer="96"/>
 <attribute name="MPN" x="208.28" y="220.98" size="1.778" layer="96" display="off"/>
@@ -10019,27 +10019,27 @@ the PoE shield to get warm.</text>
 <attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="C10" gate="G$1" x="142.24" y="101.6" smashed="yes" rot="R90">
+<instance part="C2" gate="G$1" x="142.24" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="141.859" y="103.124" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="146.939" y="103.124" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="142.24" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C11" gate="G$1" x="142.24" y="91.44" smashed="yes" rot="R90">
+<instance part="C3" gate="G$1" x="142.24" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="141.859" y="92.964" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="146.939" y="92.964" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="142.24" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L2" gate="G$1" x="101.6" y="106.68" smashed="yes" rot="R90">
+<instance part="L6" gate="G$1" x="101.6" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="99.06" y="107.95" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="104.14" y="107.95" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 <attribute name="MPN" x="101.6" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L3" gate="G$1" x="86.36" y="106.68" smashed="yes" rot="R90">
+<instance part="L4" gate="G$1" x="86.36" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="83.82" y="107.95" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="88.9" y="107.95" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 <attribute name="MPN" x="86.36" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L4" gate="G$1" x="71.12" y="106.68" smashed="yes" rot="R90">
+<instance part="L2" gate="G$1" x="71.12" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.58" y="107.95" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="73.66" y="107.95" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 <attribute name="MPN" x="71.12" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
@@ -10049,52 +10049,52 @@ the PoE shield to get warm.</text>
 <attribute name="VALUE" x="104.14" y="133.35" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 <attribute name="MPN" x="101.6" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L6" gate="G$1" x="86.36" y="132.08" smashed="yes" rot="R90">
+<instance part="L3" gate="G$1" x="86.36" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="83.82" y="133.35" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="88.9" y="133.35" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 <attribute name="MPN" x="86.36" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L7" gate="G$1" x="71.12" y="132.08" smashed="yes" rot="R90">
+<instance part="L1" gate="G$1" x="71.12" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.58" y="133.35" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="73.66" y="133.35" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 <attribute name="MPN" x="71.12" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="218.44" y="220.98" smashed="yes">
+<instance part="C12" gate="G$1" x="218.44" y="220.98" smashed="yes">
 <attribute name="NAME" x="219.964" y="221.361" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.964" y="216.281" size="1.778" layer="96"/>
 <attribute name="MPN" x="218.44" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="187.96" y="220.98" smashed="yes">
+<instance part="C8" gate="G$1" x="187.96" y="220.98" smashed="yes">
 <attribute name="NAME" x="189.484" y="221.361" size="1.778" layer="95"/>
 <attribute name="VALUE" x="189.484" y="216.281" size="1.778" layer="96"/>
 <attribute name="MPN" x="187.96" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="198.12" y="220.98" smashed="yes">
+<instance part="C9" gate="G$1" x="198.12" y="220.98" smashed="yes">
 <attribute name="NAME" x="199.644" y="221.361" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.644" y="216.281" size="1.778" layer="96"/>
 <attribute name="MPN" x="198.12" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED1" gate="G$1" x="287.02" y="220.98" smashed="yes">
+<instance part="LED2" gate="G$1" x="287.02" y="220.98" smashed="yes">
 <attribute name="NAME" x="299.72" y="229.87" size="1.778" layer="95"/>
 <attribute name="VALUE" x="299.72" y="227.33" size="1.778" layer="96"/>
 <attribute name="MPN" x="287.02" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED2" gate="G$1" x="264.16" y="101.6" smashed="yes" rot="R90">
+<instance part="LED1" gate="G$1" x="264.16" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="255.27" y="114.3" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="257.81" y="114.3" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="264.16" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R9" gate="G$1" x="264.16" y="127" smashed="yes" rot="R90">
+<instance part="R10" gate="G$1" x="264.16" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="262.6614" y="123.19" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="267.462" y="123.19" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="264.16" y="127" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="D2" gate="G$1" x="60.96" y="111.76" smashed="yes" rot="R90">
+<instance part="D1" gate="G$1" x="60.96" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="52.07" y="121.92" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="54.61" y="121.92" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="60.96" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C8" gate="G$1" x="68.58" y="215.9" smashed="yes">
+<instance part="C1" gate="G$1" x="68.58" y="215.9" smashed="yes">
 <attribute name="NAME" x="70.104" y="216.281" size="1.778" layer="95"/>
 <attribute name="VALUE" x="70.104" y="211.201" size="1.778" layer="96"/>
 <attribute name="MPN" x="68.58" y="215.9" size="1.778" layer="96" display="off"/>
@@ -10105,18 +10105,18 @@ the PoE shield to get warm.</text>
 <instance part="GND7" gate="1" x="78.74" y="203.2" smashed="yes">
 <attribute name="VALUE" x="76.2" y="200.66" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="78.74" y="213.36" smashed="yes" rot="R90">
+<instance part="R1" gate="G$1" x="78.74" y="213.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.2414" y="209.55" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="82.042" y="209.55" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="78.74" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="FD1" gate="G$1" x="284.48" y="106.68" smashed="yes"/>
-<instance part="FD5" gate="G$1" x="284.48" y="91.44" smashed="yes"/>
-<instance part="FD6" gate="G$1" x="299.72" y="91.44" smashed="yes"/>
-<instance part="FD2" gate="G$1" x="299.72" y="106.68" smashed="yes"/>
-<instance part="FD3" gate="G$1" x="314.96" y="106.68" smashed="yes"/>
-<instance part="FD7" gate="G$1" x="314.96" y="91.44" smashed="yes"/>
-<instance part="FD4" gate="G$1" x="330.2" y="106.68" smashed="yes"/>
+<instance part="FD2" gate="G$1" x="284.48" y="91.44" smashed="yes"/>
+<instance part="FD4" gate="G$1" x="299.72" y="91.44" smashed="yes"/>
+<instance part="FD3" gate="G$1" x="299.72" y="106.68" smashed="yes"/>
+<instance part="FD5" gate="G$1" x="314.96" y="106.68" smashed="yes"/>
+<instance part="FD6" gate="G$1" x="314.96" y="91.44" smashed="yes"/>
+<instance part="FD7" gate="G$1" x="330.2" y="106.68" smashed="yes"/>
 <instance part="FD8" gate="G$1" x="330.2" y="91.44" smashed="yes"/>
 </instances>
 <busses>
@@ -10127,19 +10127,19 @@ the PoE shield to get warm.</text>
 <wire x1="312.42" y1="203.2" x2="281.94" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="281.94" y1="203.2" x2="281.94" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<pinref part="LED1" gate="G$1" pin="K"/>
+<pinref part="J2" gate="G$1" pin="GND"/>
+<pinref part="LED2" gate="G$1" pin="K"/>
 <wire x1="287.02" y1="220.98" x2="281.94" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="220.98" x2="281.94" y2="203.2" width="0.1524" layer="91"/>
 <junction x="281.94" y="203.2"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="203.2" x2="152.4" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="203.2" x2="162.56" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
@@ -10150,7 +10150,7 @@ the PoE shield to get warm.</text>
 <wire x1="165.1" y1="114.3" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="101.6" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="96.52" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="165.1" y1="86.36" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
@@ -10158,56 +10158,56 @@ the PoE shield to get warm.</text>
 <wire x1="165.1" y1="91.44" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="96.52" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
 <junction x="170.18" y="96.52"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="96.52" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="96.52" x2="210.82" y2="96.52" width="0.1524" layer="91"/>
 <junction x="180.34" y="96.52"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="96.52" x2="210.82" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="96.52" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
 <junction x="210.82" y="96.52"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="96.52" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="96.52" x2="233.68" y2="96.52" width="0.1524" layer="91"/>
 <junction x="226.06" y="96.52"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="96.52" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="96.52" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
 <junction x="233.68" y="96.52"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="96.52" x2="241.3" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="96.52" x2="248.92" y2="96.52" width="0.1524" layer="91"/>
 <junction x="241.3" y="96.52"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="96.52" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="ADJ"/>
 <wire x1="160.02" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
 <junction x="165.1" y="114.3"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
 <junction x="165.1" y="91.44"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
 <junction x="165.1" y="101.6"/>
 <wire x1="248.92" y1="96.52" x2="264.16" y2="96.52" width="0.1524" layer="91"/>
 <junction x="248.92" y="96.52"/>
-<pinref part="LED2" gate="G$1" pin="K"/>
+<pinref part="LED1" gate="G$1" pin="K"/>
 <wire x1="264.16" y1="96.52" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="215.9" x2="187.96" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="210.82" x2="198.12" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="210.82" x2="198.12" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="210.82" x2="203.2" y2="210.82" width="0.1524" layer="91"/>
 <junction x="198.12" y="210.82"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="210.82" x2="208.28" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="210.82" x2="208.28" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="210.82" x2="218.44" y2="210.82" width="0.1524" layer="91"/>
 <junction x="208.28" y="210.82"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="210.82" x2="218.44" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="203.2" y1="210.82" x2="203.2" y2="193.04" width="0.1524" layer="91"/>
@@ -10215,12 +10215,12 @@ the PoE shield to get warm.</text>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="205.74" x2="68.58" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="205.74" x2="78.74" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10228,34 +10228,34 @@ the PoE shield to get warm.</text>
 <segment>
 <pinref part="VIN2" gate="G$1" pin="VIN"/>
 <wire x1="281.94" y1="233.68" x2="281.94" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="287.02" y1="233.68" x2="281.94" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="116.84" x2="210.82" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="L7" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="121.92" x2="226.06" y2="121.92" width="0.1524" layer="91"/>
 <junction x="210.82" y="121.92"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="121.92" x2="226.06" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="121.92" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
 <junction x="226.06" y="121.92"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="121.92" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="121.92" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
 <junction x="233.68" y="121.92"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="121.92" x2="241.3" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="121.92" x2="248.92" y2="121.92" width="0.1524" layer="91"/>
 <junction x="241.3" y="121.92"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="121.92" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="VIN1" gate="G$1" pin="VIN"/>
 <wire x1="248.92" y1="121.92" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
 <junction x="248.92" y="121.92"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="137.16" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="132.08" x2="264.16" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
@@ -10303,7 +10303,7 @@ the PoE shield to get warm.</text>
 <label x="15.24" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="238.76" x2="208.28" y2="243.84" width="0.1524" layer="91"/>
 <label x="208.28" y="243.84" size="1.778" layer="95"/>
 </segment>
@@ -10337,7 +10337,7 @@ the PoE shield to get warm.</text>
 <label x="15.24" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="238.76" x2="218.44" y2="243.84" width="0.1524" layer="91"/>
 <label x="218.44" y="243.84" size="1.778" layer="95"/>
 </segment>
@@ -10354,7 +10354,7 @@ the PoE shield to get warm.</text>
 <label x="15.24" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="238.76" x2="187.96" y2="243.84" width="0.1524" layer="91"/>
 <label x="187.96" y="243.84" size="1.778" layer="95"/>
 </segment>
@@ -10371,14 +10371,14 @@ the PoE shield to get warm.</text>
 <label x="15.24" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="238.76" x2="198.12" y2="243.84" width="0.1524" layer="91"/>
 <label x="198.12" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MDI_RX_N" class="1">
 <segment>
-<pinref part="U1" gate="G$1" pin="MDI_RX_N"/>
+<pinref part="J2" gate="G$1" pin="MDI_RX_N"/>
 <wire x1="312.42" y1="215.9" x2="287.02" y2="215.9" width="0.1524" layer="91"/>
 <label x="289.56" y="215.9" size="1.778" layer="95"/>
 </segment>
@@ -10390,7 +10390,7 @@ the PoE shield to get warm.</text>
 </net>
 <net name="MDI_RX_P" class="1">
 <segment>
-<pinref part="U1" gate="G$1" pin="MDI_RX_P"/>
+<pinref part="J2" gate="G$1" pin="MDI_RX_P"/>
 <wire x1="287.02" y1="213.36" x2="312.42" y2="213.36" width="0.1524" layer="91"/>
 <label x="289.56" y="213.36" size="1.778" layer="95"/>
 </segment>
@@ -10402,7 +10402,7 @@ the PoE shield to get warm.</text>
 </net>
 <net name="MDI_TX_N" class="1">
 <segment>
-<pinref part="U1" gate="G$1" pin="MDI_TX_N"/>
+<pinref part="J2" gate="G$1" pin="MDI_TX_N"/>
 <wire x1="287.02" y1="210.82" x2="312.42" y2="210.82" width="0.1524" layer="91"/>
 <label x="289.56" y="210.82" size="1.778" layer="95"/>
 </segment>
@@ -10414,7 +10414,7 @@ the PoE shield to get warm.</text>
 </net>
 <net name="MDI_TX_P" class="1">
 <segment>
-<pinref part="U1" gate="G$1" pin="MDI_TX_P"/>
+<pinref part="J2" gate="G$1" pin="MDI_TX_P"/>
 <wire x1="312.42" y1="208.28" x2="287.02" y2="208.28" width="0.1524" layer="91"/>
 <label x="289.56" y="208.28" size="1.778" layer="95"/>
 </segment>
@@ -10429,7 +10429,7 @@ the PoE shield to get warm.</text>
 <pinref part="T1" gate="G$1" pin="CT_4"/>
 <wire x1="147.32" y1="233.68" x2="162.56" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="233.68" x2="162.56" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MDI_RX_CT" class="3">
@@ -10437,7 +10437,7 @@ the PoE shield to get warm.</text>
 <pinref part="T1" gate="G$1" pin="CT_3"/>
 <wire x1="147.32" y1="220.98" x2="152.4" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="220.98" x2="152.4" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="TX_N" class="4">
@@ -10463,9 +10463,9 @@ the PoE shield to get warm.</text>
 <junction x="50.8" y="132.08"/>
 <wire x1="60.96" y1="127" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 <junction x="60.96" y="132.08"/>
-<pinref part="L7" gate="G$1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="POE_VIN_P" class="4">
@@ -10479,9 +10479,9 @@ the PoE shield to get warm.</text>
 <wire x1="60.96" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="111.76" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <junction x="60.96" y="106.68"/>
-<pinref part="L4" gate="G$1" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="K"/>
+<pinref part="D1" gate="G$1" pin="K"/>
 </segment>
 </net>
 <net name="VDC" class="5">
@@ -10493,87 +10493,87 @@ the PoE shield to get warm.</text>
 <wire x1="165.1" y1="119.38" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="121.92" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
 <junction x="165.1" y="121.92"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="121.92" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="116.84" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="121.92" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
 <junction x="170.18" y="121.92"/>
-<pinref part="L1" gate="G$1" pin="1"/>
+<pinref part="L7" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
 <junction x="180.34" y="121.92"/>
 </segment>
 </net>
 <net name="VIN_INT" class="5">
 <segment>
-<pinref part="D1" gate="G$1" pin="K"/>
-<pinref part="U1" gate="G$1" pin="VIN"/>
+<pinref part="D2" gate="G$1" pin="K"/>
+<pinref part="J2" gate="G$1" pin="VIN"/>
 <wire x1="302.26" y1="233.68" x2="312.42" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VA1_ISO" class="4">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="223.52" x2="187.96" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VA2_ISO" class="4">
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="228.6" x2="198.12" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VB1_ISO" class="4">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="228.6" x2="208.28" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VB2_ISO" class="4">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="228.6" x2="218.44" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="POE_VIN_N0" class="4">
 <segment>
-<pinref part="L7" gate="G$1" pin="2"/>
-<pinref part="L6" gate="G$1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POE_VIN_P0" class="4">
 <segment>
-<pinref part="L4" gate="G$1" pin="2"/>
-<pinref part="L3" gate="G$1" pin="1"/>
+<pinref part="L2" gate="G$1" pin="2"/>
+<pinref part="L4" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POE_VIN_N1" class="4">
 <segment>
-<pinref part="L6" gate="G$1" pin="2"/>
+<pinref part="L3" gate="G$1" pin="2"/>
 <pinref part="L5" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="132.08" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POE_VIN_P1" class="4">
 <segment>
-<pinref part="L3" gate="G$1" pin="2"/>
-<pinref part="L2" gate="G$1" pin="1"/>
+<pinref part="L4" gate="G$1" pin="2"/>
+<pinref part="L6" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="106.68" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POE_VIN_INT_P" class="4">
 <segment>
-<pinref part="L2" gate="G$1" pin="2"/>
+<pinref part="L6" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VIN+_1"/>
 <wire x1="127" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="91.44" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VIN+_2"/>
@@ -10588,7 +10588,7 @@ the PoE shield to get warm.</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VIN-_2"/>
 <wire x1="121.92" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="101.6" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VIN-_1"/>
@@ -10603,18 +10603,18 @@ the PoE shield to get warm.</text>
 </net>
 <net name="MDI_LED" class="3">
 <segment>
-<pinref part="U1" gate="G$1" pin="MDI_LED"/>
+<pinref part="J2" gate="G$1" pin="MDI_LED"/>
 <wire x1="312.42" y1="218.44" x2="307.34" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="218.44" x2="307.34" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="307.34" y1="220.98" x2="302.26" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN_LED" class="3">
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="264.16" y1="116.84" x2="264.16" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="NC1" class="4">
@@ -10649,14 +10649,14 @@ the PoE shield to get warm.</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="MH2"/>
 <wire x1="58.42" y1="226.06" x2="68.58" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="226.06" x2="68.58" y2="218.44" width="0.1524" layer="91"/>
 <label x="81.28" y="228.6" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J1" gate="G$1" pin="MH1"/>
 <wire x1="58.42" y1="228.6" x2="68.58" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="228.6" x2="78.74" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="228.6" x2="78.74" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="226.06" x2="68.58" y2="228.6" width="0.1524" layer="91"/>
 <junction x="68.58" y="226.06"/>
 <junction x="68.58" y="228.6"/>
