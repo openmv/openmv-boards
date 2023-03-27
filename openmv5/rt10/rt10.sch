@@ -11637,6 +11637,90 @@ by exp-lbrs.ulp</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="PMXB120EPEZ">
+<description>&lt;MOSFET 30 V, P-channel Trench MOSFET&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="PMXB120EPEZ">
+<description>&lt;b&gt;PMXB120EPEZ-5&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.375" y="-0.45" dx="0.4" dy="0.35" layer="1" rot="R90"/>
+<smd name="2" x="0.375" y="-0.45" dx="0.4" dy="0.35" layer="1" rot="R90"/>
+<smd name="3" x="0" y="0.45" dx="0.4" dy="0.4" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.55" y1="0.5" x2="0.55" y2="0.5" width="0.1" layer="51"/>
+<wire x1="0.55" y1="0.5" x2="0.55" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="0.55" y1="-0.5" x2="-0.55" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="-0.55" y1="-0.5" x2="-0.55" y2="0.5" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="1.65" x2="1.55" y2="1.65" width="0.1" layer="51"/>
+<wire x1="1.55" y1="1.65" x2="1.55" y2="-1.65" width="0.1" layer="51"/>
+<wire x1="1.55" y1="-1.65" x2="-1.55" y2="-1.65" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="-1.65" x2="-1.55" y2="1.65" width="0.1" layer="51"/>
+<wire x1="0.4" y1="0.5" x2="0.55" y2="0.5" width="0.2" layer="21"/>
+<wire x1="0.55" y1="0.5" x2="0.55" y2="0" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="0.5" x2="-0.55" y2="0.5" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="0.5" x2="-0.55" y2="0" width="0.2" layer="21"/>
+<wire x1="-0.375" y1="-1.1" x2="-0.375" y2="-1.1" width="0.1" layer="21"/>
+<wire x1="-0.375" y1="-1.1" x2="-0.375" y2="-1.2" width="0.1" layer="21" curve="180"/>
+<wire x1="-0.375" y1="-1.2" x2="-0.375" y2="-1.2" width="0.1" layer="21"/>
+<wire x1="-0.375" y1="-1.2" x2="-0.375" y2="-1.1" width="0.1" layer="21" curve="180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PMXB120EPEZ">
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="5.842" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.842" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="5.842" y1="5.588" x2="5.842" y2="4.572" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-0.508" x2="5.842" y2="0.508" width="0.254" layer="94"/>
+<wire x1="5.842" y1="2.032" x2="5.842" y2="3.048" width="0.254" layer="94"/>
+<circle x="6.35" y="2.54" radius="3.81" width="0.254" layer="94"/>
+<text x="11.43" y="3.81" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="11.43" y="1.27" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="G" x="0" y="0" visible="pad" length="short"/>
+<pin name="D" x="7.62" y="10.16" visible="pad" length="short" rot="R270"/>
+<pin name="S" x="7.62" y="-5.08" visible="pad" length="short" rot="R90"/>
+<polygon width="0.254" layer="94">
+<vertex x="7.112" y="2.54"/>
+<vertex x="6.35" y="3.048"/>
+<vertex x="6.35" y="2.032"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PMXB120EPEZ" prefix="Q">
+<description>&lt;b&gt;MOSFET 30 V, P-channel Trench MOSFET&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PMXB120EPEZ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PMXB120EPEZ">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="MOSFET 30 V, P-channel Trench MOSFET" constant="no"/>
+<attribute name="HEIGHT" value="0.4mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PMXB120EPEZ" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PMXB120EPEZ" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PMXB120EPEZ?qs=gNSudQoqUYCYLaOobF3dPA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11744,14 +11828,14 @@ by exp-lbrs.ulp</description>
 <part name="D1" library="UHD1110-FKA-CL1A13R3Q1BBQFMF3" deviceset="UHD1110-FKA-CL1A13R3Q1BBQFMF3" device="">
 <attribute name="MPN" value="UHD1110-FKA-CL1A13r3q1BBQFMF3"/>
 </part>
-<part name="R12" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1.13K">
-<attribute name="MPN" value="CRCW04021K13FKED"/>
+<part name="R12" library="sfe" deviceset="RESISTOR" device="0402-RES" value="8.2K">
+<attribute name="MPN" value="RC0402JR-078K2L"/>
 </part>
 <part name="R11" library="sfe" deviceset="RESISTOR" device="0402-RES" value="46.4K">
 <attribute name="MPN" value="WR04X4642FTL"/>
 </part>
-<part name="R10" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1.18K">
-<attribute name="MPN" value="AC0402FR-071K18L"/>
+<part name="R10" library="sfe" deviceset="RESISTOR" device="0402-RES" value="3.3K">
+<attribute name="MPN" value="0402WGJ0332TCE"/>
 </part>
 <part name="R9" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
 <attribute name="MPN" value="AC0402FR-1310KL"/>
@@ -12714,6 +12798,13 @@ by exp-lbrs.ulp</description>
 <part name="FD7" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD8" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="Q6" library="PMXB120EPEZ" deviceset="PMXB120EPEZ" device="">
+<attribute name="MPN" value="PMXB120EPEZ"/>
+</part>
+<part name="D11" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
+<attribute name="MPN" value="CPDQT5V0HE-HF"/>
+</part>
+<part name="GND36" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12976,8 +13067,8 @@ pins and the LED pin</text>
 <attribute name="VALUE" x="529.336" y="489.839" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="530.86" y="487.68" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="VIN2" gate="G$1" x="530.86" y="523.24" smashed="yes">
-<attribute name="VALUE" x="528.32" y="520.7" size="1.778" layer="96" rot="R90"/>
+<instance part="VIN2" gate="G$1" x="530.86" y="543.56" smashed="yes">
+<attribute name="VALUE" x="528.32" y="541.02" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C4" gate="G$1" x="520.7" y="487.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="519.176" y="484.759" size="1.778" layer="95" rot="R180"/>
@@ -13048,8 +13139,8 @@ pins and the LED pin</text>
 <attribute name="VALUE" x="229.87" y="474.98" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MPN" x="233.68" y="477.52" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="RAW4" gate="G$1" x="520.7" y="523.24" smashed="yes">
-<attribute name="VALUE" x="518.16" y="520.7" size="1.778" layer="96" rot="R90"/>
+<instance part="RAW4" gate="G$1" x="520.7" y="543.56" smashed="yes">
+<attribute name="VALUE" x="518.16" y="541.02" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="RAW5" gate="G$1" x="614.68" y="523.24" smashed="yes">
 <attribute name="VALUE" x="612.14" y="520.7" size="1.778" layer="96" rot="R90"/>
@@ -14090,6 +14181,19 @@ pins and the LED pin</text>
 <instance part="FD7" gate="G$1" x="817.88" y="314.96" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="833.12" y="330.2" smashed="yes"/>
 <instance part="FD8" gate="G$1" x="833.12" y="314.96" smashed="yes"/>
+<instance part="Q6" gate="G$1" x="538.48" y="525.78" smashed="yes" rot="MR0">
+<attribute name="NAME" x="527.05" y="529.59" size="1.778" layer="95" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="527.05" y="527.05" size="1.778" layer="96" rot="MR0" align="center-left"/>
+<attribute name="MPN" x="538.48" y="525.78" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="D11" gate="G$1" x="553.72" y="203.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="560.07" y="200.66" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="557.53" y="200.66" size="1.778" layer="96" rot="R270"/>
+<attribute name="MPN" x="553.72" y="203.2" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="GND36" gate="1" x="553.72" y="180.34" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="556.26" y="177.8" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14236,6 +14340,11 @@ pins and the LED pin</text>
 <wire x1="434.34" y1="482.6" x2="434.34" y2="472.44" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="472.44" x2="457.2" y2="472.44" width="0.1524" layer="91"/>
 <junction x="457.2" y="472.44"/>
+<pinref part="Q6" gate="G$1" pin="G"/>
+<wire x1="538.48" y1="525.78" x2="543.56" y2="525.78" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="525.78" x2="543.56" y2="472.44" width="0.1524" layer="91"/>
+<wire x1="543.56" y1="472.44" x2="530.86" y2="472.44" width="0.1524" layer="91"/>
+<junction x="530.86" y="472.44"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -14988,6 +15097,11 @@ pins and the LED pin</text>
 <pinref part="D7" gate="G$1" pin="2"/>
 <wire x1="822.96" y1="203.2" x2="822.96" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="D11" gate="G$1" pin="2"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+<wire x1="553.72" y1="193.04" x2="553.72" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -15812,7 +15926,7 @@ pins and the LED pin</text>
 <pinref part="D1" gate="G$1" pin="ANODE"/>
 <wire x1="520.7" y1="513.08" x2="551.18" y2="513.08" width="0.1524" layer="91"/>
 <junction x="520.7" y="513.08"/>
-<wire x1="520.7" y1="513.08" x2="520.7" y2="523.24" width="0.1524" layer="91"/>
+<wire x1="520.7" y1="513.08" x2="520.7" y2="543.56" width="0.1524" layer="91"/>
 <pinref part="RAW4" gate="G$1" pin="RAW"/>
 </segment>
 <segment>
@@ -15880,15 +15994,6 @@ pins and the LED pin</text>
 </net>
 <net name="VIN" class="1">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VIN2"/>
-<wire x1="500.38" y1="500.38" x2="530.86" y2="500.38" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="530.86" y1="500.38" x2="530.86" y2="490.22" width="0.1524" layer="91"/>
-<pinref part="VIN2" gate="G$1" pin="VIN"/>
-<wire x1="530.86" y1="500.38" x2="530.86" y2="523.24" width="0.1524" layer="91"/>
-<junction x="530.86" y="500.38"/>
-</segment>
-<segment>
 <wire x1="802.64" y1="198.12" x2="792.48" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="792.48" y1="198.12" x2="792.48" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="2"/>
@@ -15898,6 +16003,11 @@ pins and the LED pin</text>
 <wire x1="822.96" y1="213.36" x2="822.96" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="822.96" y1="220.98" x2="792.48" y2="220.98" width="0.1524" layer="91"/>
 <junction x="792.48" y="220.98"/>
+</segment>
+<segment>
+<pinref part="Q6" gate="G$1" pin="D"/>
+<pinref part="VIN2" gate="G$1" pin="VIN"/>
+<wire x1="530.86" y1="535.94" x2="530.86" y2="543.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDDA" class="0">
@@ -18358,8 +18468,12 @@ pins and the LED pin</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="23"/>
 <pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="576.58" y1="223.52" x2="551.18" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="223.52" x2="553.72" y2="223.52" width="0.1524" layer="91"/>
 <label x="556.26" y="223.52" size="1.778" layer="95"/>
+<pinref part="D11" gate="G$1" pin="1"/>
+<wire x1="553.72" y1="223.52" x2="551.18" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="553.72" y1="223.52" x2="553.72" y2="203.2" width="0.1524" layer="91"/>
+<junction x="553.72" y="223.52"/>
 </segment>
 <segment>
 <pinref part="Q5" gate="G$1" pin="D"/>
@@ -18413,6 +18527,17 @@ pins and the LED pin</text>
 <pinref part="FL3" gate="G$1" pin="OUTPUT_6"/>
 <wire x1="434.34" y1="213.36" x2="416.56" y2="213.36" width="0.1524" layer="91"/>
 <label x="419.1" y="213.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VIN_INT" class="1">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VIN2"/>
+<wire x1="500.38" y1="500.38" x2="530.86" y2="500.38" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="530.86" y1="500.38" x2="530.86" y2="490.22" width="0.1524" layer="91"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
+<wire x1="530.86" y1="520.7" x2="530.86" y2="500.38" width="0.1524" layer="91"/>
+<junction x="530.86" y="500.38"/>
 </segment>
 </net>
 </nets>
