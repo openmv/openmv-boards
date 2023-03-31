@@ -10381,44 +10381,44 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </class>
 </classes>
 <parts>
-<part name="J2" library="openmv5" deviceset="OPENMV5-TOP" device=""/>
+<part name="J1" library="openmv5" deviceset="OPENMV5-TOP" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="FD1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
-<part name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
-<part name="FD4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
-<part name="FD3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD5" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD6" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="FD3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD7" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
+<part name="FD4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="FD8" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="1X2" package3d_urn="urn:adsk.eagle:package:37108/1"/>
 <part name="U1" library="EKMB1304111K" deviceset="EKMB1304111K" device="" value="EKMB1307113K">
 <attribute name="MPN" value="EKMB1307113K"/>
 </part>
-<part name="R24" library="sfe" deviceset="RESISTOR" device="0402-RES" value="100K">
+<part name="R6" library="sfe" deviceset="RESISTOR" device="0402-RES" value="100K">
 <attribute name="MPN" value="AC0402FR-07100KL"/>
 </part>
-<part name="C2" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
+<part name="C10" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
 </part>
 <part name="GND7" library="sfe" deviceset="GND" device=""/>
 <part name="RAW5" library="supply" deviceset="RAW" device="" value="RAW"/>
-<part name="C1" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
+<part name="C9" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
 </part>
 <part name="U2" library="MIC5365-3.3YMT-TZ" deviceset="MIC5365-3.3YMT-TZ" device="">
 <attribute name="MPN" value="MIC5365-3.3YMT-TZ"/>
 </part>
-<part name="R26" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1K">
+<part name="R5" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1K">
 <attribute name="MPN" value="0402WGF1001TCE"/>
 </part>
 <part name="RAW1" library="supply" deviceset="RAW" device="" value="RAW"/>
-<part name="D9" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
+<part name="D6" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
 </part>
-<part name="Q4" library="2N7002KW_R1_00001" deviceset="2N7002KW_R1_00001" device="">
+<part name="Q1" library="2N7002KW_R1_00001" deviceset="2N7002KW_R1_00001" device="">
 <attribute name="MPN" value="2N7002KW_R1_00001"/>
 </part>
-<part name="D1" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
+<part name="D7" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
 </part>
 <part name="IC1" library="AP3032KTR-G1" deviceset="AP3032KTR-G1" device="">
@@ -10430,22 +10430,22 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="R1" library="sfe" deviceset="RESISTOR" device="0402-RES" value="100K">
 <attribute name="MPN" value="AC0402FR-07100KL"/>
 </part>
-<part name="D2" library="RB520S30T5G" deviceset="RB520S30T5G" device="">
+<part name="D1" library="RB520S30T5G" deviceset="RB520S30T5G" device="">
 <attribute name="MPN" value="RB520S30T5G"/>
 </part>
 <part name="D3" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
 </part>
-<part name="C49" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF" device="-0805-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37429/1" value="22uF">
+<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF" device="-0805-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37429/1" value="22uF">
 <attribute name="MPN" value="CL21A226MQQNNNE"/>
 </part>
-<part name="C48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="0.22uF">
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="0.22uF">
 <attribute name="MPN" value="GRM033R60J224ME15D"/>
 </part>
-<part name="C46" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
+<part name="C2" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
 </part>
-<part name="C3" library="sfe" deviceset="CAP" device="0402-CAP" value="1uF">
+<part name="C4" library="sfe" deviceset="CAP" device="0402-CAP" value="1uF">
 <attribute name="MPN" value="GRM155R61H105KE05D"/>
 </part>
 <part name="GND1" library="sfe" deviceset="GND" device=""/>
@@ -10453,7 +10453,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="P+6" library="mux" deviceset="VCC" device=""/>
 <part name="GND2" library="sfe" deviceset="GND" device=""/>
 <part name="P+2" library="mux" deviceset="VCC" device=""/>
-<part name="D4" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
+<part name="D5" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
 </part>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="3.9">
@@ -10465,28 +10465,28 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </spice>
 <attribute name="MPN" value="35203R9JT"/>
 </part>
+<part name="LED5" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
+<attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
+</part>
 <part name="LED1" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
 <attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
 </part>
 <part name="LED2" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
 <attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
 </part>
-<part name="LED3" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
-<attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
-</part>
-<part name="LED4" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
-<attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
-</part>
-<part name="LED5" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
-<attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
-</part>
-<part name="LED6" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
-<attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
-</part>
 <part name="LED7" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
 <attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
 </part>
-<part name="LED8" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
+<part name="LED9" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
+<attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
+</part>
+<part name="LED13" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
+<attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
+</part>
+<part name="LED12" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
+<attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
+</part>
+<part name="LED11" library="JB2835AWT-W-U57EA0000-N0000001" deviceset="JB2835AWT-W-U57EA0000-N0000001" device="">
 <attribute name="MPN" value="JB2835AWT-W-U57EA0000-N0000001"/>
 </part>
 <part name="IC2" library="AP3032KTR-G1" deviceset="AP3032KTR-G1" device="">
@@ -10498,22 +10498,22 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="R3" library="sfe" deviceset="RESISTOR" device="0402-RES" value="100K">
 <attribute name="MPN" value="AC0402FR-07100KL"/>
 </part>
-<part name="D5" library="RB520S30T5G" deviceset="RB520S30T5G" device="">
+<part name="D2" library="RB520S30T5G" deviceset="RB520S30T5G" device="">
 <attribute name="MPN" value="RB520S30T5G"/>
 </part>
-<part name="D6" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
+<part name="D4" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
 </part>
-<part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF" device="-0805-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37429/1" value="22uF">
+<part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF" device="-0805-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37429/1" value="22uF">
 <attribute name="MPN" value="CL21A226MQQNNNE"/>
 </part>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="0.22uF">
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="0.22uF">
 <attribute name="MPN" value="GRM033R60J224ME15D"/>
 </part>
 <part name="C6" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
 </part>
-<part name="C7" library="sfe" deviceset="CAP" device="0402-CAP" value="1uF">
+<part name="C8" library="sfe" deviceset="CAP" device="0402-CAP" value="1uF">
 <attribute name="MPN" value="GRM155R61H105KE05D"/>
 </part>
 <part name="GND3" library="sfe" deviceset="GND" device=""/>
@@ -10527,28 +10527,28 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </spice>
 <attribute name="MPN" value="35203R9JT"/>
 </part>
-<part name="LED9" library="SFH_4053" deviceset="SFH_4053" device="">
+<part name="LED6" library="SFH_4053" deviceset="SFH_4053" device="">
+<attribute name="MPN" value="SFH 4053"/>
+</part>
+<part name="LED3" library="SFH_4053" deviceset="SFH_4053" device="">
+<attribute name="MPN" value="SFH 4053"/>
+</part>
+<part name="LED4" library="SFH_4053" deviceset="SFH_4053" device="">
+<attribute name="MPN" value="SFH 4053"/>
+</part>
+<part name="LED8" library="SFH_4053" deviceset="SFH_4053" device="">
 <attribute name="MPN" value="SFH 4053"/>
 </part>
 <part name="LED10" library="SFH_4053" deviceset="SFH_4053" device="">
 <attribute name="MPN" value="SFH 4053"/>
 </part>
-<part name="LED11" library="SFH_4053" deviceset="SFH_4053" device="">
-<attribute name="MPN" value="SFH 4053"/>
-</part>
-<part name="LED12" library="SFH_4053" deviceset="SFH_4053" device="">
-<attribute name="MPN" value="SFH 4053"/>
-</part>
-<part name="LED13" library="SFH_4053" deviceset="SFH_4053" device="">
-<attribute name="MPN" value="SFH 4053"/>
-</part>
-<part name="LED14" library="SFH_4053" deviceset="SFH_4053" device="">
+<part name="LED16" library="SFH_4053" deviceset="SFH_4053" device="">
 <attribute name="MPN" value="SFH 4053"/>
 </part>
 <part name="LED15" library="SFH_4053" deviceset="SFH_4053" device="">
 <attribute name="MPN" value="SFH 4053"/>
 </part>
-<part name="LED16" library="SFH_4053" deviceset="SFH_4053" device="">
+<part name="LED14" library="SFH_4053" deviceset="SFH_4053" device="">
 <attribute name="MPN" value="SFH 4053"/>
 </part>
 </parts>
@@ -10578,7 +10578,7 @@ that they do not draw any current when the
 main 3.3V regulator is turned off.</text>
 </plain>
 <instances>
-<instance part="J2" gate="G$1" x="269.24" y="101.6" smashed="yes">
+<instance part="J1" gate="G$1" x="269.24" y="101.6" smashed="yes">
 <attribute name="NAME" x="248.92" y="119.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="248.92" y="83.82" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -10589,24 +10589,24 @@ main 3.3V regulator is turned off.</text>
 <attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="94"/>
 </instance>
 <instance part="FD1" gate="G$1" x="337.82" y="127" smashed="yes"/>
-<instance part="FD2" gate="G$1" x="337.82" y="111.76" smashed="yes"/>
-<instance part="FD4" gate="G$1" x="353.06" y="111.76" smashed="yes"/>
-<instance part="FD3" gate="G$1" x="353.06" y="127" smashed="yes"/>
-<instance part="FD5" gate="G$1" x="368.3" y="127" smashed="yes"/>
-<instance part="FD6" gate="G$1" x="368.3" y="111.76" smashed="yes"/>
-<instance part="FD7" gate="G$1" x="383.54" y="127" smashed="yes"/>
+<instance part="FD5" gate="G$1" x="337.82" y="111.76" smashed="yes"/>
+<instance part="FD6" gate="G$1" x="353.06" y="111.76" smashed="yes"/>
+<instance part="FD2" gate="G$1" x="353.06" y="127" smashed="yes"/>
+<instance part="FD3" gate="G$1" x="368.3" y="127" smashed="yes"/>
+<instance part="FD7" gate="G$1" x="368.3" y="111.76" smashed="yes"/>
+<instance part="FD4" gate="G$1" x="383.54" y="127" smashed="yes"/>
 <instance part="FD8" gate="G$1" x="383.54" y="111.76" smashed="yes"/>
 <instance part="U1" gate="G$1" x="109.22" y="99.06" smashed="yes" rot="MR180">
 <attribute name="NAME" x="130.81" y="91.44" size="1.778" layer="95" rot="MR180" align="center-left"/>
 <attribute name="VALUE" x="130.81" y="93.98" size="1.778" layer="96" rot="MR180" align="center-left"/>
 <attribute name="MPN" x="109.22" y="99.06" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="R24" gate="G$1" x="144.78" y="83.82" smashed="yes" rot="R270">
+<instance part="R6" gate="G$1" x="144.78" y="83.82" smashed="yes" rot="R270">
 <attribute name="MPN" x="144.78" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="146.2786" y="87.63" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="141.478" y="87.63" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C2" gate="G$1" x="88.9" y="78.74" smashed="yes" rot="R180">
+<instance part="C10" gate="G$1" x="88.9" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="87.376" y="75.819" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="87.376" y="80.899" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="88.9" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
@@ -10617,7 +10617,7 @@ main 3.3V regulator is turned off.</text>
 <instance part="RAW5" gate="G$1" x="17.78" y="127" smashed="yes">
 <attribute name="VALUE" x="15.24" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C1" gate="G$1" x="27.94" y="78.74" smashed="yes" rot="R180">
+<instance part="C9" gate="G$1" x="27.94" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.416" y="75.819" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="26.416" y="80.899" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="27.94" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
@@ -10627,7 +10627,7 @@ main 3.3V regulator is turned off.</text>
 <attribute name="VALUE" x="43.18" y="83.82" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MPN" x="53.34" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R26" gate="G$1" x="162.56" y="119.38" smashed="yes" rot="R90">
+<instance part="R5" gate="G$1" x="162.56" y="119.38" smashed="yes" rot="R90">
 <attribute name="MPN" x="162.56" y="119.38" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="161.0614" y="115.57" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="165.862" y="115.57" size="1.778" layer="96" rot="R90"/>
@@ -10635,17 +10635,17 @@ main 3.3V regulator is turned off.</text>
 <instance part="RAW1" gate="G$1" x="162.56" y="127" smashed="yes">
 <attribute name="VALUE" x="160.02" y="124.46" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D9" gate="G$1" x="172.72" y="88.9" smashed="yes" rot="R270">
+<instance part="D6" gate="G$1" x="172.72" y="88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="179.07" y="86.36" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="176.53" y="86.36" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="172.72" y="88.9" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="Q4" gate="G$1" x="154.94" y="99.06" smashed="yes">
+<instance part="Q1" gate="G$1" x="154.94" y="99.06" smashed="yes">
 <attribute name="MPN" x="154.94" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="166.37" y="102.87" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="166.37" y="100.33" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="D1" gate="G$1" x="17.78" y="81.28" smashed="yes" rot="MR270">
+<instance part="D7" gate="G$1" x="17.78" y="81.28" smashed="yes" rot="MR270">
 <attribute name="NAME" x="11.43" y="78.74" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="13.97" y="78.74" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MPN" x="17.78" y="81.28" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -10665,7 +10665,7 @@ main 3.3V regulator is turned off.</text>
 <attribute name="NAME" x="37.0586" y="196.85" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="32.258" y="196.85" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="D2" gate="G$1" x="152.4" y="233.68" smashed="yes" rot="R180">
+<instance part="D1" gate="G$1" x="152.4" y="233.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="139.7" y="224.79" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="139.7" y="227.33" size="1.778" layer="96" rot="R180" align="center-left"/>
 <attribute name="MPN" x="152.4" y="233.68" size="1.778" layer="96" rot="R180" display="off"/>
@@ -10675,22 +10675,22 @@ main 3.3V regulator is turned off.</text>
 <attribute name="VALUE" x="21.59" y="195.58" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MPN" x="25.4" y="198.12" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="C49" gate="G$1" x="45.72" y="195.58" smashed="yes" rot="R180">
+<instance part="C1" gate="G$1" x="45.72" y="195.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="41.656" y="192.659" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="44.196" y="197.739" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="MPN" x="45.72" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="C48" gate="G$1" x="66.04" y="195.58" smashed="yes" rot="MR0">
+<instance part="C3" gate="G$1" x="66.04" y="195.58" smashed="yes" rot="MR0">
 <attribute name="NAME" x="64.516" y="195.961" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="64.516" y="190.881" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MPN" x="66.04" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="C46" gate="G$1" x="55.88" y="195.58" smashed="yes" rot="R180">
+<instance part="C2" gate="G$1" x="55.88" y="195.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="54.356" y="192.659" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="54.356" y="197.739" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="55.88" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="C3" gate="G$1" x="160.02" y="195.58" smashed="yes" rot="R180">
+<instance part="C4" gate="G$1" x="160.02" y="195.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="158.496" y="192.659" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="158.496" y="197.739" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="160.02" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
@@ -10710,7 +10710,7 @@ main 3.3V regulator is turned off.</text>
 <instance part="P+2" gate="1" x="45.72" y="241.3" smashed="yes">
 <attribute name="VALUE" x="44.704" y="244.856" size="1.778" layer="96"/>
 </instance>
-<instance part="D4" gate="G$1" x="223.52" y="104.14" smashed="yes" rot="R270">
+<instance part="D5" gate="G$1" x="223.52" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="229.87" y="101.6" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="227.33" y="101.6" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="223.52" y="104.14" size="1.778" layer="96" rot="R270" display="off"/>
@@ -10720,42 +10720,42 @@ main 3.3V regulator is turned off.</text>
 <attribute name="VALUE" x="140.462" y="189.23" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="137.16" y="193.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="LED1" gate="G$1" x="160.02" y="259.08" smashed="yes" rot="R270">
+<instance part="LED5" gate="G$1" x="160.02" y="259.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="168.91" y="246.38" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="166.37" y="246.38" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="160.02" y="259.08" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="LED2" gate="G$1" x="180.34" y="264.16" smashed="yes" rot="R180">
+<instance part="LED1" gate="G$1" x="180.34" y="264.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="167.64" y="255.27" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="167.64" y="257.81" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="180.34" y="264.16" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="LED3" gate="G$1" x="200.66" y="264.16" smashed="yes" rot="R180">
+<instance part="LED2" gate="G$1" x="200.66" y="264.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="187.96" y="255.27" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="187.96" y="257.81" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="200.66" y="264.16" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="LED4" gate="G$1" x="205.74" y="243.84" smashed="yes" rot="R90">
+<instance part="LED7" gate="G$1" x="205.74" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="195.58" y="257.81" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="198.12" y="257.81" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="205.74" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="LED5" gate="G$1" x="205.74" y="223.52" smashed="yes" rot="R90">
+<instance part="LED9" gate="G$1" x="205.74" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="195.58" y="237.49" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="200.66" y="234.95" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="205.74" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="LED6" gate="G$1" x="185.42" y="218.44" smashed="yes">
+<instance part="LED13" gate="G$1" x="185.42" y="218.44" smashed="yes">
 <attribute name="NAME" x="196.85" y="228.6" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="196.85" y="226.06" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="185.42" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED7" gate="G$1" x="165.1" y="218.44" smashed="yes">
+<instance part="LED12" gate="G$1" x="165.1" y="218.44" smashed="yes">
 <attribute name="NAME" x="176.53" y="228.6" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="176.53" y="226.06" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="165.1" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED8" gate="G$1" x="142.24" y="218.44" smashed="yes">
+<instance part="LED11" gate="G$1" x="142.24" y="218.44" smashed="yes">
 <attribute name="NAME" x="154.94" y="227.33" size="1.778" layer="95"/>
 <attribute name="VALUE" x="154.94" y="224.79" size="1.778" layer="96"/>
 <attribute name="MPN" x="142.24" y="218.44" size="1.778" layer="96" display="off"/>
@@ -10775,22 +10775,22 @@ main 3.3V regulator is turned off.</text>
 <attribute name="NAME" x="247.8786" y="196.85" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="243.078" y="196.85" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="D5" gate="G$1" x="363.22" y="233.68" smashed="yes" rot="R180">
+<instance part="D2" gate="G$1" x="363.22" y="233.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="350.52" y="224.79" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="350.52" y="227.33" size="1.778" layer="96" rot="R180" align="center-left"/>
 <attribute name="MPN" x="363.22" y="233.68" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="D6" gate="G$1" x="236.22" y="198.12" smashed="yes" rot="MR270">
+<instance part="D4" gate="G$1" x="236.22" y="198.12" smashed="yes" rot="MR270">
 <attribute name="NAME" x="229.87" y="195.58" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="232.41" y="195.58" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MPN" x="236.22" y="198.12" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="256.54" y="195.58" smashed="yes" rot="R180">
+<instance part="C5" gate="G$1" x="256.54" y="195.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="252.476" y="192.659" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="255.016" y="197.739" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="MPN" x="256.54" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="276.86" y="195.58" smashed="yes" rot="MR0">
+<instance part="C7" gate="G$1" x="276.86" y="195.58" smashed="yes" rot="MR0">
 <attribute name="NAME" x="275.336" y="195.961" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="275.336" y="190.881" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MPN" x="276.86" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -10800,7 +10800,7 @@ main 3.3V regulator is turned off.</text>
 <attribute name="VALUE" x="265.176" y="197.739" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="266.7" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="370.84" y="195.58" smashed="yes" rot="R180">
+<instance part="C8" gate="G$1" x="370.84" y="195.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="369.316" y="192.659" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="369.316" y="197.739" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="370.84" y="195.58" size="1.778" layer="96" rot="R180" display="off"/>
@@ -10816,32 +10816,32 @@ main 3.3V regulator is turned off.</text>
 <attribute name="VALUE" x="351.282" y="189.23" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="347.98" y="193.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="LED9" gate="G$1" x="370.84" y="259.08" smashed="yes" rot="R270">
+<instance part="LED6" gate="G$1" x="370.84" y="259.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="379.73" y="246.38" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="377.19" y="246.38" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="370.84" y="259.08" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="LED10" gate="G$1" x="391.16" y="264.16" smashed="yes" rot="R180">
+<instance part="LED3" gate="G$1" x="391.16" y="264.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="378.46" y="255.27" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="378.46" y="257.81" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="391.16" y="264.16" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="LED11" gate="G$1" x="411.48" y="264.16" smashed="yes" rot="R180">
+<instance part="LED4" gate="G$1" x="411.48" y="264.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="398.78" y="255.27" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="398.78" y="257.81" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="411.48" y="264.16" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="LED12" gate="G$1" x="416.56" y="243.84" smashed="yes" rot="R90">
+<instance part="LED8" gate="G$1" x="416.56" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="407.67" y="256.54" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="410.21" y="256.54" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="416.56" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="LED13" gate="G$1" x="416.56" y="223.52" smashed="yes" rot="R90">
+<instance part="LED10" gate="G$1" x="416.56" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="407.67" y="236.22" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="410.21" y="236.22" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="416.56" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="LED14" gate="G$1" x="396.24" y="218.44" smashed="yes">
+<instance part="LED16" gate="G$1" x="396.24" y="218.44" smashed="yes">
 <attribute name="NAME" x="408.94" y="227.33" size="1.778" layer="95"/>
 <attribute name="VALUE" x="408.94" y="224.79" size="1.778" layer="96"/>
 <attribute name="MPN" x="396.24" y="218.44" size="1.778" layer="96" display="off"/>
@@ -10851,7 +10851,7 @@ main 3.3V regulator is turned off.</text>
 <attribute name="VALUE" x="388.62" y="224.79" size="1.778" layer="96"/>
 <attribute name="MPN" x="375.92" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED16" gate="G$1" x="353.06" y="218.44" smashed="yes">
+<instance part="LED14" gate="G$1" x="353.06" y="218.44" smashed="yes">
 <attribute name="NAME" x="365.76" y="227.33" size="1.778" layer="95"/>
 <attribute name="VALUE" x="365.76" y="224.79" size="1.778" layer="96"/>
 <attribute name="MPN" x="353.06" y="218.44" size="1.778" layer="96" display="off"/>
@@ -10862,13 +10862,13 @@ main 3.3V regulator is turned off.</text>
 <nets>
 <net name="GND" class="2">
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="73.66" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="91.44" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="63.5" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="63.5" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
 <junction x="88.9" y="63.5"/>
@@ -10879,19 +10879,19 @@ main 3.3V regulator is turned off.</text>
 <wire x1="109.22" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="99.06" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="78.74" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <junction x="99.06" y="63.5"/>
 <wire x1="162.56" y1="93.98" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="63.5" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
 <junction x="144.78" y="63.5"/>
-<pinref part="Q4" gate="G$1" pin="S"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="162.56" y1="63.5" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
 <junction x="162.56" y="63.5"/>
-<pinref part="D9" gate="G$1" pin="2"/>
+<pinref part="D6" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="63.5" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="2"/>
+<pinref part="D7" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="71.12" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <junction x="27.94" y="63.5"/>
@@ -10907,16 +10907,16 @@ main 3.3V regulator is turned off.</text>
 <wire x1="25.4" y1="187.96" x2="25.4" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="177.8" x2="35.56" y2="177.8" width="0.1524" layer="91"/>
 <junction x="35.56" y="177.8"/>
-<pinref part="C49" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="190.5" x2="45.72" y2="177.8" width="0.1524" layer="91"/>
 <junction x="45.72" y="177.8"/>
-<pinref part="C46" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="177.8" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
 <junction x="55.88" y="177.8"/>
-<pinref part="C48" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="177.8" x2="66.04" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="177.8" x2="66.04" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="190.5" x2="160.02" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="177.8" x2="137.16" y2="177.8" width="0.1524" layer="91"/>
 <junction x="66.04" y="177.8"/>
@@ -10931,11 +10931,11 @@ main 3.3V regulator is turned off.</text>
 <junction x="124.46" y="177.8"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="243.84" y1="86.36" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="86.36" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="D4" gate="G$1" pin="2"/>
+<pinref part="D5" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="86.36" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
 <junction x="223.52" y="86.36"/>
 </segment>
@@ -10946,20 +10946,20 @@ main 3.3V regulator is turned off.</text>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="256.54" y1="177.8" x2="266.7" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="177.8" x2="266.7" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="2"/>
+<pinref part="D4" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="187.96" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="177.8" x2="246.38" y2="177.8" width="0.1524" layer="91"/>
 <junction x="246.38" y="177.8"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="190.5" x2="256.54" y2="177.8" width="0.1524" layer="91"/>
 <junction x="256.54" y="177.8"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="177.8" x2="266.7" y2="190.5" width="0.1524" layer="91"/>
 <junction x="266.7" y="177.8"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="177.8" x2="276.86" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="177.8" x2="276.86" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="370.84" y1="190.5" x2="370.84" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="177.8" x2="347.98" y2="177.8" width="0.1524" layer="91"/>
 <junction x="276.86" y="177.8"/>
@@ -10982,24 +10982,24 @@ main 3.3V regulator is turned off.</text>
 <wire x1="38.1" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
 <junction x="17.78" y="101.6"/>
 <pinref part="RAW5" gate="G$1" pin="RAW"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="91.44" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <junction x="27.94" y="91.44"/>
 <pinref part="U2" gate="G$1" pin="VIN"/>
 <pinref part="U2" gate="G$1" pin="EN"/>
-<pinref part="D1" gate="G$1" pin="1"/>
+<pinref part="D7" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="81.28" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
 <junction x="17.78" y="101.6"/>
 <wire x1="27.94" y1="91.44" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <junction x="27.94" y="101.6"/>
 </segment>
 <segment>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="RAW1" gate="G$1" pin="RAW"/>
 <wire x1="162.56" y1="124.46" x2="162.56" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="RAW"/>
+<pinref part="J1" gate="G$1" pin="RAW"/>
 <wire x1="243.84" y1="114.3" x2="233.68" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="RAW2" gate="G$1" pin="RAW"/>
 <wire x1="233.68" y1="114.3" x2="233.68" y2="124.46" width="0.1524" layer="91"/>
@@ -11009,7 +11009,7 @@ main 3.3V regulator is turned off.</text>
 <segment>
 <wire x1="68.58" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="101.6" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
 <wire x1="88.9" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
 <junction x="88.9" y="101.6"/>
@@ -11020,29 +11020,29 @@ main 3.3V regulator is turned off.</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 <wire x1="134.62" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="99.06" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
 <junction x="144.78" y="99.06"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="P11_WAKEUP" class="4">
 <segment>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="109.22" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="111.76" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
 <junction x="162.56" y="111.76"/>
 <label x="182.88" y="111.76" size="1.778" layer="95"/>
-<pinref part="Q4" gate="G$1" pin="D"/>
-<pinref part="D9" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="D6" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="88.9" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
 <junction x="172.72" y="111.76"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="P11/WAKE"/>
+<pinref part="J1" gate="G$1" pin="P11/WAKE"/>
 <wire x1="294.64" y1="88.9" x2="314.96" y2="88.9" width="0.1524" layer="91"/>
 <label x="297.18" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -11062,18 +11062,18 @@ main 3.3V regulator is turned off.</text>
 <junction x="25.4" y="218.44"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="P7/PWM"/>
+<pinref part="J1" gate="G$1" pin="P7/PWM"/>
 <wire x1="294.64" y1="99.06" x2="314.96" y2="99.06" width="0.1524" layer="91"/>
 <label x="297.18" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="3">
 <segment>
-<pinref part="J2" gate="G$1" pin="3.3V"/>
+<pinref part="J1" gate="G$1" pin="3.3V"/>
 <wire x1="243.84" y1="111.76" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="111.76" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="VCC"/>
-<pinref part="D4" gate="G$1" pin="1"/>
+<pinref part="D5" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="104.14" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
 <junction x="223.52" y="111.76"/>
 </segment>
@@ -11081,13 +11081,13 @@ main 3.3V regulator is turned off.</text>
 <pinref part="IC1" gate="G$1" pin="VIN"/>
 <wire x1="86.36" y1="223.52" x2="66.04" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="223.52" x2="55.88" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C49" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="198.12" x2="45.72" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="223.52" x2="55.88" y2="223.52" width="0.1524" layer="91"/>
 <junction x="55.88" y="223.52"/>
-<pinref part="C46" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="198.12" x2="55.88" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C48" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="198.12" x2="66.04" y2="223.52" width="0.1524" layer="91"/>
 <junction x="66.04" y="223.52"/>
 <wire x1="45.72" y1="223.52" x2="45.72" y2="233.68" width="0.1524" layer="91"/>
@@ -11102,13 +11102,13 @@ main 3.3V regulator is turned off.</text>
 <pinref part="IC2" gate="G$1" pin="VIN"/>
 <wire x1="297.18" y1="223.52" x2="276.86" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="223.52" x2="266.7" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="198.12" x2="256.54" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="223.52" x2="266.7" y2="223.52" width="0.1524" layer="91"/>
 <junction x="266.7" y="223.52"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="198.12" x2="266.7" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="198.12" x2="276.86" y2="223.52" width="0.1524" layer="91"/>
 <junction x="276.86" y="223.52"/>
 <wire x1="256.54" y1="223.52" x2="256.54" y2="233.68" width="0.1524" layer="91"/>
@@ -11122,7 +11122,7 @@ main 3.3V regulator is turned off.</text>
 </net>
 <net name="P8_PWM" class="4">
 <segment>
-<pinref part="J2" gate="G$1" pin="P8/PWM"/>
+<pinref part="J1" gate="G$1" pin="P8/PWM"/>
 <wire x1="294.64" y1="96.52" x2="314.96" y2="96.52" width="0.1524" layer="91"/>
 <label x="297.18" y="96.52" size="1.778" layer="95"/>
 </segment>
@@ -11134,7 +11134,7 @@ main 3.3V regulator is turned off.</text>
 <wire x1="246.38" y1="218.44" x2="236.22" y2="218.44" width="0.1524" layer="91"/>
 <junction x="246.38" y="218.44"/>
 <label x="228.6" y="218.44" size="1.778" layer="95"/>
-<pinref part="D6" gate="G$1" pin="1"/>
+<pinref part="D4" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="218.44" x2="226.06" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="198.12" x2="236.22" y2="218.44" width="0.1524" layer="91"/>
 <junction x="236.22" y="218.44"/>
@@ -11147,7 +11147,7 @@ main 3.3V regulator is turned off.</text>
 <wire x1="124.46" y1="233.68" x2="124.46" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="SW"/>
 <wire x1="124.46" y1="223.52" x2="114.3" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="124.46" y1="233.68" x2="134.62" y2="233.68" width="0.1524" layer="91"/>
 <junction x="124.46" y="233.68"/>
 </segment>
@@ -11158,13 +11158,13 @@ main 3.3V regulator is turned off.</text>
 <wire x1="86.36" y1="220.98" x2="76.2" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="220.98" x2="76.2" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="238.76" x2="160.02" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="K"/>
+<pinref part="D1" gate="G$1" pin="K"/>
 <wire x1="160.02" y1="238.76" x2="160.02" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="233.68" x2="149.86" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="233.68" x2="160.02" y2="198.12" width="0.1524" layer="91"/>
 <junction x="160.02" y="233.68"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
 <wire x1="160.02" y1="243.84" x2="160.02" y2="238.76" width="0.1524" layer="91"/>
 <junction x="160.02" y="238.76"/>
 </segment>
@@ -11175,60 +11175,60 @@ main 3.3V regulator is turned off.</text>
 <wire x1="137.16" y1="198.12" x2="137.16" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="FB"/>
 <wire x1="137.16" y1="218.44" x2="114.3" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="LED8" gate="G$1" pin="K"/>
+<pinref part="LED11" gate="G$1" pin="K"/>
 <wire x1="137.16" y1="218.44" x2="142.24" y2="218.44" width="0.1524" layer="91"/>
 <junction x="137.16" y="218.44"/>
 </segment>
 </net>
 <net name="W7" class="1">
 <segment>
-<pinref part="LED8" gate="G$1" pin="A"/>
-<pinref part="LED7" gate="G$1" pin="K"/>
+<pinref part="LED11" gate="G$1" pin="A"/>
+<pinref part="LED12" gate="G$1" pin="K"/>
 <wire x1="157.48" y1="218.44" x2="165.1" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="W6" class="1">
 <segment>
-<pinref part="LED7" gate="G$1" pin="A"/>
-<pinref part="LED6" gate="G$1" pin="K"/>
+<pinref part="LED12" gate="G$1" pin="A"/>
+<pinref part="LED13" gate="G$1" pin="K"/>
 <wire x1="180.34" y1="218.44" x2="185.42" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="W5" class="1">
 <segment>
-<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="LED13" gate="G$1" pin="A"/>
 <wire x1="200.66" y1="218.44" x2="205.74" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="LED5" gate="G$1" pin="K"/>
+<pinref part="LED9" gate="G$1" pin="K"/>
 <wire x1="205.74" y1="218.44" x2="205.74" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="W4" class="1">
 <segment>
-<pinref part="LED5" gate="G$1" pin="A"/>
-<pinref part="LED4" gate="G$1" pin="K"/>
+<pinref part="LED9" gate="G$1" pin="A"/>
+<pinref part="LED7" gate="G$1" pin="K"/>
 <wire x1="205.74" y1="238.76" x2="205.74" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="W3" class="1">
 <segment>
-<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="LED7" gate="G$1" pin="A"/>
 <wire x1="205.74" y1="259.08" x2="205.74" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="K"/>
+<pinref part="LED2" gate="G$1" pin="K"/>
 <wire x1="205.74" y1="264.16" x2="200.66" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="W2" class="1">
 <segment>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<pinref part="LED2" gate="G$1" pin="K"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="K"/>
 <wire x1="185.42" y1="264.16" x2="180.34" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="W1" class="1">
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="165.1" y1="264.16" x2="160.02" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="K"/>
+<pinref part="LED5" gate="G$1" pin="K"/>
 <wire x1="160.02" y1="264.16" x2="160.02" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11239,7 +11239,7 @@ main 3.3V regulator is turned off.</text>
 <wire x1="335.28" y1="233.68" x2="335.28" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="SW"/>
 <wire x1="335.28" y1="223.52" x2="325.12" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="335.28" y1="233.68" x2="345.44" y2="233.68" width="0.1524" layer="91"/>
 <junction x="335.28" y="233.68"/>
 </segment>
@@ -11250,13 +11250,13 @@ main 3.3V regulator is turned off.</text>
 <wire x1="297.18" y1="220.98" x2="287.02" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="220.98" x2="287.02" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="238.76" x2="370.84" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="K"/>
+<pinref part="D2" gate="G$1" pin="K"/>
 <wire x1="370.84" y1="238.76" x2="370.84" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="233.68" x2="360.68" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="370.84" y1="233.68" x2="370.84" y2="198.12" width="0.1524" layer="91"/>
 <junction x="370.84" y="233.68"/>
-<pinref part="LED9" gate="G$1" pin="A"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="370.84" y1="243.84" x2="370.84" y2="238.76" width="0.1524" layer="91"/>
 <junction x="370.84" y="238.76"/>
 </segment>
@@ -11267,14 +11267,14 @@ main 3.3V regulator is turned off.</text>
 <wire x1="347.98" y1="198.12" x2="347.98" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="FB"/>
 <wire x1="347.98" y1="218.44" x2="325.12" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="LED16" gate="G$1" pin="K"/>
+<pinref part="LED14" gate="G$1" pin="K"/>
 <wire x1="347.98" y1="218.44" x2="353.06" y2="218.44" width="0.1524" layer="91"/>
 <junction x="347.98" y="218.44"/>
 </segment>
 </net>
 <net name="I7" class="1">
 <segment>
-<pinref part="LED16" gate="G$1" pin="A"/>
+<pinref part="LED14" gate="G$1" pin="A"/>
 <pinref part="LED15" gate="G$1" pin="K"/>
 <wire x1="368.3" y1="218.44" x2="375.92" y2="218.44" width="0.1524" layer="91"/>
 </segment>
@@ -11282,45 +11282,45 @@ main 3.3V regulator is turned off.</text>
 <net name="I6" class="1">
 <segment>
 <pinref part="LED15" gate="G$1" pin="A"/>
-<pinref part="LED14" gate="G$1" pin="K"/>
+<pinref part="LED16" gate="G$1" pin="K"/>
 <wire x1="391.16" y1="218.44" x2="396.24" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I5" class="1">
 <segment>
-<pinref part="LED14" gate="G$1" pin="A"/>
+<pinref part="LED16" gate="G$1" pin="A"/>
 <wire x1="411.48" y1="218.44" x2="416.56" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="LED13" gate="G$1" pin="K"/>
+<pinref part="LED10" gate="G$1" pin="K"/>
 <wire x1="416.56" y1="218.44" x2="416.56" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I4" class="1">
 <segment>
-<pinref part="LED13" gate="G$1" pin="A"/>
-<pinref part="LED12" gate="G$1" pin="K"/>
+<pinref part="LED10" gate="G$1" pin="A"/>
+<pinref part="LED8" gate="G$1" pin="K"/>
 <wire x1="416.56" y1="238.76" x2="416.56" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I3" class="1">
 <segment>
-<pinref part="LED12" gate="G$1" pin="A"/>
+<pinref part="LED8" gate="G$1" pin="A"/>
 <wire x1="416.56" y1="259.08" x2="416.56" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="LED11" gate="G$1" pin="K"/>
+<pinref part="LED4" gate="G$1" pin="K"/>
 <wire x1="416.56" y1="264.16" x2="411.48" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2" class="1">
 <segment>
-<pinref part="LED11" gate="G$1" pin="A"/>
-<pinref part="LED10" gate="G$1" pin="K"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="K"/>
 <wire x1="396.24" y1="264.16" x2="391.16" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I1" class="1">
 <segment>
-<pinref part="LED10" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="375.92" y1="264.16" x2="370.84" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="LED9" gate="G$1" pin="K"/>
+<pinref part="LED6" gate="G$1" pin="K"/>
 <wire x1="370.84" y1="264.16" x2="370.84" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 </net>
