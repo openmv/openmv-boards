@@ -11795,9 +11795,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <part name="U3" library="LBEE5KL1DX-TEMP" deviceset="LBEE5KL1DX-TEMP" device="" value="LBEE5KL1DX-883">
 <attribute name="MPN" value="LBEE5KL1DX-883"/>
 </part>
-<part name="L3" library="sfe" deviceset="INDUCTOR" device="0402" value="100">
-<attribute name="MPN" value="MFBM1V1608-101-R"/>
-</part>
 <part name="VBUS3" library="supply" deviceset="VBUS" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="&quot;" package3d_urn="urn:adsk.eagle:package:38138/1" value="DNP">
 <attribute name="POPULATE" value="0"/>
@@ -12801,10 +12798,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <part name="Q6" library="PMXB120EPEZ" deviceset="PMXB120EPEZ" device="">
 <attribute name="MPN" value="PMXB120EPEZ"/>
 </part>
-<part name="D11" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
-<attribute name="MPN" value="CPDQT5V0HE-HF"/>
+<part name="R41" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1M">
+<attribute name="MPN" value="0402WGF1004TCE"/>
 </part>
-<part name="GND36" library="SparkFun" deviceset="GND" device=""/>
+<part name="C110" library="sfe" deviceset="CAP" device="0402-CAP" value="1nF">
+<attribute name="MPN" value="C0402C102K5RAC"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -12940,11 +12939,6 @@ pins and the LED pin</text>
 <attribute name="MPN" x="741.68" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="713.7111" y="112.3027" size="2.54263125" layer="95"/>
 <attribute name="VALUE" x="713.73" y="50.28" size="2.540909375" layer="96"/>
-</instance>
-<instance part="L3" gate="G$1" x="96.52" y="492.76" smashed="yes" rot="R270">
-<attribute name="NAME" x="101.6" y="490.22" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="91.44" y="490.22" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="MPN" x="96.52" y="492.76" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="VBUS3" gate="G$1" x="132.08" y="523.24" smashed="yes">
 <attribute name="VALUE" x="129.54" y="520.7" size="1.778" layer="96" rot="R90"/>
@@ -14186,13 +14180,15 @@ pins and the LED pin</text>
 <attribute name="VALUE" x="527.05" y="527.05" size="1.778" layer="96" rot="MR0" align="center-left"/>
 <attribute name="MPN" x="538.48" y="525.78" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="D11" gate="G$1" x="553.72" y="203.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="560.07" y="200.66" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="557.53" y="200.66" size="1.778" layer="96" rot="R270"/>
-<attribute name="MPN" x="553.72" y="203.2" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="R41" gate="G$1" x="88.9" y="485.14" smashed="yes" rot="R270">
+<attribute name="MPN" x="88.9" y="485.14" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="90.3986" y="488.95" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="85.598" y="488.95" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND36" gate="1" x="553.72" y="180.34" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="556.26" y="177.8" size="1.778" layer="96" rot="MR0"/>
+<instance part="C110" gate="G$1" x="101.6" y="487.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="100.076" y="484.759" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="100.076" y="489.839" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="101.6" y="487.68" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -14234,17 +14230,15 @@ pins and the LED pin</text>
 <wire x1="180.34" y1="500.38" x2="172.72" y2="500.38" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="500.38" x2="180.34" y2="477.52" width="0.1524" layer="91"/>
 <junction x="180.34" y="500.38"/>
-<wire x1="27.94" y1="477.52" x2="111.76" y2="477.52" width="0.1524" layer="91"/>
-<pinref part="L3" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="477.52" x2="88.9" y2="477.52" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="477.52" x2="101.6" y2="477.52" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="477.52" x2="111.76" y2="477.52" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="477.52" x2="121.92" y2="477.52" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="477.52" x2="132.08" y2="477.52" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="477.52" x2="180.34" y2="477.52" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="492.76" x2="111.76" y2="492.76" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="492.76" x2="111.76" y2="477.52" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="495.3" x2="111.76" y2="477.52" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="78.74" y1="495.3" x2="111.76" y2="495.3" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="495.3" x2="111.76" y2="492.76" width="0.1524" layer="91"/>
-<junction x="111.76" y="492.76"/>
 <junction x="111.76" y="477.52"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="477.52" x2="121.92" y2="487.68" width="0.1524" layer="91"/>
@@ -14254,6 +14248,12 @@ pins and the LED pin</text>
 <wire x1="132.08" y1="467.36" x2="132.08" y2="477.52" width="0.1524" layer="91"/>
 <pinref part="FL1" gate="G$1" pin="GND_2"/>
 <pinref part="FL1" gate="G$1" pin="GND_1"/>
+<pinref part="R41" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="480.06" x2="88.9" y2="477.52" width="0.1524" layer="91"/>
+<junction x="88.9" y="477.52"/>
+<pinref part="C110" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="482.6" x2="101.6" y2="477.52" width="0.1524" layer="91"/>
+<junction x="101.6" y="477.52"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -15097,11 +15097,6 @@ pins and the LED pin</text>
 <pinref part="D7" gate="G$1" pin="2"/>
 <wire x1="822.96" y1="203.2" x2="822.96" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="D11" gate="G$1" pin="2"/>
-<pinref part="GND36" gate="1" pin="GND"/>
-<wire x1="553.72" y1="193.04" x2="553.72" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -16249,8 +16244,13 @@ pins and the LED pin</text>
 <net name="SHELL_GND" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="SHELL_GND"/>
-<pinref part="L3" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="492.76" x2="88.9" y2="492.76" width="0.1524" layer="91"/>
+<pinref part="R41" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="492.76" x2="88.9" y2="490.22" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="492.76" x2="101.6" y2="492.76" width="0.1524" layer="91"/>
+<junction x="88.9" y="492.76"/>
+<pinref part="C110" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="492.76" x2="101.6" y2="490.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D_P" class="15">
@@ -18468,12 +18468,8 @@ pins and the LED pin</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="23"/>
 <pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="576.58" y1="223.52" x2="553.72" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="576.58" y1="223.52" x2="551.18" y2="223.52" width="0.1524" layer="91"/>
 <label x="556.26" y="223.52" size="1.778" layer="95"/>
-<pinref part="D11" gate="G$1" pin="1"/>
-<wire x1="553.72" y1="223.52" x2="551.18" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="553.72" y1="223.52" x2="553.72" y2="203.2" width="0.1524" layer="91"/>
-<junction x="553.72" y="223.52"/>
 </segment>
 <segment>
 <pinref part="Q5" gate="G$1" pin="D"/>

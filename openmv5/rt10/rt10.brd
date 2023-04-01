@@ -6160,11 +6160,6 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <attribute name="PRICE" value="None" x="11.5" y="133.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="6.281809375" y="34.14651875" size="1.271609375" layer="27" rot="R90"/>
 </element>
-<element name="L3" library="sfe" package="C0402" value="100" x="30.4" y="9" smashed="yes" rot="MR0">
-<attribute name="MPN" value="MFBM1V1608-101-R" x="30.4" y="9" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="35.689" y="20.4985" size="0.4064" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="35.8795" y="18.657" size="0.4064" layer="28" rot="MR0"/>
-</element>
 <element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X08" package3d_urn="urn:adsk.eagle:package:38138/1" value="DNP" x="1.6" y="1.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.203" y="2.33" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="POPULATE" value="0" x="1.6" y="1.6" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7558,10 +7553,10 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <element name="FD1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="10" y="8.4" smashed="yes"/>
 <element name="FD5" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="27.4" y="41.4" smashed="yes"/>
 <element name="FD6" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="8" y="41.4" smashed="yes"/>
-<element name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="31.4" y="10.4" smashed="yes"/>
+<element name="FD2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="31.7" y="10.4" smashed="yes"/>
 <element name="FD3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="8" y="41.4" smashed="yes" rot="MR0"/>
 <element name="FD7" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="27.4" y="41.4" smashed="yes" rot="MR0"/>
-<element name="FD4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="31.4" y="10.4" smashed="yes" rot="MR0"/>
+<element name="FD4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="31.7" y="10.4" smashed="yes" rot="MR0"/>
 <element name="FD8" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="FIDUCIAL-1X2" package3d_urn="urn:adsk.eagle:package:37108/1" value="FIDUCIAL1X2" x="13.4" y="8.4" smashed="yes" rot="MR0"/>
 <element name="Q6" library="PMXB120EPEZ" package="PMXB120EPEZ" value="PMXB120EPEZ" x="23.6" y="1.1" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="MOSFET 30 V, P-channel Trench MOSFET" x="23.6" y="1.1" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -7574,16 +7569,15 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <attribute name="NAME" x="23.6" y="1.1" size="1.27" layer="26" rot="MR0" align="center"/>
 <attribute name="VALUE" x="23.6" y="1.1" size="1.27" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="D11" library="CPDQT5V0HE-HF" package="CPDQT5V0HEHF" value="CPDQT5V0HE-HF" x="16.9" y="38.6" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes DIODE ESD 5VWM 65W 0402/SOD-923F" x="16.9" y="38.6" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="HEIGHT" value="0.42mm" x="16.9" y="38.6" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Comchip Technology" x="16.9" y="38.6" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CPDQT5V0HE-HF" x="16.9" y="38.6" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="16.9" y="38.6" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="16.9" y="38.6" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CPDQT5V0HE-HF" x="16.9" y="38.6" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="16.9" y="38.6" size="1.27" layer="26" rot="MR180" align="center"/>
-<attribute name="VALUE" x="16.9" y="38.6" size="1.27" layer="28" rot="MR180" align="center"/>
+<element name="R41" library="sfe" package="0402-RES" value="1M" x="30.5" y="9.1" smashed="yes" rot="MR180">
+<attribute name="MPN" value="0402WGF1004TCE" x="30.5" y="9.1" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="29.611" y="8.4015" size="0.4064" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="29.4205" y="10.243" size="0.4064" layer="28" rot="MR180"/>
+</element>
+<element name="C110" library="sfe" package="0402-CAP" value="1nF" x="29.9" y="10.3" smashed="yes" rot="MR0">
+<attribute name="MPN" value="C0402C102K5RAC" x="29.9" y="10.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="30.789" y="10.9985" size="0.4064" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="30.9795" y="9.157" size="0.4064" layer="28" rot="MR0"/>
 </element>
 </elements>
 <signals>
@@ -7605,7 +7599,6 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <contactref element="R6" pad="2"/>
 <contactref element="J1" pad="A1_B12"/>
 <contactref element="J1" pad="B1_A12"/>
-<contactref element="L3" pad="1"/>
 <contactref element="R7" pad="2"/>
 <contactref element="R10" pad="2"/>
 <contactref element="R11" pad="2"/>
@@ -7877,10 +7870,6 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <wire x1="29.65" y1="7.555" x2="29.6" y2="7.555" width="0.3048" layer="1"/>
 <wire x1="23.15" y1="10.2" x2="22.5" y2="10.2" width="0.3048" layer="1"/>
 <via x="22.5" y="10.2" extent="1-16" drill="0.254"/>
-<wire x1="29.65" y1="10.2" x2="30.4" y2="10.2" width="0.3048" layer="1"/>
-<via x="30.4" y="10.2" extent="1-16" drill="0.254"/>
-<wire x1="31.05" y1="9" x2="30.4" y2="9" width="0.3048" layer="16"/>
-<wire x1="30.4" y1="9" x2="30.4" y2="10.2" width="0.3048" layer="16"/>
 <wire x1="15.75" y1="42.7" x2="16.75" y2="42.7" width="0.3048" layer="16"/>
 <wire x1="16.75" y1="42.7" x2="16.75" y2="41.55" width="0.3048" layer="16"/>
 <wire x1="16.75" y1="41.55" x2="19.2" y2="41.55" width="0.3048" layer="16"/>
@@ -8258,16 +8247,19 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <wire x1="24.025" y1="0.7" x2="25.6" y2="0.7" width="0.3048" layer="16"/>
 <wire x1="25.6" y1="0.7" x2="33.1" y2="0.7" width="0.3048" layer="16"/>
 <wire x1="33.1" y1="0.7" x2="34" y2="1.6" width="0.3048" layer="16"/>
-<contactref element="D11" pad="2"/>
-<wire x1="21.8" y1="41.55" x2="21.8" y2="39.4" width="0.1016" layer="16"/>
-<wire x1="21.8" y1="39.4" x2="21.1" y2="38.7" width="0.1016" layer="16"/>
-<wire x1="17.4" y1="38.7" x2="17.3" y2="38.6" width="0.1016" layer="16"/>
-<wire x1="21.1" y1="38.7" x2="17.4" y2="38.7" width="0.1016" layer="16"/>
+<contactref element="R41" pad="2"/>
+<contactref element="C110" pad="1"/>
+<wire x1="31.15" y1="9.1" x2="30.55" y2="9.7" width="0.3048" layer="16"/>
+<wire x1="30.55" y1="9.7" x2="30.55" y2="10.3" width="0.3048" layer="16"/>
+<wire x1="30.55" y1="10.3" x2="30.55" y2="11.25" width="0.3048" layer="16"/>
+<wire x1="30.3" y1="11.5" x2="30.3" y2="13.1" width="0.3048" layer="16"/>
+<wire x1="30.55" y1="11.25" x2="30.3" y2="11.5" width="0.3048" layer="16"/>
 <wire x1="21.8" y1="41.55" x2="24.9" y2="43.4" width="0" layer="19" extent="16-16"/>
-<wire x1="17.53" y1="38.8399" x2="17.3" y2="38.6" width="0" layer="19" extent="1-16"/>
-<wire x1="16.8" y1="36.05" x2="17.6" y2="37.6" width="0" layer="19" extent="16-16"/>
-<wire x1="18" y1="35.74" x2="16.8" y2="36.05" width="0" layer="19" extent="16-16"/>
+<wire x1="21.03" y1="38.8399" x2="20.5" y2="41.55" width="0" layer="19" extent="1-16"/>
+<wire x1="18.8" y1="35.8" x2="21" y2="37.6" width="0" layer="19" extent="1-1"/>
+<wire x1="16.8" y1="36.05" x2="18" y2="35.74" width="0" layer="19" extent="16-16"/>
 <wire x1="15.5" y1="37.6" x2="14.75" y2="36.6" width="0" layer="19" extent="16-16"/>
+<wire x1="17.6" y1="37.6" x2="16.8" y2="36.05" width="0" layer="19" extent="16-16"/>
 <wire x1="10.5" y1="34.65" x2="12" y2="36.6" width="0" layer="19" extent="16-16"/>
 <wire x1="8.75" y1="34.8" x2="10" y2="34.6" width="0" layer="19" extent="16-16"/>
 <wire x1="7.4" y1="32.2" x2="8.3875" y2="33.225" width="0" layer="19" extent="1-1"/>
@@ -8315,7 +8307,6 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <wire x1="9.75" y1="27.4" x2="8.3875" y2="27.375" width="0" layer="19" extent="1-16"/>
 <wire x1="9.75" y1="28.6" x2="9.75" y2="27.4" width="0" layer="19" extent="16-16"/>
 <wire x1="2.65" y1="30.2" x2="4.275" y2="29.4" width="0" layer="19" extent="1-16"/>
-<wire x1="21.03" y1="38.8399" x2="20.5" y2="41.55" width="0" layer="19" extent="1-16"/>
 <wire x1="7.9" y1="19.2" x2="8.1" y2="22.17" width="0" layer="19" extent="1-16"/>
 <wire x1="9.6" y1="14.4" x2="9.55" y2="14.5" width="0" layer="19" extent="16-16"/>
 <wire x1="7.4" y1="15.95" x2="8.45" y2="17" width="0" layer="19" extent="16-16"/>
@@ -8340,6 +8331,7 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <wire x1="22.5" y1="10.2" x2="20.7" y2="8.95" width="0" layer="19" extent="16-16"/>
 <wire x1="24.6" y1="11.6" x2="23.15" y2="10.2" width="0" layer="19" extent="1-1"/>
 <wire x1="27.15" y1="10.7" x2="25.65" y2="10.7" width="0" layer="19" extent="1-1"/>
+<wire x1="30.55" y1="10.3" x2="29.65" y2="10.2" width="0" layer="19" extent="1-16"/>
 <wire x1="25.7" y1="13.1" x2="24.6" y2="11.6" width="0" layer="19" extent="16-16"/>
 <wire x1="17.8" y1="10" x2="19.6" y2="8.3" width="0" layer="19" extent="1-1"/>
 <wire x1="17.3" y1="20.65" x2="17.8" y2="18.2" width="0" layer="19" extent="16-16"/>
@@ -8433,7 +8425,6 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <wire x1="29.2" y1="35.2" x2="27.6" y2="34" width="0" layer="19" extent="1-1"/>
 <wire x1="12.375" y1="31.825" x2="13.025" y2="29.225" width="0" layer="19" extent="1-1"/>
 <wire x1="12.375" y1="23.375" x2="13.025" y2="25.975" width="0" layer="19" extent="1-1"/>
-<wire x1="30.3" y1="13.1" x2="30.4" y2="10.2" width="0" layer="19" extent="16-16"/>
 <wire x1="30.2" y1="21.4" x2="33.2" y2="22.6" width="0" layer="19" extent="1-1"/>
 <wire x1="10.2" y1="43.4" x2="13.3" y2="41.55" width="0" layer="19" extent="16-16"/>
 <wire x1="23.975" y1="0.65" x2="19.65" y2="2.7" width="0" layer="19" extent="16-16"/>
@@ -9349,12 +9340,16 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <contactref element="J1" pad="S2"/>
 <contactref element="J1" pad="S4"/>
 <contactref element="J1" pad="S3"/>
-<contactref element="L3" pad="2"/>
 <wire x1="30.72" y1="6.98" x2="29.75" y2="6.98" width="0.3048" layer="16"/>
-<wire x1="29.75" y1="6.98" x2="29.75" y2="9" width="0.3048" layer="16"/>
 <wire x1="30.72" y1="2.8" x2="22.08" y2="2.8" width="0.3048" layer="16"/>
 <wire x1="22.08" y1="6.98" x2="22.08" y2="2.8" width="0.3048" layer="16"/>
 <wire x1="30.72" y1="6.98" x2="30.72" y2="2.8" width="0.3048" layer="16"/>
+<contactref element="R41" pad="1"/>
+<contactref element="C110" pad="2"/>
+<wire x1="29.75" y1="6.98" x2="29.75" y2="9" width="0.3048" layer="16"/>
+<wire x1="29.75" y1="9" x2="29.85" y2="9.1" width="0.3048" layer="16"/>
+<wire x1="29.85" y1="9.1" x2="29.25" y2="9.7" width="0.3048" layer="16"/>
+<wire x1="29.25" y1="9.7" x2="29.25" y2="10.3" width="0.3048" layer="16"/>
 </signal>
 <signal name="D_P" class="15">
 <contactref element="J1" pad="B6"/>
@@ -10820,14 +10815,12 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <wire x1="16.53" y1="38.8399" x2="16.53" y2="37.67" width="0.1016" layer="1"/>
 <wire x1="16.53" y1="37.67" x2="16.6" y2="37.6" width="0.1016" layer="1"/>
 <via x="16.6" y="37.6" extent="1-16" drill="0.1524"/>
-<wire x1="14.6" y1="39.25" x2="15.85" y2="39.25" width="0.1016" layer="16"/>
 <wire x1="15.8" y1="40.3" x2="15.8" y2="39.3" width="0.1016" layer="16"/>
-<wire x1="15.8" y1="39.3" x2="15.85" y2="39.25" width="0.1016" layer="16"/>
-<contactref element="D11" pad="1"/>
 <wire x1="16.6" y1="37.6" x2="16.5" y2="37.7" width="0.1016" layer="16"/>
 <wire x1="16.5" y1="37.7" x2="16.5" y2="38.4" width="0.1016" layer="16"/>
-<wire x1="15.85" y1="39.25" x2="16.5" y2="38.6" width="0.1016" layer="16"/>
-<wire x1="16.5" y1="38.6" x2="16.5" y2="38.4" width="0.1016" layer="16"/>
+<wire x1="15.8" y1="39.3" x2="15.75" y2="39.25" width="0.1016" layer="16"/>
+<wire x1="15.75" y1="39.25" x2="14.6" y2="39.25" width="0.1016" layer="16"/>
+<wire x1="15.8" y1="40.3" x2="16.53" y2="38.8399" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USB_D_N" class="15">
 <contactref element="IC8" pad="M8"/>
