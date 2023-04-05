@@ -208,16 +208,17 @@ R1</text>
 <text x="6.6" y="0.6" size="0.8128" layer="21" font="vector" ratio="22" rot="R90">GND</text>
 <text x="6.6" y="3.2" size="0.8128" layer="21" font="vector" ratio="22" rot="R90">RAW</text>
 <text x="31.6" y="2.8" size="0.8128" layer="21" font="vector" ratio="22" rot="R270">GND</text>
-<text x="32.4" y="7.5" size="0.8128" layer="22" font="vector" ratio="22" rot="MR270">P7</text>
-<text x="31.6" y="7.5" size="0.8128" layer="21" font="vector" ratio="22" rot="R270">P7</text>
+<text x="32.4" y="8.1" size="0.8128" layer="22" font="vector" ratio="22" rot="MR270">P7</text>
+<text x="31.6" y="8.1" size="0.8128" layer="21" font="vector" ratio="22" rot="R270">P7</text>
 <text x="32.4" y="10.1" size="0.8128" layer="22" font="vector" ratio="22" rot="MR270">P8</text>
 <text x="31.6" y="10.1" size="0.8128" layer="21" font="vector" ratio="22" rot="R270">P8</text>
-<text x="31.6" y="18.5" size="0.8128" layer="21" font="vector" ratio="22" rot="R270">WAKE</text>
+<text x="32.4" y="16.4" size="0.8128" layer="21" font="vector" ratio="22" rot="R90">WAKE</text>
 <text x="10.8" y="14" size="0.8128" layer="22" font="vector" ratio="20" rot="MR270">Hot</text>
 <text x="27.2" y="12" size="0.8128" layer="22" font="vector" ratio="20" rot="MR90">Hot</text>
 <text x="28.6" y="6" size="0.8128" layer="22" font="vector" ratio="22" rot="MR270">P7</text>
 <text x="28.6" y="8.8" size="0.8128" layer="22" font="vector" ratio="22" rot="MR270">P8</text>
 <text x="29.9" y="21.5" size="0.8128" layer="22" font="vector" ratio="22" rot="MR270">WAKE</text>
+<text x="5.8" y="3.2" size="0.8128" layer="22" font="vector" ratio="22" rot="MR90">RAW</text>
 </plain>
 <libraries>
 <library name="openmv">
