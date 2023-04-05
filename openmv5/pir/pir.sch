@@ -10409,7 +10409,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="MPN" value="MIC5365-3.3YMT-TZ"/>
 </part>
 <part name="R5" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1K">
-<attribute name="MPN" value="0402WGF1001TCE"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="RAW1" library="supply" deviceset="RAW" device="" value="RAW"/>
 <part name="D6" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
