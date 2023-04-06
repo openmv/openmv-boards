@@ -11807,13 +11807,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="USB4105-GF-A"/>
 </part>
 <part name="R6" library="sfe" deviceset="RESISTOR" device="0402-RES" value="5.1K">
-<attribute name="MPN" value="RMC1/20-512FPA"/>
+<attribute name="MPN" value="RC0402JR-075K1L"/>
 </part>
 <part name="R7" library="sfe" deviceset="RESISTOR" device="0402-RES" value="5.1K">
-<attribute name="MPN" value="RMC1/20-512FPA"/>
-</part>
-<part name="L1" library="sfe" deviceset="INDUCTOR" device="0402" value="100">
-<attribute name="MPN" value="MFBM1V1608-101-R"/>
+<attribute name="MPN" value="RC0402JR-075K1L"/>
 </part>
 <part name="GND19" library="sfe" deviceset="GND" device=""/>
 <part name="U2" library="BQ24075RGTR" deviceset="BQ24075RGTR" device="">
@@ -12134,7 +12131,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="AC0402FR-07100KL"/>
 </part>
 <part name="L4" library="sfe" deviceset="INDUCTOR" device="0402" value="100">
-<attribute name="MPN" value="MFBM1V1608-101-R"/>
+<attribute name="MPN" value="MFBM1V1005-101-R"/>
 </part>
 <part name="C51" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF" device="-0805-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37429/1" value="22uF">
 <attribute name="MPN" value="CL21A226MQQNNNE"/>
@@ -12211,7 +12208,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="CL21A226MQQNNNE"/>
 </part>
 <part name="L8" library="sfe" deviceset="INDUCTOR" device="0402" value="100">
-<attribute name="MPN" value="MFBM1V1608-101-R"/>
+<attribute name="MPN" value="MFBM1V1005-101-R"/>
 </part>
 <part name="P+10" library="SparkFun" deviceset="VCC" device=""/>
 <part name="R36" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1K">
@@ -12587,7 +12584,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
 </part>
 <part name="L6" library="sfe" deviceset="INDUCTOR" device="0402" value="100">
-<attribute name="MPN" value="MFBM1V1608-101-R"/>
+<attribute name="MPN" value="MFBM1V1005-101-R"/>
 </part>
 <part name="C60" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
@@ -12804,6 +12801,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <part name="C110" library="sfe" deviceset="CAP" device="0402-CAP" value="1nF">
 <attribute name="MPN" value="C0402C102K5RAC"/>
 </part>
+<part name="L1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0603-33NH" package3d_urn="urn:adsk.eagle:package:37574/1" value="100">
+<attribute name="MPN" value="MFBM1V1608-101-R"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -12973,11 +12973,6 @@ pins and the LED pin</text>
 <attribute name="MPN" x="121.92" y="492.76" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="123.4186" y="496.57" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="118.618" y="496.57" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="L1" gate="G$1" x="93.98" y="513.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="88.9" y="515.62" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="99.06" y="515.62" size="1.778" layer="96" font="vector" rot="R90"/>
-<attribute name="MPN" x="93.98" y="513.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND19" gate="1" x="132.08" y="464.82" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="134.62" y="462.28" size="1.778" layer="96" rot="MR0"/>
@@ -14190,6 +14185,11 @@ pins and the LED pin</text>
 <attribute name="VALUE" x="100.076" y="489.839" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="101.6" y="487.68" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
+<instance part="L1" gate="G$1" x="93.98" y="513.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="91.44" y="514.35" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="96.52" y="514.35" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="MPN" x="93.98" y="513.08" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15103,12 +15103,12 @@ pins and the LED pin</text>
 <segment>
 <wire x1="137.16" y1="508" x2="132.08" y2="508" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="508" x2="132.08" y2="513.08" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="513.08" x2="101.6" y2="513.08" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="513.08" x2="99.06" y2="513.08" width="0.1524" layer="91"/>
 <pinref part="VBUS3" gate="G$1" pin="VBUS"/>
 <wire x1="132.08" y1="523.24" x2="132.08" y2="513.08" width="0.1524" layer="91"/>
 <junction x="132.08" y="513.08"/>
 <pinref part="FL1" gate="G$1" pin="VBUS"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -18342,7 +18342,6 @@ pins and the LED pin</text>
 </net>
 <net name="USB_VBUS" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="78.74" y1="513.08" x2="83.82" y2="513.08" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="513.08" x2="88.9" y2="513.08" width="0.1524" layer="91"/>
@@ -18350,6 +18349,7 @@ pins and the LED pin</text>
 <wire x1="83.82" y1="500.38" x2="83.82" y2="513.08" width="0.1524" layer="91"/>
 <junction x="83.82" y="513.08"/>
 <pinref part="FL1" gate="G$1" pin="ID"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="V_BATT" class="1">
@@ -18549,8 +18549,11 @@ pins and the LED pin</text>
 <approved hash="104,1,78.74,513.08,J1,VBUS,USB_VBUS,,,"/>
 <approved hash="104,1,340.36,482.6,U2,VSS,GND,,,"/>
 <approved hash="104,1,340.36,485.14,U2,EXP,GND,,,"/>
-<approved hash="104,1,457.2,228.6,J5,VDD,VCC,,,"/>
-<approved hash="104,1,457.2,210.82,J5,VSS,GND,,,"/>
+<approved hash="104,1,467.36,228.6,J5,CD,SD_CD,,,"/>
+<approved hash="104,1,467.36,205.74,J5,CD_POL,GND,,,"/>
+<approved hash="104,1,467.36,200.66,J5,SHD,GND,,,"/>
+<approved hash="104,1,467.36,233.68,J5,VDD,VCC,,,"/>
+<approved hash="104,1,467.36,203.2,J5,VSS,GND,,,"/>
 <approved hash="206,1,340.36,505.46,V_BATT,,,,,"/>
 <approved hash="206,1,340.36,502.92,V_BATT,,,,,"/>
 <approved hash="208,1,340.36,505.46,V_BATT,out,,,,"/>
