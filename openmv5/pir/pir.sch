@@ -1342,165 +1342,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="MIC5365-3.3YMT-TZ">
-<packages>
-<package name="VREG_MIC5365-3.3YMT-TZ">
-<wire x1="0.5" y1="0.5" x2="-0.5" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="0.5" x2="-0.5" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="-0.5" x2="0.5" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.127" layer="51"/>
-<polygon width="0.01" layer="1">
-<vertex x="-0.8255" y="0.4522"/>
-<vertex x="-0.8255" y="0.1728"/>
-<vertex x="-0.3429" y="0.1728"/>
-<vertex x="-0.2159" y="0.2998"/>
-<vertex x="-0.2159" y="0.4522"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="0.8255" y="0.4522"/>
-<vertex x="0.8255" y="0.1728"/>
-<vertex x="0.3429" y="0.1728"/>
-<vertex x="0.2159" y="0.2998"/>
-<vertex x="0.2159" y="0.4522"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-0.8255" y="-0.4522"/>
-<vertex x="-0.8255" y="-0.1728"/>
-<vertex x="-0.3429" y="-0.1728"/>
-<vertex x="-0.2159" y="-0.2998"/>
-<vertex x="-0.2159" y="-0.4522"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="0.8255" y="-0.4522"/>
-<vertex x="0.8255" y="-0.1728"/>
-<vertex x="0.3429" y="-0.1728"/>
-<vertex x="0.2159" y="-0.2998"/>
-<vertex x="0.2159" y="-0.4522"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-0.8255" y="0.4522"/>
-<vertex x="-0.8255" y="0.1728"/>
-<vertex x="-0.3429" y="0.1728"/>
-<vertex x="-0.2159" y="0.2998"/>
-<vertex x="-0.2159" y="0.4522"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="0.8255" y="0.4522"/>
-<vertex x="0.8255" y="0.1728"/>
-<vertex x="0.3429" y="0.1728"/>
-<vertex x="0.2159" y="0.2998"/>
-<vertex x="0.2159" y="0.4522"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-0.8255" y="-0.4522"/>
-<vertex x="-0.8255" y="-0.1728"/>
-<vertex x="-0.3429" y="-0.1728"/>
-<vertex x="-0.2159" y="-0.2998"/>
-<vertex x="-0.2159" y="-0.4522"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="0.8255" y="-0.4522"/>
-<vertex x="0.8255" y="-0.1728"/>
-<vertex x="0.3429" y="-0.1728"/>
-<vertex x="0.2159" y="-0.2998"/>
-<vertex x="0.2159" y="-0.4522"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-0.1659" y="0.5022"/>
-<vertex x="-0.1659" y="0.2728"/>
-<vertex x="-0.3159" y="0.1228"/>
-<vertex x="-0.8755" y="0.1228"/>
-<vertex x="-0.8755" y="0.5022"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="0.1659" y="0.5022"/>
-<vertex x="0.1659" y="0.2728"/>
-<vertex x="0.3159" y="0.1228"/>
-<vertex x="0.8755" y="0.1228"/>
-<vertex x="0.8755" y="0.5022"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="0.8755" y="-0.5022"/>
-<vertex x="0.1659" y="-0.5022"/>
-<vertex x="0.1659" y="-0.2728"/>
-<vertex x="0.3159" y="-0.1228"/>
-<vertex x="0.8755" y="-0.1228"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-0.8755" y="-0.1228"/>
-<vertex x="-0.8755" y="-0.5022"/>
-<vertex x="-0.1659" y="-0.5022"/>
-<vertex x="-0.1659" y="-0.2728"/>
-<vertex x="-0.3159" y="-0.1228"/>
-</polygon>
-<circle x="-1.397" y="0.381" radius="0.1" width="0.2" layer="21"/>
-<circle x="-1.397" y="0.381" radius="0.1" width="0.2" layer="51"/>
-<wire x1="-1.076" y1="0.75" x2="1.076" y2="0.75" width="0.05" layer="39"/>
-<wire x1="1.076" y1="0.75" x2="1.076" y2="-0.75" width="0.05" layer="39"/>
-<wire x1="1.076" y1="-0.75" x2="-1.076" y2="-0.75" width="0.05" layer="39"/>
-<wire x1="-1.076" y1="-0.75" x2="-1.076" y2="0.75" width="0.05" layer="39"/>
-<text x="-2.5" y="1.25" size="1.27" layer="25" ratio="6">&gt;NAME</text>
-<text x="-2.5" y="-2.5" size="1.27" layer="27" ratio="6">&gt;VALUE</text>
-<polygon width="0.01" layer="1">
-<vertex x="-0.2794" y="0"/>
-<vertex x="0" y="-0.2794"/>
-<vertex x="0.2794" y="0"/>
-<vertex x="0" y="0.2794"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-0.2794" y="0"/>
-<vertex x="0" y="-0.2794"/>
-<vertex x="0.2794" y="0"/>
-<vertex x="0" y="0.2794"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-0.350109375" y="0"/>
-<vertex x="0" y="-0.350109375"/>
-<vertex x="0.350109375" y="0"/>
-<vertex x="0" y="0.350109375"/>
-</polygon>
-<smd name="1" x="-0.5207" y="0.3125" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-0.5207" y="-0.3125" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
-<smd name="3" x="0.5207" y="-0.3125" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
-<smd name="4" x="0.5207" y="0.3125" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
-<smd name="EP" x="0" y="0" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
-</package>
-</packages>
-<symbols>
-<symbol name="VREG_MIC5365-3.3YMT-TZ">
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.1524" layer="94"/>
-<pin name="VIN" x="-15.24" y="5.08" length="middle"/>
-<pin name="EN" x="-15.24" y="-5.08" length="middle"/>
-<pin name="VOUT" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="GND" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-12.7" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MIC5365-3.3YMT-TZ" prefix="U">
-<gates>
-<gate name="G$1" symbol="VREG_MIC5365-3.3YMT-TZ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="VREG_MIC5365-3.3YMT-TZ">
-<connects>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2 EP"/>
-<connect gate="G$1" pin="VIN" pad="4"/>
-<connect gate="G$1" pin="VOUT" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="CPDQT5V0HE-HF">
 <description>&lt;ESD Suppressors / TVS Diodes DIODE ESD 5VWM 65W 0402/SOD-923F&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -7138,6 +6979,85 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="TCR2LF33_LM_CT">
+<description>&lt;Linear Voltage Regulator IC Positive Fixed 1 Output 200mA SMV&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="TCR2LF33LMCT">
+<description>&lt;b&gt;TCR2LF33,LM(CT-2&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.95" y="-1.2" dx="1" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-1.2" dx="1" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.95" y="-1.2" dx="1" dy="0.8" layer="1" rot="R90"/>
+<smd name="4" x="0.95" y="1.2" dx="1" dy="0.8" layer="1" rot="R90"/>
+<smd name="5" x="-0.95" y="1.2" dx="1" dy="0.8" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.45" y1="-0.8" x2="1.45" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.45" y1="-0.8" x2="1.45" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.45" y1="0.8" x2="-1.45" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1.45" y1="0.8" x2="-1.45" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="2.7" x2="2.45" y2="2.7" width="0.1" layer="51"/>
+<wire x1="2.45" y1="2.7" x2="2.45" y2="-2.7" width="0.1" layer="51"/>
+<wire x1="2.45" y1="-2.7" x2="-2.45" y2="-2.7" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="-2.7" x2="-2.45" y2="2.7" width="0.1" layer="51"/>
+<wire x1="-1.45" y1="-0.4" x2="-1.45" y2="0.4" width="0.2" layer="21"/>
+<wire x1="1.45" y1="-0.4" x2="1.45" y2="0.4" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="0.8" x2="0.2" y2="0.8" width="0.2" layer="21"/>
+<wire x1="-1" y1="-2.1" x2="-1" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-1" y1="-2.1" x2="-1" y2="-2" width="0.2" layer="21" curve="180"/>
+<wire x1="-1" y1="-2" x2="-1" y2="-2" width="0.2" layer="21"/>
+<wire x1="-1" y1="-2" x2="-1" y2="-2.1" width="0.2" layer="21" curve="180"/>
+<wire x1="-1" y1="-2.1" x2="-1" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-1" y1="-2.1" x2="-1" y2="-2" width="0.2" layer="21" curve="180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TCR2LF33,LM_CT">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-7.62" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="VIN" x="0" y="0" length="middle"/>
+<pin name="GND" x="0" y="-2.54" length="middle"/>
+<pin name="CONTROL" x="0" y="-5.08" length="middle"/>
+<pin name="NC" x="33.02" y="-2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="VOUT" x="33.02" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TCR2LF33,LM_CT" prefix="IC">
+<description>&lt;b&gt;Linear Voltage Regulator IC Positive Fixed 1 Output 200mA SMV&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.es/datasheet/2/408/TCR2LF10_datasheet_en_20141106-760799.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TCR2LF33,LM_CT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TCR2LF33LMCT">
+<connects>
+<connect gate="G$1" pin="CONTROL" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 200mA SMV" constant="no"/>
+<attribute name="HEIGHT" value="1.4mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Toshiba" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TCR2LF33,LM(CT" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="757-TCR2LF33LMCT" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Toshiba/TCR2LF33LMCT?qs=lX6dEUlT%252BgfjY8NAoxAO5A%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7194,9 +7114,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="RAW5" library="supply" deviceset="RAW" device="" value="RAW"/>
 <part name="C7" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
-</part>
-<part name="U2" library="MIC5365-3.3YMT-TZ" deviceset="MIC5365-3.3YMT-TZ" device="">
-<attribute name="MPN" value="MIC5365-3.3YMT-TZ"/>
 </part>
 <part name="R5" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1K">
 <attribute name="MPN" value="CRCW04021K00FKEDC"/>
@@ -7338,6 +7255,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
 <part name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
 <part name="JP3" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
+<part name="IC3" library="TCR2LF33_LM_CT" deviceset="TCR2LF33,LM_CT" device="">
+<attribute name="MPN" value="TC7SZ07FU,LJ(CT"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -7408,11 +7328,6 @@ main 3.3V regulator is turned off.</text>
 <attribute name="NAME" x="26.416" y="75.819" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="26.416" y="80.899" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="27.94" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
-</instance>
-<instance part="U2" gate="G$1" x="53.34" y="96.52" smashed="yes">
-<attribute name="NAME" x="43.18" y="109.22" size="1.778" layer="95"/>
-<attribute name="VALUE" x="43.18" y="83.82" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MPN" x="53.34" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="162.56" y="119.38" smashed="yes" rot="R90">
 <attribute name="MPN" x="162.56" y="119.38" size="1.778" layer="96" rot="R90" display="off"/>
@@ -7645,6 +7560,11 @@ main 3.3V regulator is turned off.</text>
 <attribute name="NAME" x="302.26" y="91.44" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="302.26" y="86.36" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
+<instance part="IC3" gate="G$1" x="38.1" y="101.6" smashed="yes">
+<attribute name="NAME" x="67.31" y="109.22" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="67.31" y="106.68" size="1.778" layer="96" align="center-left"/>
+<attribute name="MPN" x="38.1" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7653,17 +7573,13 @@ main 3.3V regulator is turned off.</text>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="73.66" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="91.44" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="63.5" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="63.5" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
 <junction x="88.9" y="63.5"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<junction x="78.74" y="63.5"/>
-<pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="109.22" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="99.06" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
@@ -7684,6 +7600,10 @@ main 3.3V regulator is turned off.</text>
 <wire x1="17.78" y1="71.12" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <junction x="27.94" y="63.5"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
+<wire x1="38.1" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="99.06" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+<junction x="33.02" y="63.5"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -7760,19 +7680,19 @@ main 3.3V regulator is turned off.</text>
 <wire x1="17.78" y1="127" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 <junction x="17.78" y="101.6"/>
 <pinref part="RAW5" gate="G$1" pin="RAW"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="91.44" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<junction x="27.94" y="91.44"/>
-<pinref part="U2" gate="G$1" pin="VIN"/>
-<pinref part="U2" gate="G$1" pin="EN"/>
+<wire x1="27.94" y1="96.52" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
+<junction x="27.94" y="96.52"/>
 <pinref part="D7" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="81.28" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
 <junction x="17.78" y="101.6"/>
-<wire x1="27.94" y1="91.44" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="96.52" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <junction x="27.94" y="101.6"/>
+<pinref part="IC3" gate="G$1" pin="VIN"/>
+<pinref part="IC3" gate="G$1" pin="CONTROL"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -7788,13 +7708,13 @@ main 3.3V regulator is turned off.</text>
 </net>
 <net name="VDD" class="3">
 <segment>
-<wire x1="68.58" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="101.6" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<pinref part="U2" gate="G$1" pin="VOUT"/>
 <wire x1="88.9" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
 <junction x="88.9" y="101.6"/>
 <pinref part="U1" gate="G$1" pin="VDD"/>
+<pinref part="IC3" gate="G$1" pin="VOUT"/>
 </segment>
 </net>
 <net name="OUT" class="4">
