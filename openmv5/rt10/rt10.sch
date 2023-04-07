@@ -11832,7 +11832,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="CRCW04023K30FKEDC"/>
 </part>
 <part name="R9" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="C9" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
@@ -11846,10 +11846,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
 </part>
 <part name="R1" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1K">
-<attribute name="MPN" value="0402WGF1001TCE"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="R4" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1K">
-<attribute name="MPN" value="0402WGF1001TCE"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="IC1" library="LM66200DRLR" deviceset="LM66200DRLR" device="">
 <attribute name="MPN" value="LM66200DRLR"/>
@@ -11863,7 +11863,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
 </part>
 <part name="R5" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1K">
-<attribute name="MPN" value="0402WGF1001TCE"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="C2" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
@@ -12116,7 +12116,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND1" library="sfe" deviceset="GND" device=""/>
 <part name="R37" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="R29" library="sfe" deviceset="RESISTOR" device="0402-RES" value="100K">
 <attribute name="MPN" value="AC0402FR-07100KL"/>
@@ -12212,11 +12212,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 </part>
 <part name="P+10" library="SparkFun" deviceset="VCC" device=""/>
 <part name="R36" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1K">
-<attribute name="MPN" value="0402WGF1001TCE"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="P+11" library="SparkFun" deviceset="VCC" device=""/>
 <part name="R39" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1K">
-<attribute name="MPN" value="0402WGF1001TCE"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="FL2" library="EMIF06-1005M12" deviceset="EMIF06-1005M12" device="">
 <attribute name="MPN" value="EMIF06-1005M12"/>
@@ -12599,7 +12599,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="GRM033R60J224ME15D"/>
 </part>
 <part name="R33" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="C21" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
@@ -12758,7 +12758,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="AC0402FR-07100KL"/>
 </part>
 <part name="R26" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1K">
-<attribute name="MPN" value="0402WGF1001TCE"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="U1" library="MIC5365-3.3YMT-TZ" deviceset="MIC5365-3.3YMT-TZ" device="">
 <attribute name="MPN" value="MIC5365-3.3YMT-TZ"/>
