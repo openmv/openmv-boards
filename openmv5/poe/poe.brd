@@ -202,8 +202,6 @@
 <wire x1="0" y1="44.4" x2="0" y2="0" width="0" layer="20"/>
 <text x="22.4" y="20.4" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0">https://openmv.io</text>
 <text x="6.5" y="24.3" size="0.7874" layer="21" font="vector" ratio="20" distance="30">OpenMV</text>
-<text x="4.191" y="3.556" size="0.8128" layer="21" font="vector" ratio="22" rot="R90">P6</text>
-<text x="3.429" y="3.556" size="0.8128" layer="22" font="vector" ratio="22" rot="MR90">P6</text>
 <polygon width="0.3048" layer="41">
 <vertex x="7.2" y="37.2"/>
 <vertex x="28.4" y="37.2"/>

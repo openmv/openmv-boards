@@ -217,6 +217,8 @@ P11</text>
 <text x="5.8" y="2.9" size="0.8128" layer="22" font="vector" ratio="22" rot="MR90">RAW</text>
 <text x="27.1" y="15.9" size="0.8128" layer="22" font="vector" ratio="22" rot="MR0">WAKE
 P9</text>
+<text x="32.4" y="8.8" size="0.8128" layer="22" font="vector" ratio="22" rot="MR270">IR</text>
+<text x="32.4" y="7" size="0.8128" layer="22" font="vector" ratio="22" rot="MR270">WHITE</text>
 </plain>
 <libraries>
 <library name="openmv">
