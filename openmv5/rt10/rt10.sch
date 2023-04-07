@@ -11829,10 +11829,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="WR04X4642FTL"/>
 </part>
 <part name="R10" library="sfe" deviceset="RESISTOR" device="0402-RES" value="3.3K">
-<attribute name="MPN" value="0402WGJ0332TCE"/>
+<attribute name="MPN" value="CRCW04023K30FKEDC"/>
 </part>
 <part name="R9" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="AC0402FR-1310KL"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="C9" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
@@ -12116,7 +12116,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND1" library="sfe" deviceset="GND" device=""/>
 <part name="R37" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="AC0402FR-1310KL"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="R29" library="sfe" deviceset="RESISTOR" device="0402-RES" value="100K">
 <attribute name="MPN" value="AC0402FR-07100KL"/>
@@ -12599,7 +12599,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="GRM033R60J224ME15D"/>
 </part>
 <part name="R33" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="AC0402FR-1310KL"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="C21" library="sfe" deviceset="CAP" device="0402-CAP" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
@@ -12796,10 +12796,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <attribute name="MPN" value="PMXB120EPEZ"/>
 </part>
 <part name="R41" library="sfe" deviceset="RESISTOR" device="0402-RES" value="1M">
-<attribute name="MPN" value="0402WGF1004TCE"/>
+<attribute name="MPN" value="CRCW04021M00FKEDC"/>
 </part>
 <part name="C110" library="sfe" deviceset="CAP" device="0402-CAP" value="1nF">
-<attribute name="MPN" value="C0402C102K5RAC"/>
+<attribute name="MPN" value="VJ0402Y102JXACW1BC"/>
 </part>
 <part name="L1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0603-33NH" package3d_urn="urn:adsk.eagle:package:37574/1" value="100">
 <attribute name="MPN" value="MFBM1V1608-101-R"/>

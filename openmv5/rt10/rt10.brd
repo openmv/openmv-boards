@@ -6255,12 +6255,12 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <attribute name="VALUE" x="8.6795" y="1.257" size="0.4064" layer="28" rot="MR0"/>
 </element>
 <element name="R10" library="sfe" package="0402-RES" value="3.3K" x="7.6" y="1.2" smashed="yes" rot="MR0">
-<attribute name="MPN" value="0402WGJ0332TCE" x="7.6" y="1.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CRCW04023K30FKEDC" x="7.6" y="1.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="8.489" y="1.8985" size="0.4064" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="8.6795" y="0.057" size="0.4064" layer="28" rot="MR0"/>
 </element>
 <element name="R9" library="sfe" package="0402-RES" value="10K" x="7.6" y="4.8" smashed="yes" rot="MR0">
-<attribute name="MPN" value="AC0402FR-1310KL" x="7.6" y="4.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC" x="7.6" y="4.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="8.489" y="5.4985" size="0.4064" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="8.6795" y="3.657" size="0.4064" layer="28" rot="MR0"/>
 </element>
@@ -6696,7 +6696,7 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <attribute name="VALUE" x="23.9" y="19.3" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="R37" library="sfe" package="0402-RES" value="10K" x="8.1" y="34.8" smashed="yes" rot="MR180">
-<attribute name="MPN" value="AC0402FR-1310KL" x="8.1" y="34.8" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC" x="8.1" y="34.8" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="7.211" y="34.1015" size="0.4064" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="7.0205" y="35.943" size="0.4064" layer="28" rot="MR180"/>
 </element>
@@ -7278,7 +7278,7 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <attribute name="VALUE" x="19.865" y="33.405" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R33" library="sfe" package="0402-RES" value="10K" x="23" y="25" smashed="yes" rot="R180">
-<attribute name="MPN" value="AC0402FR-1310KL" x="23" y="25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC" x="23" y="25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="23.889" y="24.3015" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="24.0795" y="26.143" size="0.4064" layer="27" rot="R180"/>
 </element>
@@ -7589,12 +7589,12 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <attribute name="VALUE" x="23.6" y="1.1" size="1.27" layer="28" rot="MR0" align="center"/>
 </element>
 <element name="R41" library="sfe" package="0402-RES" value="1M" x="30.5" y="9.1" smashed="yes" rot="MR180">
-<attribute name="MPN" value="0402WGF1004TCE" x="30.5" y="9.1" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="CRCW04021M00FKEDC" x="30.5" y="9.1" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="29.611" y="8.4015" size="0.4064" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="29.4205" y="10.243" size="0.4064" layer="28" rot="MR180"/>
 </element>
 <element name="C110" library="sfe" package="0402-CAP" value="1nF" x="29.9" y="10.3" smashed="yes" rot="MR0">
-<attribute name="MPN" value="C0402C102K5RAC" x="29.9" y="10.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="VJ0402Y102JXACW1BC" x="29.9" y="10.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="30.789" y="10.9985" size="0.4064" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="30.9795" y="9.157" size="0.4064" layer="28" rot="MR0"/>
 </element>
