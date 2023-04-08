@@ -4716,7 +4716,7 @@ FIDUCIAL</description>
 <attribute name="VALUE" x="30.325" y="1.6" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="31" y="17" smashed="yes" rot="R90">
-<attribute name="MPN" value="0603WAJ0471T5E" x="31" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CR0603-FX-4700ELF" x="31" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="30.365" y="16.365" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="77" x="31" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="31" y="17" size="1.778" layer="27" rot="R90" display="off"/>

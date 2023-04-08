@@ -9813,7 +9813,7 @@ FIDUCIAL</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MPN" value="0603WAJ0471T5E"/>
+<attribute name="MPN" value="CR0603-FX-4700ELF"/>
 </part>
 <part name="D1" library="SMAJ58A-13-F" deviceset="SMAJ58A-13-F" device="">
 <attribute name="MPN" value="SMAJ58A/TR13"/>
