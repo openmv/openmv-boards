@@ -4891,7 +4891,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="28.7" y="10.1" size="1.27" layer="28" rot="MR0" align="center"/>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="30.6" y="11" smashed="yes" rot="MR90">
-<attribute name="MPN" value="0603WAJ0471T5E" x="30.6" y="11" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CR0603-FX-4700ELF" x="30.6" y="11" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="31.235" y="10.365" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="77" x="30.6" y="11" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="30.6" y="11" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5353,7 +5353,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="28.6" y="16.3" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="31.6" y="13.6" smashed="yes" rot="R270">
-<attribute name="MPN" value="0603WAJ0471T5E" x="31.6" y="13.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CR0603-FX-4700ELF" x="31.6" y="13.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="32.235" y="14.235" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="77" x="31.6" y="13.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="31.6" y="13.6" size="1.778" layer="27" rot="R270" display="off"/>

@@ -11494,7 +11494,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MM3Z2V4T1-D.PDF"&gt; Da
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MPN" value="0603WAJ0471T5E"/>
+<attribute name="MPN" value="CR0603-FX-4700ELF"/>
 </part>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="IC2" library="AP64060WU-7" deviceset="AP64060WU-7" device="">
@@ -11710,7 +11710,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MM3Z2V4T1-D.PDF"&gt; Da
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MPN" value="0603WAJ0471T5E"/>
+<attribute name="MPN" value="CR0603-FX-4700ELF"/>
 </part>
 <part name="GND7" library="sfe" deviceset="GND" device=""/>
 <part name="Z2" library="MM3Z3V6T1G" deviceset="MM3Z3V6T1G" device="">
