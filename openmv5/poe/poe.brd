@@ -4771,7 +4771,7 @@ FIDUCIAL</description>
 <polygon width="0.3048" layer="1" isolate="0.1524" rank="2">
 <vertex x="0.1" y="0.1"/>
 <vertex x="35.5" y="0.1"/>
-<vertex x="35.5" y="44.3" curve="1.012964"/>
+<vertex x="35.5" y="44.3"/>
 <vertex x="0.1" y="44.3"/>
 </polygon>
 <contactref element="J2" pad="24"/>
