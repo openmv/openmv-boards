@@ -9984,22 +9984,22 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1812" package3d_urn="urn:adsk.eagle:package:23622/2" value="4.7nF">
 <attribute name="MPN" value="202S43W472KV4E"/>
 </part>
-<part name="L6" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
+<part name="L6" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0805-3.3UH" package3d_urn="urn:adsk.eagle:package:37579/1" value="1K">
 <attribute name="MPN" value="BBPY00100505102Y00"/>
 </part>
-<part name="L4" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
+<part name="L4" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0805-3.3UH" package3d_urn="urn:adsk.eagle:package:37579/1" value="1K">
 <attribute name="MPN" value="BBPY00100505102Y00"/>
 </part>
-<part name="L2" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
+<part name="L2" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0805-3.3UH" package3d_urn="urn:adsk.eagle:package:37579/1" value="1K">
 <attribute name="MPN" value="BBPY00100505102Y00"/>
 </part>
-<part name="L5" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
+<part name="L5" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0805-3.3UH" package3d_urn="urn:adsk.eagle:package:37579/1" value="1K">
 <attribute name="MPN" value="BBPY00100505102Y00"/>
 </part>
-<part name="L3" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
+<part name="L3" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0805-3.3UH" package3d_urn="urn:adsk.eagle:package:37579/1" value="1K">
 <attribute name="MPN" value="BBPY00100505102Y00"/>
 </part>
-<part name="L1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0402-3.9NH" package3d_urn="urn:adsk.eagle:package:37575/1" value="1k">
+<part name="L1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0805-3.3UH" package3d_urn="urn:adsk.eagle:package:37579/1" value="1K">
 <attribute name="MPN" value="BBPY00100505102Y00"/>
 </part>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
