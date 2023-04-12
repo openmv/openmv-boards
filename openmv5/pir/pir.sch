@@ -7413,7 +7413,7 @@ Source: &lt;a href="https://www.mouser.es/datasheet/2/408/TCR2LF10_datasheet_en_
 <part name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
 <part name="JP3" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
 <part name="IC3" library="TCR2LF33_LM_CT" deviceset="TCR2LF33,LM_CT" device="">
-<attribute name="MPN" value="TC7SZ07FU,LJ(CT"/>
+<attribute name="MPN" value="TCR2LF33,LM(CT"/>
 </part>
 <part name="JP4" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 </parts>

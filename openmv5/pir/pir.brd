@@ -4809,7 +4809,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MANUFACTURER_PART_NUMBER" value="TCR2LF33,LM(CT" x="14.8" y="16.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="757-TCR2LF33LMCT" x="14.8" y="16.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Toshiba/TCR2LF33LMCT?qs=lX6dEUlT%252BgfjY8NAoxAO5A%3D%3D" x="14.8" y="16.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="TC7SZ07FU,LJ(CT" x="14.8" y="16.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="TCR2LF33,LM(CT" x="14.8" y="16.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="14.8" y="16.2" size="1.27" layer="26" rot="MR90" align="center"/>
 <attribute name="VALUE" x="14.8" y="16.2" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
