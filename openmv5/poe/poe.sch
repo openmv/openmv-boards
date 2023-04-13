@@ -8717,73 +8717,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/MB6S-TP.pdf"&
 </deviceset>
 </devicesets>
 </library>
-<library name="NR6045T1R8N">
-<description>&lt;Inductor Power Shielded Wirewound 1.8uH 30% 100KHz Ferrite 3.7A 0.0234Ohm DCR 2424 T/R&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="NR6045T1R8N">
-<description>&lt;b&gt;NR6045T1R8N-5&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.35" y="0" dx="5.7" dy="1.6" layer="1" rot="R90"/>
-<smd name="2" x="2.35" y="0" dx="5.7" dy="1.6" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.1" layer="51"/>
-<wire x1="3" y1="-3" x2="3" y2="3" width="0.1" layer="51"/>
-<wire x1="3" y1="3" x2="-3" y2="3" width="0.1" layer="51"/>
-<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.1" layer="51"/>
-<wire x1="-4.15" y1="4" x2="4.15" y2="4" width="0.1" layer="51"/>
-<wire x1="4.15" y1="4" x2="4.15" y2="-4" width="0.1" layer="51"/>
-<wire x1="4.15" y1="-4" x2="-4.15" y2="-4" width="0.1" layer="51"/>
-<wire x1="-4.15" y1="-4" x2="-4.15" y2="4" width="0.1" layer="51"/>
-<wire x1="-1.2" y1="-3" x2="1.4" y2="-3" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="3" x2="1.4" y2="3" width="0.2" layer="21"/>
-<wire x1="-3.8" y1="0" x2="-3.8" y2="0" width="0.1" layer="21"/>
-<wire x1="-3.8" y1="0" x2="-3.7" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-3.7" y1="0" x2="-3.7" y2="0" width="0.1" layer="21"/>
-<wire x1="-3.7" y1="0" x2="-3.8" y2="0" width="0.1" layer="21" curve="180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="NR6045T1R8N">
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="NR6045T1R8N" prefix="L">
-<description>&lt;b&gt;Inductor Power Shielded Wirewound 1.8uH 30% 100KHz Ferrite 3.7A 0.0234Ohm DCR 2424 T/R&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.mouser.in/datasheet/2/396/wound04_e-1290968.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="NR6045T1R8N" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="NR6045T1R8N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Inductor Power Shielded Wirewound 1.8uH 30% 100KHz Ferrite 3.7A 0.0234Ohm DCR 2424 T/R" constant="no"/>
-<attribute name="HEIGHT" value="4.5mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TAIYO YUDEN" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NR6045T1R8N" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="963-NR6045T1R8N" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/NR6045T1R8N?qs=PzICbMaShUeSTOagIkrBuw%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="FM240A">
 <description>&lt;Diodes - General Purpose, Power, Switching GP Si Rectifier SMB,2A,40V&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -9817,6 +9750,68 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </deviceset>
 </devicesets>
 </library>
+<library name="VLCF4020T-1R8N1R9">
+<description>&lt;SMD / SMT Inductors (Coils), L=1.8?H, L x W x T :&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="VLCF4020">
+<description>&lt;b&gt;VLCF4020&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.45" y="0" dx="3.9" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="1.45" y="0" dx="3.9" dy="1.6" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.2" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.2" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.2" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.2" layer="51"/>
+<circle x="-2.8" y="0" radius="0.05" width="0.2" layer="25"/>
+<wire x1="-3.4" y1="2.7" x2="2.75" y2="2.7" width="0.05" layer="51"/>
+<wire x1="2.75" y1="2.7" x2="2.75" y2="-2.7" width="0.05" layer="51"/>
+<wire x1="2.75" y1="-2.7" x2="-3.4" y2="-2.7" width="0.05" layer="51"/>
+<wire x1="-3.4" y1="-2.7" x2="-3.4" y2="2.7" width="0.05" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="VLCF4020T-1R8N1R9">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VLCF4020T-1R8N1R9" prefix="L">
+<description>&lt;b&gt;SMD / SMT Inductors (Coils), L=1.8?H, L x W x T :&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vlcf4020_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="VLCF4020T-1R8N1R9" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VLCF4020">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="SMD / SMT Inductors (Coils), L=1.8?H, L x W x T :" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="VLCF4020T-1R8N1R9" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-VLCF4020T1R8N1R9" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/VLCF4020T-1R8N1R9?qs=O2qRfqcg9D%252BMbH%252Bsw6oYvw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9888,8 +9883,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <attribute name="MPN" value="CL31A107MQHNNWE"/>
 </part>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="L7" library="NR6045T1R8N" deviceset="NR6045T1R8N" device="">
-<attribute name="MPN" value="NR6045T1R8N"/>
+<part name="L7" library="VLCF4020T-1R8N1R9" deviceset="VLCF4020T-1R8N1R9" device="">
+<attribute name="MPN" value="VLCF4020T-1R8N1R9"/>
 </part>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF">
 <attribute name="MPN" value="GRM155R60J106ME05D"/>

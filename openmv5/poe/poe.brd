@@ -4026,34 +4026,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
-<library name="NR6045T1R8N">
-<description>&lt;Inductor Power Shielded Wirewound 1.8uH 30% 100KHz Ferrite 3.7A 0.0234Ohm DCR 2424 T/R&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="NR6045T1R8N">
-<description>&lt;b&gt;NR6045T1R8N-5&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.35" y="0" dx="5.7" dy="1.6" layer="1" rot="R90"/>
-<smd name="2" x="2.35" y="0" dx="5.7" dy="1.6" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.1" layer="51"/>
-<wire x1="3" y1="-3" x2="3" y2="3" width="0.1" layer="51"/>
-<wire x1="3" y1="3" x2="-3" y2="3" width="0.1" layer="51"/>
-<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.1" layer="51"/>
-<wire x1="-4.15" y1="4" x2="4.15" y2="4" width="0.1" layer="51"/>
-<wire x1="4.15" y1="4" x2="4.15" y2="-4" width="0.1" layer="51"/>
-<wire x1="4.15" y1="-4" x2="-4.15" y2="-4" width="0.1" layer="51"/>
-<wire x1="-4.15" y1="-4" x2="-4.15" y2="4" width="0.1" layer="51"/>
-<wire x1="-1.2" y1="-3" x2="1.4" y2="-3" width="0.2" layer="21"/>
-<wire x1="-1.4" y1="3" x2="1.4" y2="3" width="0.2" layer="21"/>
-<wire x1="-3.8" y1="0" x2="-3.8" y2="0" width="0.1" layer="21"/>
-<wire x1="-3.8" y1="0" x2="-3.7" y2="0" width="0.1" layer="21" curve="180"/>
-<wire x1="-3.7" y1="0" x2="-3.7" y2="0" width="0.1" layer="21"/>
-<wire x1="-3.7" y1="0" x2="-3.8" y2="0" width="0.1" layer="21" curve="180"/>
-</package>
-</packages>
-</library>
 <library name="FM240A">
 <description>&lt;Diodes - General Purpose, Power, Switching GP Si Rectifier SMB,2A,40V&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -4253,6 +4225,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </packageinstances>
 </package3d>
 </packages3d>
+</library>
+<library name="VLCF4020T-1R8N1R9">
+<description>&lt;SMD / SMT Inductors (Coils), L=1.8?H, L x W x T :&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="VLCF4020">
+<description>&lt;b&gt;VLCF4020&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.45" y="0" dx="3.9" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="1.45" y="0" dx="3.9" dy="1.6" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.2" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.2" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.2" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.2" layer="51"/>
+<circle x="-2.8" y="0" radius="0.05" width="0.2" layer="25"/>
+<wire x1="-3.4" y1="2.7" x2="2.75" y2="2.7" width="0.05" layer="51"/>
+<wire x1="2.75" y1="2.7" x2="2.75" y2="-2.7" width="0.05" layer="51"/>
+<wire x1="2.75" y1="-2.7" x2="-3.4" y2="-2.7" width="0.05" layer="51"/>
+<wire x1="-3.4" y1="-2.7" x2="-3.4" y2="2.7" width="0.05" layer="51"/>
+</package>
+</packages>
 </library>
 </libraries>
 <attributes>
@@ -4542,30 +4537,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="SPICEPREFIX" value="C" x="25.9" y="39.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="24.63" y="42.04" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="L7" library="NR6045T1R8N" package="NR6045T1R8N" value="NR6045T1R8N" x="19.9" y="40.1" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Inductor Power Shielded Wirewound 1.8uH 30% 100KHz Ferrite 3.7A 0.0234Ohm DCR 2424 T/R" x="19.9" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="4.5mm" x="19.9" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TAIYO YUDEN" x="19.9" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="NR6045T1R8N" x="19.9" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="963-NR6045T1R8N" x="19.9" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/NR6045T1R8N?qs=PzICbMaShUeSTOagIkrBuw%3D%3D" x="19.9" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="NR6045T1R8N" x="19.9" y="40.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="19.9" y="40.1" size="1.27" layer="26" rot="MR0" align="center"/>
-<attribute name="VALUE" x="19.9" y="40.1" size="1.27" layer="28" rot="MR0" align="center"/>
+<element name="L7" library="VLCF4020T-1R8N1R9" package="VLCF4020" value="VLCF4020T-1R8N1R9" x="19.1" y="40.3" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="SMD / SMT Inductors (Coils), L=1.8?H, L x W x T :" x="19.1" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="mm" x="19.1" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="19.1" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="VLCF4020T-1R8N1R9" x="19.1" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-VLCF4020T1R8N1R9" x="19.1" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK/VLCF4020T-1R8N1R9?qs=O2qRfqcg9D%252BMbH%252Bsw6oYvw%3D%3D" x="19.1" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="VLCF4020T-1R8N1R9" x="19.1" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="19.1" y="40.3" size="1.27" layer="26" rot="MR0" align="center"/>
+<attribute name="VALUE" x="19.1" y="40.3" size="1.27" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF" x="24.7" y="37.9" smashed="yes" rot="MR180">
-<attribute name="MPN" value="GRM155R60J106ME05D" x="24.7" y="37.9" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="24.065" y="37.265" size="1.27" layer="26" rot="MR180"/>
-<attribute name="POPULARITY" value="18" x="24.7" y="37.9" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="24.7" y="37.9" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="24.065" y="39.805" size="1.27" layer="28" rot="MR180"/>
+<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF" x="24.1" y="37.9" smashed="yes" rot="MR180">
+<attribute name="MPN" value="GRM155R60J106ME05D" x="24.1" y="37.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="23.465" y="37.265" size="1.27" layer="26" rot="MR180"/>
+<attribute name="POPULARITY" value="18" x="24.1" y="37.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="24.1" y="37.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="23.465" y="39.805" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF" x="15.1" y="37.7" smashed="yes" rot="MR0">
-<attribute name="MPN" value="GRM155R60J106ME05D" x="15.1" y="37.7" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="15.735" y="38.335" size="1.27" layer="26" rot="MR0"/>
-<attribute name="POPULARITY" value="18" x="15.1" y="37.7" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="15.1" y="37.7" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="15.735" y="35.795" size="1.27" layer="28" rot="MR0"/>
+<element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF" x="14.7" y="37.7" smashed="yes" rot="MR0">
+<attribute name="MPN" value="GRM155R60J106ME05D" x="14.7" y="37.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="15.335" y="38.335" size="1.27" layer="26" rot="MR0"/>
+<attribute name="POPULARITY" value="18" x="14.7" y="37.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="14.7" y="37.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="15.335" y="35.795" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="100" x="3" y="34.6" smashed="yes" rot="R270">
 <attribute name="MPN" value="RC2512JK-07100RL" x="3" y="34.6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4805,7 +4800,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="R8" pad="1"/>
 <contactref element="R9" pad="1"/>
 <wire x1="27.3" y1="39.5" x2="27.3" y2="37.9" width="0.6096" layer="16"/>
-<wire x1="27.3" y1="37.9" x2="25.35" y2="37.9" width="0.6096" layer="16"/>
+<wire x1="27.3" y1="37.9" x2="24.75" y2="37.9" width="0.6096" layer="16"/>
 <wire x1="3" y1="37.4" x2="1.8" y2="37.4" width="0.6096" layer="1"/>
 <wire x1="1.8" y1="37.4" x2="1.8" y2="34.6" width="0.6096" layer="1"/>
 <via x="1.8" y="34.6" extent="1-16" drill="0.6096"/>
@@ -4821,14 +4816,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="IC1" pad="4"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C2" pad="2"/>
-<wire x1="26.1" y1="36.25" x2="25.35" y2="36.25" width="0.6096" layer="16"/>
-<wire x1="25.35" y1="36.25" x2="25.35" y2="37.9" width="0.6096" layer="16"/>
+<wire x1="26.1" y1="36.25" x2="24.75" y2="36.25" width="0.6096" layer="16"/>
+<wire x1="24.75" y1="36.25" x2="24.75" y2="37.9" width="0.6096" layer="16"/>
 <wire x1="8.45" y1="41.7" x2="10.99" y2="41.7" width="1.016" layer="16"/>
-<wire x1="10.99" y1="41.7" x2="14.45" y2="41.7" width="0.6096" layer="16"/>
-<wire x1="14.45" y1="41.7" x2="14.45" y2="37.7" width="0.6096" layer="16"/>
-<wire x1="9.5" y1="36.25" x2="14.45" y2="36.25" width="0.6096" layer="16"/>
-<wire x1="14.45" y1="36.25" x2="14.45" y2="37.7" width="0.6096" layer="16"/>
-<wire x1="26.1" y1="36.25" x2="14.45" y2="36.25" width="0.6096" layer="16"/>
+<wire x1="10.99" y1="41.7" x2="14.05" y2="41.7" width="0.6096" layer="16"/>
+<wire x1="14.05" y1="41.7" x2="14.05" y2="37.7" width="0.6096" layer="16"/>
+<wire x1="9.5" y1="36.25" x2="14.05" y2="36.25" width="0.6096" layer="16"/>
+<wire x1="14.05" y1="36.25" x2="14.05" y2="37.7" width="0.6096" layer="16"/>
+<wire x1="26.1" y1="36.25" x2="14.05" y2="36.25" width="0.6096" layer="16"/>
 <wire x1="9.5" y1="36.25" x2="5.1" y2="36.25" width="0.6096" layer="16"/>
 <wire x1="5.1" y1="36.25" x2="3.45" y2="36.25" width="0.6096" layer="16"/>
 <wire x1="3.45" y1="36.25" x2="1.8" y2="34.6" width="0.6096" layer="16"/>
@@ -4942,15 +4937,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="R7" pad="2"/>
 <contactref element="R8" pad="2"/>
 <contactref element="R9" pad="2"/>
-<wire x1="17.55" y1="40.1" x2="17.55" y2="37.7" width="0.6096" layer="16"/>
-<wire x1="17.55" y1="37.7" x2="15.75" y2="37.7" width="0.6096" layer="16"/>
+<wire x1="17.65" y1="40.3" x2="17.65" y2="39.2" width="0.6096" layer="16"/>
+<wire x1="17.65" y1="39.2" x2="17.65" y2="37.7" width="0.6096" layer="16"/>
+<wire x1="17.65" y1="37.7" x2="15.35" y2="37.7" width="0.6096" layer="16"/>
 <wire x1="3" y1="31.8" x2="1.8" y2="31.8" width="0.6096" layer="1"/>
 <wire x1="1.8" y1="31.8" x2="1.8" y2="30.2" width="0.6096" layer="1"/>
 <wire x1="1.8" y1="30.2" x2="1.8" y2="28.6" width="0.6096" layer="1"/>
 <wire x1="1.8" y1="28.6" x2="3" y2="28.6" width="0.6096" layer="1"/>
 <via x="1.8" y="30.2" extent="1-16" drill="0.6096"/>
-<wire x1="17.55" y1="40.1" x2="17.55" y2="39" width="0.6096" layer="16"/>
-<wire x1="17.55" y1="39" x2="16.2" y2="39" width="0.6096" layer="16"/>
+<wire x1="17.65" y1="40.3" x2="17.65" y2="39.504165625" width="0.6096" layer="16"/>
+<wire x1="17.65" y1="39.504165625" x2="17.2375" y2="39" width="0.6096" layer="16"/>
+<wire x1="17.2375" y1="39" x2="16.2" y2="39" width="0.6096" layer="16"/>
 <via x="16.2" y="39" extent="1-16" drill="0.6096"/>
 <wire x1="32.6" y1="28.6" x2="33.8" y2="28.6" width="0.6096" layer="1"/>
 <wire x1="33.8" y1="30.2" x2="33.8" y2="28.6" width="0.6096" layer="1"/>
@@ -4978,6 +4975,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="19" y1="39" x2="16.2" y2="39" width="0.6096" layer="1"/>
 <wire x1="30" y1="38" x2="30" y2="33.6" width="0.6096" layer="1"/>
 <via x="19" y="39" extent="1-16" drill="0.6096"/>
+<wire x1="19" y1="39" x2="17.85" y2="39" width="0.6096" layer="16"/>
+<wire x1="17.85" y1="39" x2="17.65" y2="39.2" width="0.6096" layer="16"/>
 </signal>
 <signal name="TX_P" class="4">
 <contactref element="J1" pad="1"/>
@@ -5183,14 +5182,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="C6" pad="1"/>
 <contactref element="C7" pad="1"/>
 <contactref element="L7" pad="1"/>
-<wire x1="22.25" y1="39.6" x2="22.25" y2="40.1" width="0.6096" layer="16"/>
+<wire x1="21" y1="40.049996875" x2="20.55" y2="40.3" width="0.6096" layer="16"/>
 <wire x1="27.1" y1="41.7" x2="24.56" y2="41.7" width="1.016" layer="16"/>
-<wire x1="24.56" y1="41.7" x2="22.25" y2="41.7" width="1.016" layer="16"/>
-<wire x1="22.25" y1="41.7" x2="22.25" y2="40.1" width="1.016" layer="16"/>
-<wire x1="24.05" y1="37.9" x2="22.3" y2="37.9" width="0.6096" layer="16"/>
-<wire x1="22.3" y1="37.9" x2="22" y2="37.6" width="0.6096" layer="16"/>
-<wire x1="22" y1="37.6" x2="22" y2="39.35" width="0.6096" layer="16"/>
-<wire x1="22" y1="39.35" x2="22.25" y2="39.6" width="0.6096" layer="16"/>
+<wire x1="24.56" y1="41.7" x2="20.55" y2="41.7" width="1.016" layer="16"/>
+<wire x1="20.55" y1="41.7" x2="20.55" y2="40.3" width="1.016" layer="16"/>
+<wire x1="23.45" y1="37.9" x2="21" y2="37.9" width="0.6096" layer="16"/>
+<wire x1="21" y1="37.9" x2="21" y2="40.049996875" width="0.6096" layer="16"/>
 <wire x1="24.56" y1="41.7" x2="24.56" y2="39.56" width="1.016" layer="16"/>
 <wire x1="24.56" y1="39.56" x2="24.5" y2="39.5" width="1.016" layer="16"/>
 </signal>
