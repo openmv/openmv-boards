@@ -4525,7 +4525,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="21.857" y="0.5205" size="0.4064" layer="28" rot="MR90"/>
 </element>
 <element name="C3" library="sfe" package="0402-CAP" value="1uF" x="24.2" y="1.6" smashed="yes" rot="MR90">
-<attribute name="MPN" value="GRM155R61H105KE05D" x="24.2" y="1.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="GRM155R6YA105KE11D" x="24.2" y="1.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="24.8985" y="0.711" size="0.4064" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="23.057" y="0.5205" size="0.4064" layer="28" rot="MR90"/>
 </element>
@@ -4691,7 +4691,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="12.657" y="0.5205" size="0.4064" layer="28" rot="MR90"/>
 </element>
 <element name="C6" library="sfe" package="0402-CAP" value="1uF" x="15" y="1.6" smashed="yes" rot="MR90">
-<attribute name="MPN" value="GRM155R61H105KE05D" x="46.2" y="-40.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="GRM155R6YA105KE11D" x="46.2" y="-40.8" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="15.6985" y="0.711" size="0.4064" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="13.857" y="0.5205" size="0.4064" layer="28" rot="MR90"/>
 </element>

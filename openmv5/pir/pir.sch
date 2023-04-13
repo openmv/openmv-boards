@@ -7307,7 +7307,7 @@ Source: &lt;a href="https://www.mouser.es/datasheet/2/408/TCR2LF10_datasheet_en_
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
 </part>
 <part name="C3" library="sfe" deviceset="CAP" device="0402-CAP" value="1uF">
-<attribute name="MPN" value="GRM155R61H105KE05D"/>
+<attribute name="MPN" value="GRM155R6YA105KE11D"/>
 </part>
 <part name="GND1" library="sfe" deviceset="GND" device=""/>
 <part name="RAW2" library="supply" deviceset="RAW" device="" value="RAW"/>
@@ -7372,7 +7372,7 @@ Source: &lt;a href="https://www.mouser.es/datasheet/2/408/TCR2LF10_datasheet_en_
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
 </part>
 <part name="C6" library="sfe" deviceset="CAP" device="0402-CAP" value="1uF">
-<attribute name="MPN" value="GRM155R61H105KE05D"/>
+<attribute name="MPN" value="GRM155R6YA105KE11D"/>
 </part>
 <part name="GND3" library="sfe" deviceset="GND" device=""/>
 <part name="P+1" library="mux" deviceset="VCC" device=""/>
