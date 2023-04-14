@@ -9939,7 +9939,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MPN" value="0402WGF750JTCE"/>
+<attribute name="MPN" value="CR0402-FX-75R0GLF"/>
 </part>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75">
 <spice>
@@ -9948,7 +9948,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MPN" value="0402WGF750JTCE"/>
+<attribute name="MPN" value="CR0402-FX-75R0GLF"/>
 </part>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75">
 <spice>
@@ -9957,7 +9957,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MPN" value="0402WGF750JTCE"/>
+<attribute name="MPN" value="CR0402-FX-75R0GLF"/>
 </part>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75">
 <spice>
@@ -9966,7 +9966,7 @@ Source: &lt;a href="https://product.tdk.com/system/files/dam/doc/product/inducto
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MPN" value="0402WGF750JTCE"/>
+<attribute name="MPN" value="CR0402-FX-75R0GLF"/>
 </part>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1nF">
 <attribute name="MPN" value="1206B102K252CT"/>
