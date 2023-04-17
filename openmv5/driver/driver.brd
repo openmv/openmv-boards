@@ -226,14 +226,16 @@ P11</text>
 <text x="13.6" y="24" size="0.8128" layer="21" font="vector" ratio="20">AIN - 0 to 5V or 4-20mA</text>
 <text x="13.6" y="22.8" size="0.8128" layer="21" font="vector" ratio="20">SYN - 0 to 5V I/O</text>
 <text x="9.8" y="22.7" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0">P8</text>
-<text x="12.1" y="22.7" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0">P1</text>
+<text x="12.1" y="22.7" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0">P2</text>
 <text x="19.4" y="22.7" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0">P7</text>
 <text x="21.7" y="22.7" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0">P0</text>
-<text x="13.5" y="22.2" size="0.8128" layer="22" font="vector" ratio="20" rot="MR180">MOD</text>
-<text x="23.1" y="22.2" size="0.8128" layer="22" font="vector" ratio="20" rot="MR180">MOD</text>
-<text x="9.4" y="24.4" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">P2</text>
+<text x="14.8" y="22.1" size="0.8128" layer="22" font="vector" ratio="20" rot="MR180">L</text>
+<text x="9.4" y="24.4" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">P1</text>
 <text x="13.6" y="21.2" size="0.8128" layer="21" font="vector" ratio="22">+</text>
 <text x="23.2" y="21.2" size="0.8128" layer="21" font="vector" ratio="22">+</text>
+<text x="14.8" y="17.7" size="0.8128" layer="22" font="vector" ratio="20" rot="MR180">H</text>
+<text x="24.4" y="17.7" size="0.8128" layer="22" font="vector" ratio="20" rot="MR180">H</text>
+<text x="24.4" y="22.1" size="0.8128" layer="22" font="vector" ratio="20" rot="MR180">L</text>
 </plain>
 <libraries>
 <library name="openmv">
@@ -4326,32 +4328,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="EEV226M050S9GAA">
-<description>&lt;EEV, Aluminum, Aluminum Electrolytic, 22 uF, 20%, 50 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 12 % , 2 Ohms, 0.049, 11 uA, 2, 3, 6.3mm, 5.4mm, 1000&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="CAPAE660X565N">
-<description>&lt;b&gt;6.3x5.4&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.95" y="0" dx="3.45" dy="1.8" layer="1"/>
-<smd name="2" x="2.95" y="0" dx="3.45" dy="1.8" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-5.175" y1="3.9" x2="5.175" y2="3.9" width="0.05" layer="51"/>
-<wire x1="5.175" y1="3.9" x2="5.175" y2="-3.9" width="0.05" layer="51"/>
-<wire x1="5.175" y1="-3.9" x2="-5.175" y2="-3.9" width="0.05" layer="51"/>
-<wire x1="-5.175" y1="-3.9" x2="-5.175" y2="3.9" width="0.05" layer="51"/>
-<wire x1="3.3" y1="3.3" x2="-1.65" y2="3.3" width="0.1" layer="51"/>
-<wire x1="-1.65" y1="3.3" x2="-3.3" y2="1.65" width="0.1" layer="51"/>
-<wire x1="-3.3" y1="1.65" x2="-3.3" y2="-1.65" width="0.1" layer="51"/>
-<wire x1="-3.3" y1="-1.65" x2="-1.65" y2="-3.3" width="0.1" layer="51"/>
-<wire x1="-1.65" y1="-3.3" x2="3.3" y2="-3.3" width="0.1" layer="51"/>
-<wire x1="3.3" y1="-3.3" x2="3.3" y2="3.3" width="0.1" layer="51"/>
-<wire x1="-4.675" y1="3.3" x2="3.3" y2="3.3" width="0.2" layer="21"/>
-<wire x1="-1.65" y1="-3.3" x2="3.3" y2="-3.3" width="0.2" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="DRV8876RGTR">
 <description>&lt;Motor / Motion / Ignition Controllers &amp; Drivers 37-V, 3.5-A brushed DC motor driver with integrated current sensing and current sense output 16-VQFN -40 to 125&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -4422,6 +4398,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.8" y1="-0.6" x2="1.8" y2="-0.7" width="0.2" layer="21" curve="180"/>
 <wire x1="1.8" y1="-0.7" x2="1.8" y2="-0.7" width="0.2" layer="21"/>
 <wire x1="1.8" y1="-0.7" x2="1.8" y2="-0.6" width="0.2" layer="21" curve="180"/>
+</package>
+</packages>
+</library>
+<library name="EMZR500ARA101MF80G">
+<description>&lt;Aluminum Electrolytic Capacitors - SMD 100uF 50V 20%&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="CAPAE660X820N">
+<description>&lt;b&gt;EMZR500ARA101MF80G-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.65" y="0" dx="3.55" dy="1.85" layer="1"/>
+<smd name="2" x="2.65" y="0" dx="3.55" dy="1.85" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.925" y1="3.9" x2="4.925" y2="3.9" width="0.05" layer="51"/>
+<wire x1="4.925" y1="3.9" x2="4.925" y2="-3.9" width="0.05" layer="51"/>
+<wire x1="4.925" y1="-3.9" x2="-4.925" y2="-3.9" width="0.05" layer="51"/>
+<wire x1="-4.925" y1="-3.9" x2="-4.925" y2="3.9" width="0.05" layer="51"/>
+<wire x1="3.3" y1="3.3" x2="-1.65" y2="3.3" width="0.1" layer="51"/>
+<wire x1="-1.65" y1="3.3" x2="-3.3" y2="1.65" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="1.65" x2="-3.3" y2="-1.65" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-1.65" x2="-1.65" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-1.65" y1="-3.3" x2="3.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-3.3" x2="3.3" y2="3.3" width="0.1" layer="51"/>
+<wire x1="-4.425" y1="3.3" x2="3.3" y2="3.3" width="0.2" layer="21"/>
+<wire x1="-1.65" y1="-3.3" x2="3.3" y2="-3.3" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -4710,7 +4712,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="26.9795" y="6.557" size="0.4064" layer="28" rot="MR0"/>
 </element>
 <element name="R10" library="sfe" package="0402-RES" value="10K" x="22.7" y="11.2" smashed="yes" rot="MR90">
-<attribute name="MPN" value="CRCW04021K00FKEDC" x="22.7" y="11.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="AC0402FR-1310KL" x="22.7" y="11.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="23.3985" y="10.311" size="0.4064" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="21.557" y="10.1205" size="0.4064" layer="28" rot="MR90"/>
 </element>
@@ -5011,13 +5013,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="20.057" y="21.3" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="22.343" y="21.3" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
-<element name="JP3" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NC_PASTE_SILK" package3d_urn="urn:adsk.eagle:package:39282/1" value="JUMPER-SMT_2_NC_PASTE_SILK" x="7" y="25" smashed="yes">
-<attribute name="NAME" x="7" y="26.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="7" y="23.857" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="11.6" y="21.3" smashed="yes" rot="MR270">
+<element name="JP3" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NC_PASTE_SILK" package3d_urn="urn:adsk.eagle:package:39282/1" value="JUMPER-SMT_2_NC_PASTE_SILK" x="11.6" y="21.3" smashed="yes" rot="MR270">
 <attribute name="NAME" x="10.457" y="21.3" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="12.743" y="21.3" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
+</element>
+<element name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK" x="7" y="25" smashed="yes">
+<attribute name="NAME" x="7" y="26.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="7" y="23.857" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="JP5" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NC_PASTE_SILK" package3d_urn="urn:adsk.eagle:package:39282/1" value="JUMPER-SMT_2_NC_PASTE_SILK" x="18.8" y="21.3" smashed="yes" rot="MR270">
 <attribute name="NAME" x="17.657" y="21.3" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
@@ -5027,14 +5029,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="8.057" y="21.3" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="10.343" y="21.3" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
-<element name="C16" library="EEV226M050S9GAA" package="CAPAE660X565N" value="EEV226M050S9GAA" x="10.4" y="18.8" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="EEV, Aluminum, Aluminum Electrolytic, 22 uF, 20%, 50 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 12 % , 2 Ohms, 0.049, 11 uA, 2, 3, 6.3mm, 5.4mm, 1000" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="5.65mm" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EEV226M050S9GAA" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-EEV226M050S9GAA" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/EEV226M050S9GAA?qs=E9QF1UCAUX6T92Wky0Sqsg%3D%3D" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="EEV226M050S9GAA" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C16" library="EMZR500ARA101MF80G" package="CAPAE660X820N" value="EMZR500ARA101MF80G" x="10.4" y="18.8" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - SMD 100uF 50V 20%" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="8.2mm" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Chemi-Con" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EMZR500ARA101MF80G" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="661-EMZR500ARA101MF8" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/EMZR500ARA101MF80G?qs=y6ZabgHbY%252ByQ3zUEIlMmqw%3D%3D" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="EMZR500ARA101MF80G" x="10.4" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.4" y="18.8" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="10.4" y="18" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
@@ -5100,14 +5102,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="21.311" y="14.5015" size="0.4064" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="21.1205" y="16.343" size="0.4064" layer="28" rot="MR180"/>
 </element>
-<element name="C17" library="EEV226M050S9GAA" package="CAPAE660X565N" value="EEV226M050S9GAA" x="20" y="18.8" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="EEV, Aluminum, Aluminum Electrolytic, 22 uF, 20%, 50 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 12 % , 2 Ohms, 0.049, 11 uA, 2, 3, 6.3mm, 5.4mm, 1000" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="5.65mm" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="KEMET" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EEV226M050S9GAA" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-EEV226M050S9GAA" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/EEV226M050S9GAA?qs=E9QF1UCAUX6T92Wky0Sqsg%3D%3D" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="EEV226M050S9GAA" x="20" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C17" library="EMZR500ARA101MF80G" package="CAPAE660X820N" value="EMZR500ARA101MF80G" x="20" y="18.8" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - SMD 100uF 50V 20%" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="8.2mm" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Chemi-Con" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EMZR500ARA101MF80G" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="661-EMZR500ARA101MF8" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/EMZR500ARA101MF80G?qs=y6ZabgHbY%252ByQ3zUEIlMmqw%3D%3D" x="23.6" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="EMZR500ARA101MF80G" x="20" y="18.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="20" y="18.8" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="20" y="19.6" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
@@ -5324,7 +5326,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="28.5" y1="17.4" x2="28.5" y2="20.4" width="0.4064" layer="16"/>
 <wire x1="20.9" y1="11.2" x2="24.15" y2="11.2" width="0.254" layer="16"/>
 <wire x1="24.15" y1="11.2" x2="24.15" y2="10.8" width="0.254" layer="16"/>
-<wire x1="8.84" y1="13.16" x2="9.2" y2="13.16" width="0.4064" layer="16"/>
 <contactref element="IC5" pad="17"/>
 <contactref element="C19" pad="1"/>
 <contactref element="IC5" pad="7"/>
@@ -5353,31 +5354,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="10.15" y1="16.1" x2="10.15" y2="17.6" width="0.254" layer="16"/>
 <wire x1="11.15" y1="16.1" x2="11.15" y2="17.6" width="0.254" layer="16"/>
 <wire x1="11.15" y1="17.6" x2="10.4" y2="17.6" width="0.254" layer="16"/>
-<wire x1="20.75" y1="16.1" x2="20.75" y2="17.6" width="0.254" layer="16"/>
 <wire x1="19.75" y1="16.1" x2="19.75" y2="17.6" width="0.254" layer="16"/>
 <wire x1="19.75" y1="17.6" x2="20" y2="17.6" width="0.254" layer="16"/>
-<via x="11" y="18.2" extent="1-16" drill="0.254"/>
+<via x="10.9" y="18.2" extent="1-16" drill="0.254"/>
 <via x="11" y="17" extent="1-16" drill="0.254"/>
 <via x="9.8" y="17" extent="1-16" drill="0.254"/>
 <via x="19.4" y="17" extent="1-16" drill="0.254"/>
 <via x="20.6" y="17" extent="1-16" drill="0.254"/>
-<via x="20.6" y="18.2" extent="1-16" drill="0.254"/>
-<via x="19.4" y="18.2" extent="1-16" drill="0.254"/>
+<via x="20.5" y="18.2" extent="1-16" drill="0.254"/>
+<via x="19.5" y="18.2" extent="1-16" drill="0.254"/>
 <wire x1="13.4" y1="16.35" x2="13.25" y2="16.2" width="0.254" layer="16"/>
 <wire x1="13.25" y1="16.2" x2="13.25" y2="15.2" width="0.254" layer="16"/>
 <wire x1="23" y1="16.35" x2="22.85" y2="16.2" width="0.254" layer="16"/>
 <wire x1="22.85" y1="16.2" x2="22.85" y2="15.2" width="0.254" layer="16"/>
-<via x="9.8" y="18.2" extent="1-16" drill="0.254"/>
+<via x="9.9" y="18.2" extent="1-16" drill="0.254"/>
 <wire x1="7.6" y1="21.6" x2="6.6" y2="21.6" width="0.4064" layer="16"/>
 <via x="6.6" y="21.6" extent="1-16" drill="0.4064"/>
 <wire x1="6.6" y1="21.6" x2="6.6" y2="18.8" width="0.4064" layer="1"/>
-<wire x1="6.6" y1="18.8" x2="7.45" y2="18.8" width="0.4064" layer="1"/>
+<wire x1="6.6" y1="18.8" x2="7.75" y2="18.8" width="0.4064" layer="1"/>
 <wire x1="17.2" y1="21.6" x2="16.2" y2="21.6" width="0.4064" layer="16"/>
 <via x="16.2" y="21.6" extent="1-16" drill="0.4064"/>
 <wire x1="15.2" y1="20.4128" x2="15.2" y2="21.6" width="0.4064" layer="16"/>
 <wire x1="15.2" y1="21.6" x2="16.2" y2="21.6" width="0.4064" layer="16"/>
 <wire x1="13.2" y1="21.6" x2="15.2" y2="21.6" width="0.4064" layer="16"/>
-<wire x1="17.05" y1="18.8" x2="16.8" y2="18.8" width="0.4064" layer="1"/>
+<wire x1="17.35" y1="18.8" x2="16.8" y2="18.8" width="0.4064" layer="1"/>
 <wire x1="16.8" y1="18.8" x2="16.2" y2="18.8" width="0.4064" layer="1"/>
 <wire x1="16.2" y1="18.8" x2="16.2" y2="21.6" width="0.4064" layer="1"/>
 <wire x1="24.8" y1="21.6" x2="24.8" y2="20.4128" width="0.4064" layer="16"/>
@@ -5405,11 +5405,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="18.2" y="16.2" extent="1-16" drill="0.4064"/>
 <wire x1="18.2" y1="16.2" x2="18.6" y2="16.2" width="0.4064" layer="1"/>
 <wire x1="18.6" y1="16.2" x2="19.4" y2="17" width="0.4064" layer="1"/>
-<wire x1="9.8" y1="18.2" x2="8.05" y2="18.2" width="0.4064" layer="1"/>
-<wire x1="8.05" y1="18.2" x2="7.45" y2="18.8" width="0.4064" layer="1"/>
-<wire x1="19.4" y1="18.2" x2="17.4" y2="18.2" width="0.4064" layer="1"/>
+<wire x1="9.9" y1="18.2" x2="8.05" y2="18.2" width="0.4064" layer="1"/>
+<wire x1="8.05" y1="18.2" x2="7.75" y2="18.8" width="0.4064" layer="1"/>
+<wire x1="19.5" y1="18.2" x2="17.4" y2="18.2" width="0.4064" layer="1"/>
 <wire x1="17.4" y1="18.2" x2="16.8" y2="18.8" width="0.4064" layer="1"/>
-<wire x1="6.6" y1="21.6" x2="16.2" y2="21.6" width="0.4064" layer="1"/>
+<wire x1="16" y1="21.4" x2="16.2" y2="21.6" width="0.4064" layer="1"/>
+<wire x1="16" y1="21.4" x2="6.8" y2="21.4" width="0.4064" layer="1"/>
+<wire x1="6.6" y1="21.6" x2="6.8" y2="21.4" width="0.4064" layer="1"/>
 <wire x1="13.4" y1="16.35" x2="12.75" y2="16.35" width="0.4064" layer="16"/>
 <wire x1="12.75" y1="16.35" x2="12.6" y2="16.2" width="0.4064" layer="16"/>
 <via x="12.6" y="16.2" extent="1-16" drill="0.4064"/>
@@ -5428,19 +5430,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="31.3" y1="20.2" x2="31.3" y2="19.15" width="0.254" layer="1"/>
 <wire x1="31.3" y1="19.15" x2="30.65" y2="18.5" width="0.254" layer="1"/>
 <wire x1="20" y1="17.6" x2="20" y2="18.2" width="0.3048" layer="16"/>
-<wire x1="20" y1="18.2" x2="20.6" y2="18.2" width="0.3048" layer="16"/>
+<wire x1="20" y1="18.2" x2="20.5" y2="18.2" width="0.3048" layer="16"/>
 <wire x1="20" y1="17.6" x2="20.6" y2="17.6" width="0.3048" layer="16"/>
 <wire x1="20.6" y1="17.6" x2="20.6" y2="17" width="0.3048" layer="16"/>
 <wire x1="20" y1="17.6" x2="20" y2="17" width="0.3048" layer="16"/>
 <wire x1="20" y1="17" x2="19.4" y2="17" width="0.3048" layer="16"/>
-<wire x1="20" y1="17.6" x2="19.4" y2="17.6" width="0.3048" layer="16"/>
-<wire x1="19.4" y1="17.6" x2="19.4" y2="18.2" width="0.3048" layer="16"/>
+<wire x1="20" y1="17.6" x2="19.5" y2="17.6" width="0.3048" layer="16"/>
+<wire x1="19.5" y1="17.6" x2="19.5" y2="18.2" width="0.3048" layer="16"/>
 <wire x1="10.4" y1="17.6" x2="10.4" y2="17" width="0.3048" layer="16"/>
 <wire x1="10.4" y1="17" x2="9.8" y2="17" width="0.3048" layer="16"/>
-<wire x1="10.4" y1="17.6" x2="9.8" y2="17.6" width="0.3048" layer="16"/>
-<wire x1="9.8" y1="17.6" x2="9.8" y2="18.2" width="0.3048" layer="16"/>
+<wire x1="10.4" y1="17.6" x2="9.9" y2="17.6" width="0.3048" layer="16"/>
+<wire x1="9.9" y1="17.6" x2="9.9" y2="18.2" width="0.3048" layer="16"/>
 <wire x1="10.4" y1="17.6" x2="10.4" y2="18.2" width="0.3048" layer="16"/>
-<wire x1="10.4" y1="18.2" x2="11" y2="18.2" width="0.3048" layer="16"/>
+<wire x1="10.4" y1="18.2" x2="10.9" y2="18.2" width="0.3048" layer="16"/>
 <wire x1="10.4" y1="17.6" x2="11" y2="17.6" width="0.3048" layer="16"/>
 <wire x1="11" y1="17.6" x2="11" y2="17" width="0.3048" layer="16"/>
 <via x="0.8" y="2.8" extent="1-16" drill="0.254"/>
@@ -5450,8 +5452,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="1.2" y="23.4" extent="1-16" drill="0.254"/>
 <via x="31" y="25.8" extent="1-16" drill="0.254"/>
 <via x="0.8" y="15.6" extent="1-16" drill="0.254"/>
-<wire x1="19.25" y1="19.1" x2="19.25" y2="18.35" width="0.254" layer="16"/>
-<wire x1="19.25" y1="18.35" x2="19.4" y2="18.2" width="0.254" layer="16"/>
+<wire x1="19.25" y1="19.1" x2="19.25" y2="18.25" width="0.254" layer="16"/>
+<wire x1="19.3" y1="18.2" x2="19.5" y2="18.2" width="0.254" layer="16"/>
+<wire x1="19.3" y1="18.2" x2="19.25" y2="18.25" width="0.254" layer="16"/>
+<via x="14.6" y="16.6" extent="1-16" drill="0.254"/>
+<via x="25.7" y="21.8" extent="1-16" drill="0.254"/>
+<via x="27.8" y="23" extent="1-16" drill="0.254"/>
+<via x="17.8" y="25.2" extent="1-16" drill="0.254"/>
+<via x="14.1" y="11.9" extent="1-16" drill="0.254"/>
+<via x="21.6" y="12.6" extent="1-16" drill="0.254"/>
+<via x="19.1" y="12.6" extent="1-16" drill="0.254"/>
+<via x="28.2" y="4.6" extent="1-16" drill="0.254"/>
+<wire x1="20.75" y1="16.1" x2="20.75" y2="17" width="0.3048" layer="16"/>
+<wire x1="20.75" y1="17" x2="20.6" y2="17" width="0.3048" layer="16"/>
+<via x="35" y="15.6" extent="1-16" drill="0.254"/>
+<via x="35" y="18.2" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="N$69">
 </signal>
@@ -5613,9 +5628,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="14.6" y="17.2" extent="1-16" drill="0.254"/>
 <wire x1="14.6" y1="17.2" x2="15" y2="17.6" width="0.254" layer="1"/>
 <wire x1="19.6" y1="17.6" x2="20" y2="18" width="0.254" layer="1"/>
-<wire x1="20" y1="18" x2="20" y2="19" width="0.254" layer="1"/>
-<wire x1="20" y1="19" x2="21" y2="20" width="0.254" layer="1"/>
-<wire x1="21" y1="20" x2="24.8" y2="20" width="0.254" layer="1"/>
+<wire x1="20" y1="18" x2="20" y2="19.3" width="0.254" layer="1"/>
+<wire x1="20" y1="19.3" x2="20.7" y2="20" width="0.254" layer="1"/>
+<wire x1="20.7" y1="20" x2="24.8" y2="20" width="0.254" layer="1"/>
 <wire x1="15" y1="17.6" x2="19.6" y2="17.6" width="0.254" layer="1"/>
 <wire x1="23" y1="17.65" x2="23.75" y2="17.65" width="0.254" layer="16"/>
 <wire x1="23.75" y1="17.65" x2="23.9" y2="17.5" width="0.254" layer="16"/>
@@ -5740,7 +5755,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="16.6" y1="13.4" x2="16.6" y2="15.2" width="0.6096" layer="1"/>
 <wire x1="22.4" y1="15.2" x2="16.6" y2="15.2" width="0.6096" layer="1"/>
 <wire x1="22.4" y1="15.2" x2="23.05" y2="15.85" width="0.6096" layer="1"/>
-<wire x1="23.05" y1="18.7" x2="22.95" y2="18.8" width="0.6096" layer="1"/>
+<wire x1="23.05" y1="18.7" x2="22.65" y2="18.8" width="0.6096" layer="1"/>
 <wire x1="23.05" y1="15.85" x2="23.05" y2="18.7" width="0.6096" layer="1"/>
 <wire x1="16.3" y1="12.2" x2="16.3" y2="6.9" width="0.6096" layer="16"/>
 <wire x1="16.3" y1="6.9" x2="16.65" y2="6.9" width="0.6096" layer="16"/>
@@ -5748,7 +5763,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="16.65" y1="6.9" x2="14.7" y2="6.9" width="0.6096" layer="16"/>
 <wire x1="14.7" y1="6.9" x2="14.7" y2="6.95" width="0.6096" layer="16"/>
 <wire x1="13.5" y1="15.9" x2="13.5" y2="18.8" width="0.6096" layer="1"/>
-<wire x1="13.5" y1="18.8" x2="13.35" y2="18.8" width="0.6096" layer="1"/>
+<wire x1="13.5" y1="18.8" x2="13.05" y2="18.8" width="0.6096" layer="1"/>
 <wire x1="13.5" y1="15.9" x2="12.8" y2="15.2" width="0.6096" layer="1"/>
 <wire x1="12.8" y1="15.2" x2="6.4" y2="15.2" width="0.6096" layer="1"/>
 <wire x1="16.6" y1="15.2" x2="16" y2="15.2" width="0.6096" layer="1"/>
@@ -5986,21 +6001,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="P2_PWM_INT" class="4">
 <contactref element="JP3" pad="1"/>
 <contactref element="J1" pad="3"/>
-<wire x1="1.6" y1="14.3" x2="2.9" y2="15.6" width="0.254" layer="1"/>
-<wire x1="2.9" y1="23.5" x2="4.4" y2="25" width="0.254" layer="1"/>
-<wire x1="4.4" y1="25" x2="6.5936" y2="25" width="0.254" layer="1"/>
-<wire x1="2.9" y1="15.6" x2="2.9" y2="23.5" width="0.254" layer="1"/>
+<wire x1="2.9" y1="15.6" x2="2.9" y2="20" width="0.254" layer="16"/>
+<wire x1="2.9" y1="20" x2="6.2" y2="23.3" width="0.254" layer="16"/>
+<wire x1="6.2" y1="23.3" x2="10.7" y2="23.3" width="0.254" layer="16"/>
+<wire x1="10.7" y1="23.3" x2="11.6" y2="22.4" width="0.254" layer="16"/>
+<wire x1="11.6" y1="22.4" x2="11.6" y2="21.7064" width="0.254" layer="16"/>
+<wire x1="1.6" y1="14.3" x2="2.9" y2="15.6" width="0.254" layer="16"/>
 </signal>
 <signal name="P1_PWM_INT" class="4">
 <contactref element="J1" pad="2"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="11.6" y1="21.7064" x2="11.6" y2="22.4" width="0.254" layer="16"/>
-<wire x1="11.6" y1="22.4" x2="11" y2="23" width="0.254" layer="16"/>
-<wire x1="11" y1="23" x2="5.8" y2="23" width="0.254" layer="16"/>
-<wire x1="2.9" y1="20.1" x2="2.9" y2="18" width="0.254" layer="16"/>
-<wire x1="2.9" y1="18" x2="1.74" y2="16.84" width="0.254" layer="16"/>
-<wire x1="1.74" y1="16.84" x2="1.6" y2="16.84" width="0.254" layer="16"/>
-<wire x1="5.8" y1="23" x2="2.9" y2="20.1" width="0.254" layer="16"/>
+<wire x1="1.6" y1="16.84" x2="2.9" y2="18.14" width="0.254" layer="1"/>
+<wire x1="2.9" y1="22.7" x2="5.2" y2="25" width="0.254" layer="1"/>
+<wire x1="5.2" y1="25" x2="6.5936" y2="25" width="0.254" layer="1"/>
+<wire x1="2.9" y1="18.14" x2="2.9" y2="22.7" width="0.254" layer="1"/>
 </signal>
 <signal name="P0_PWM" class="4">
 <contactref element="JP1" pad="2"/>
@@ -6030,18 +6044,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="P8_PWM_INT" class="4">
 <contactref element="J1" pad="12"/>
 <contactref element="JP6" pad="1"/>
-<via x="7.6" y="22.5" extent="1-16" drill="0.254"/>
-<wire x1="7.6" y1="22.5" x2="9.2" y2="22.5" width="0.254" layer="16"/>
-<wire x1="9.2" y1="22.5" x2="9.2" y2="21.7064" width="0.254" layer="16"/>
+<via x="7.9" y="22.8" extent="1-16" drill="0.254"/>
+<wire x1="7.9" y1="22.8" x2="9.2" y2="22.8" width="0.254" layer="16"/>
+<wire x1="9.2" y1="22.8" x2="9.2" y2="21.7064" width="0.254" layer="16"/>
 <wire x1="34" y1="9.22" x2="32.8" y2="10.42" width="0.127" layer="1"/>
 <wire x1="32.8" y1="10.42" x2="32.8" y2="12.4" width="0.127" layer="1"/>
 <wire x1="32.8" y1="12.4" x2="33.1" y2="12.7" width="0.127" layer="1"/>
 <wire x1="33.1" y1="12.7" x2="33.1" y2="13.3" width="0.127" layer="1"/>
-<wire x1="8.1" y1="23" x2="7.6" y2="22.5" width="0.127" layer="1"/>
+<wire x1="8.6" y1="23.5" x2="7.9" y2="22.8" width="0.127" layer="1"/>
 <wire x1="33.1" y1="13.3" x2="32.8" y2="13.6" width="0.127" layer="1"/>
 <wire x1="32.8" y1="13.6" x2="32.8" y2="20.5" width="0.127" layer="1"/>
-<wire x1="32.8" y1="20.5" x2="30.3" y2="23" width="0.127" layer="1"/>
-<wire x1="30.3" y1="23" x2="8.1" y2="23" width="0.127" layer="1"/>
+<wire x1="32.8" y1="20.5" x2="29.8" y2="23.5" width="0.127" layer="1"/>
+<wire x1="29.8" y1="23.5" x2="8.6" y2="23.5" width="0.127" layer="1"/>
 </signal>
 <signal name="P7_PWM" class="4">
 <contactref element="JP5" pad="2"/>
@@ -6065,9 +6079,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J1" pad="1"/>
 <contactref element="JP1" pad="1"/>
 <wire x1="21.2" y1="21.7064" x2="21.2" y2="22.4" width="0.254" layer="16"/>
-<wire x1="21.2" y1="22.4" x2="20.2" y2="23.4" width="0.254" layer="16"/>
-<wire x1="20.2" y1="23.4" x2="5.6" y2="23.4" width="0.254" layer="16"/>
-<wire x1="5.6" y1="23.4" x2="1.6" y2="19.4" width="0.254" layer="16"/>
+<wire x1="21.2" y1="22.4" x2="19.9" y2="23.7" width="0.254" layer="16"/>
+<wire x1="19.9" y1="23.7" x2="5.9" y2="23.7" width="0.254" layer="16"/>
+<wire x1="5.9" y1="23.7" x2="1.6" y2="19.4" width="0.254" layer="16"/>
 <wire x1="1.6" y1="19.4" x2="1.6" y2="19.38" width="0.254" layer="16"/>
 </signal>
 <signal name="CPL0" class="3">
@@ -6175,19 +6189,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="D13" pad="1"/>
 <wire x1="13.2" y1="20.8" x2="13.1936" y2="20.7936" width="0.4064" layer="16"/>
 <wire x1="13.1936" y1="20.7936" x2="12.6" y2="20.7936" width="0.4064" layer="16"/>
-<wire x1="12.6" y1="20.7936" x2="11.7" y2="20.7936" width="0.4064" layer="16"/>
-<wire x1="11.7" y1="20.7936" x2="11.6" y2="20.8936" width="0.4064" layer="16"/>
-<wire x1="11.15" y1="19.1" x2="11.15" y2="20.8936" width="0.3048" layer="16"/>
-<wire x1="11.15" y1="20.8936" x2="11.6" y2="20.8936" width="0.3048" layer="16"/>
-<wire x1="7.1809" y1="22.6736" x2="7.1809" y2="22.3264" width="0.127" layer="1"/>
-<wire x1="7.1809" y1="22.3264" x2="7.4264" y2="22.0809" width="0.127" layer="1"/>
-<wire x1="7.4064" y1="22.8991" x2="7.1809" y2="22.6736" width="0.127" layer="1"/>
-<wire x1="7.4064" y1="25" x2="7.4064" y2="22.8991" width="0.127" layer="1"/>
-<wire x1="12.8809" y1="22.0809" x2="13.2" y2="22.4" width="0.127" layer="1"/>
+<wire x1="6.7" y1="23" x2="6.7" y2="22.3" width="0.127" layer="1"/>
+<wire x1="6.7" y1="22.3" x2="7.2" y2="21.8" width="0.127" layer="1"/>
+<wire x1="7.4064" y1="23.7064" x2="6.7" y2="23" width="0.127" layer="1"/>
+<wire x1="12.6" y1="21.8" x2="13.2" y2="22.4" width="0.127" layer="1"/>
 <via x="13.2" y="22.4" extent="1-16" drill="0.254"/>
 <wire x1="13.2" y1="22.4" x2="12.6" y2="22.4" width="0.254" layer="16"/>
 <wire x1="12.6" y1="22.4" x2="12.6" y2="20.7936" width="0.254" layer="16"/>
-<wire x1="7.4264" y1="22.0809" x2="12.8809" y2="22.0809" width="0.127" layer="1"/>
+<wire x1="7.2" y1="21.8" x2="12.6" y2="21.8" width="0.127" layer="1"/>
+<wire x1="11.15" y1="19.1" x2="11.15" y2="20.8936" width="0.3048" layer="16"/>
+<wire x1="11.15" y1="20.8936" x2="11.6" y2="20.8936" width="0.3048" layer="16"/>
+<wire x1="11.6" y1="20.8936" x2="11.6" y2="20.7936" width="0.4064" layer="16"/>
+<wire x1="11.6" y1="20.7936" x2="12.6" y2="20.7936" width="0.4064" layer="16"/>
+<wire x1="7.4064" y1="25" x2="7.4064" y2="23.7064" width="0.127" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
