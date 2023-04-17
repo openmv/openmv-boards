@@ -11471,7 +11471,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MM3Z2V4T1-D.PDF"&gt; Da
 <attribute name="MPN" value="AC0402FR-07100KL"/>
 </part>
 <part name="R10" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="GND5" library="sfe" deviceset="GND" device=""/>
 <part name="P+4" library="mux" deviceset="VCC" device=""/>
@@ -11610,10 +11610,10 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MM3Z2V4T1-D.PDF"&gt; Da
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
 </part>
 <part name="R12" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="R13" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="L4" library="SRF4532-110Y" deviceset="SRF4532-110Y" device="">
 <attribute name="MPN" value="SRF4532-110Y"/>
@@ -11631,10 +11631,10 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MM3Z2V4T1-D.PDF"&gt; Da
 <attribute name="MPN" value="SN65C3221EPWR"/>
 </part>
 <part name="R14" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="R15" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="D13" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
