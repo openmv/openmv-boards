@@ -10998,7 +10998,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/74AHC1G08SE-7
 <attribute name="MPN" value="AC0402FR-07100KL"/>
 </part>
 <part name="R10" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="GND5" library="sfe" deviceset="GND" device=""/>
 <part name="P+4" library="mux" deviceset="VCC" device=""/>
@@ -11134,10 +11134,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/74AHC1G08SE-7
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
 </part>
 <part name="R12" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="R13" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="P+1" library="mux" deviceset="VCC" device=""/>
 <part name="GND3" library="sfe" deviceset="GND" device=""/>
@@ -11208,10 +11208,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/74AHC1G08SE-7
 <attribute name="MPN" value="GRM155R71H104KE14D"/>
 </part>
 <part name="R14" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="R15" library="sfe" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10">
 <spice>

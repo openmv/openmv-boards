@@ -4802,7 +4802,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="26.9795" y="6.557" size="0.4064" layer="28" rot="MR0"/>
 </element>
 <element name="R10" library="sfe" package="0402-RES" value="10K" x="22.7" y="11.2" smashed="yes" rot="MR90">
-<attribute name="MPN" value="CRCW04021K00FKEDC" x="22.7" y="11.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="AC0402FR-1310KL" x="22.7" y="11.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="23.3985" y="10.311" size="0.4064" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="21.557" y="10.1205" size="0.4064" layer="28" rot="MR90"/>
 </element>
@@ -5083,12 +5083,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="7.9" y="20.6" size="1.27" layer="27" align="center"/>
 </element>
 <element name="R12" library="sfe" package="0402-RES" value="10K" x="6.4" y="14.8" smashed="yes" rot="R90">
-<attribute name="MPN" value="CRCW04021K00FKEDC" x="6.4" y="14.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="AC0402FR-1310KL" x="6.4" y="14.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.7015" y="13.911" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="7.543" y="13.7205" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="R13" library="sfe" package="0402-RES" value="10K" x="7.7" y="14.8" smashed="yes" rot="R90">
-<attribute name="MPN" value="CRCW04021K00FKEDC" x="7.7" y="14.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="AC0402FR-1310KL" x="7.7" y="14.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.0015" y="13.911" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="8.843" y="13.7205" size="0.4064" layer="27" rot="R90"/>
 </element>
@@ -5242,12 +5242,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="13.143" y="16.0795" size="0.4064" layer="28" rot="MR270"/>
 </element>
 <element name="R14" library="sfe" package="0402-RES" value="10K" x="9.5" y="15.6" smashed="yes">
-<attribute name="MPN" value="CRCW04021K00FKEDC" x="9.5" y="15.6" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AC0402FR-1310KL" x="9.5" y="15.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="8.611" y="16.2985" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="8.4205" y="14.457" size="0.4064" layer="27"/>
 </element>
 <element name="R15" library="sfe" package="0402-RES" value="10K" x="30" y="22.5" smashed="yes" rot="R270">
-<attribute name="MPN" value="CRCW04021K00FKEDC" x="30" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="AC0402FR-1310KL" x="30" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="30.6985" y="23.389" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="28.857" y="23.5795" size="0.4064" layer="27" rot="R270"/>
 </element>
