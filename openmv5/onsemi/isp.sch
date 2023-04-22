@@ -9875,14 +9875,14 @@ Nick Garner - TeleSense</description>
 <part name="L7" library="0402" deviceset="INDUCTOR_0402" device="" value="100">
 <attribute name="MPN" value="MFBM1V1005-101-R"/>
 </part>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1K">
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10K">
 <spice>
 <pinmapping spiceprefix="R">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-<attribute name="MPN" value="CRCW04021K00FKEDC"/>
+<attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 </parts>
 <sheets>

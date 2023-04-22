@@ -3832,8 +3832,8 @@ This DRC check is for 6-LayerExtended Capability boards with 4 mil drills to be 
 <attribute name="NAME" x="10.641" y="8.255" size="0.8128" layer="26" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="12.581" y="8.255" size="0.8128" layer="28" ratio="10" rot="MR270"/>
 </element>
-<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1K" x="10.287" y="10.795" smashed="yes" rot="MR90">
-<attribute name="MPN" value="CRCW04021K00FKEDC" x="10.287" y="10.795" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10K" x="10.287" y="10.795" smashed="yes" rot="MR90">
+<attribute name="MPN" value="AC0402FR-1310KL" x="10.287" y="10.795" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="10.922" y="10.16" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="34" x="10.287" y="10.795" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="10.287" y="10.795" size="1.778" layer="28" rot="MR90" display="off"/>
