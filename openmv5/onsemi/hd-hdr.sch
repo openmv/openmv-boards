@@ -10258,6 +10258,16 @@ Nick Garner - TeleSense</description>
 <wire x1="43.18" y1="152.4" x2="17.78" y2="152.4" width="0.1524" layer="91"/>
 <junction x="17.78" y="152.4"/>
 </segment>
+<segment>
+<wire x1="381" y1="228.6" x2="411.48" y2="228.6" width="0.1524" layer="91"/>
+<label x="386.08" y="228.6" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<wire x1="381" y1="226.06" x2="411.48" y2="226.06" width="0.1524" layer="91"/>
+<label x="386.08" y="226.06" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="8"/>
+</segment>
 </net>
 <net name="EBI_A20" class="0">
 <segment>
@@ -10643,6 +10653,11 @@ Nick Garner - TeleSense</description>
 <label x="327.66" y="215.9" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="15"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GPIO_2"/>
+<wire x1="43.18" y1="132.08" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
+<label x="25.4" y="132.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPI_MOSI" class="4">
 <segment>
@@ -10838,20 +10853,6 @@ Nick Garner - TeleSense</description>
 <pinref part="IC2" gate="G$1" pin="DOUT10"/>
 <wire x1="22.86" y1="187.96" x2="43.18" y2="187.96" width="0.1524" layer="91"/>
 <label x="25.4" y="187.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DCMI_D13" class="4">
-<segment>
-<wire x1="381" y1="228.6" x2="411.48" y2="228.6" width="0.1524" layer="91"/>
-<label x="386.08" y="228.6" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="6"/>
-</segment>
-</net>
-<net name="DCMI_D12" class="4">
-<segment>
-<wire x1="381" y1="226.06" x2="411.48" y2="226.06" width="0.1524" layer="91"/>
-<label x="386.08" y="226.06" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="SW" class="3">

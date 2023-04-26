@@ -2924,6 +2924,8 @@ This DRC check is for 6-LayerExtended Capability boards with 4 mil drills to be 
 </signal>
 <signal name="SPI_MISO" class="4">
 <contactref element="J1" pad="15"/>
+<contactref element="IC1" pad="K11"/>
+<wire x1="21.18" y1="4.89" x2="18.53" y2="10.8999" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SPI_MOSI" class="4">
 <contactref element="J1" pad="17"/>

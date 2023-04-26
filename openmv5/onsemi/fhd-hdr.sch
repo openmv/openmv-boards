@@ -11032,6 +11032,11 @@ Nick Garner - TeleSense</description>
 <label x="327.66" y="215.9" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="15"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GPIO2"/>
+<wire x1="99.06" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
+<label x="101.6" y="104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPI_MOSI" class="4">
 <segment>
