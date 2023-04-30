@@ -5123,7 +5123,7 @@ Nick Garner - TeleSense</description>
 <attribute name="VALUE" x="12.3" y="19.9" size="1.27" layer="28" rot="MR180" align="center"/>
 </element>
 <element name="C10" library="0402" package="0402" value="10nF" x="7.5" y="22.7" smashed="yes" rot="MR0">
-<attribute name="MPN" value="C0402C103K5RAC" x="7.5" y="22.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CL05B103KB5NNNC" x="7.5" y="22.7" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="8.389" y="23.3985" size="0.4064" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="8.5795" y="21.557" size="0.4064" layer="28" rot="MR0"/>
 </element>

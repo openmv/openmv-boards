@@ -11818,7 +11818,7 @@ Nick Garner - TeleSense</description>
 <attribute name="MPN" value="AP64501SP-13"/>
 </part>
 <part name="C10" library="0402" deviceset="CAP_0402" device="" value="10nF">
-<attribute name="MPN" value="C0402C103K5RAC"/>
+<attribute name="MPN" value="CL05B103KB5NNNC"/>
 </part>
 <part name="C12" library="0402" deviceset="CAP_0402" device="" value="2.7nF">
 <attribute name="MPN" value="GCM155R71H272KA37J"/>
