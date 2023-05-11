@@ -11014,8 +11014,9 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="MPN" value="CR0603-FX-4700ELF"/>
 </part>
 <part name="GND7" library="sfe" deviceset="GND" device=""/>
-<part name="Z2" library="MM3Z3V6T1G" deviceset="MM3Z3V6T1G" device="">
+<part name="Z2" library="MM3Z3V6T1G" deviceset="MM3Z3V6T1G" device="" value="DNP">
 <attribute name="MPN" value="MM3Z3V6T1G"/>
+<attribute name="POPULATE" value="0"/>
 </part>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="240">
 <spice>
@@ -11530,6 +11531,7 @@ The current is limited to 3A total for the chip.
 <attribute name="NAME" x="306.07" y="233.68" size="1.778" layer="95" rot="MR270" align="center-left"/>
 <attribute name="VALUE" x="308.61" y="233.68" size="1.778" layer="96" rot="MR270" align="center-left"/>
 <attribute name="MPN" x="314.96" y="243.84" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="POPULATE" x="314.96" y="243.84" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="269.24" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="267.7414" y="219.71" size="1.778" layer="95" rot="R90"/>
