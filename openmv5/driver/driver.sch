@@ -10472,76 +10472,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/LM321LV"&gt; Datasheet &lt;/a&gt;<
 </deviceset>
 </devicesets>
 </library>
-<library name="MM3Z3V6T1G">
-<description>&lt;ON Semiconductor MM3Z3V6T1G Zener Diode, 3.6V 5% 200 mW SMT 2-Pin SOD-323&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SOD2512X110N">
-<description>&lt;b&gt;SOD-323 - case 477-02 - issue H&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.2" y="0" dx="1" dy="0.5" layer="1"/>
-<smd name="2" x="1.2" y="0" dx="1" dy="0.5" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.95" y1="1.15" x2="1.95" y2="1.15" width="0.05" layer="51"/>
-<wire x1="1.95" y1="1.15" x2="1.95" y2="-1.15" width="0.05" layer="51"/>
-<wire x1="1.95" y1="-1.15" x2="-1.95" y2="-1.15" width="0.05" layer="51"/>
-<wire x1="-1.95" y1="-1.15" x2="-1.95" y2="1.15" width="0.05" layer="51"/>
-<wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.1" layer="51"/>
-<wire x1="0.85" y1="0.625" x2="0.85" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="0.85" y1="-0.625" x2="-0.85" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="-0.85" y1="-0.625" x2="-0.85" y2="0.625" width="0.1" layer="51"/>
-<wire x1="-0.85" y1="0.125" x2="-0.35" y2="0.625" width="0.1" layer="51"/>
-<wire x1="-1.7" y1="0.625" x2="0.85" y2="0.625" width="0.2" layer="21"/>
-<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MM3Z3V6T1G">
-<wire x1="5.08" y1="2.032" x2="5.08" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.032" x2="6.096" y2="2.54" width="0.254" layer="94"/>
-<wire x1="4.064" y1="-2.54" x2="5.08" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="12.7" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<text x="10.16" y="8.89" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="10.16" y="6.35" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="K" x="0" y="0" visible="pad" length="short"/>
-<pin name="A" x="15.24" y="0" visible="pad" length="short" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="5.08" y="0"/>
-<vertex x="10.16" y="2.54"/>
-<vertex x="10.16" y="-2.54"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MM3Z3V6T1G" prefix="Z">
-<description>&lt;b&gt;ON Semiconductor MM3Z3V6T1G Zener Diode, 3.6V 5% 200 mW SMT 2-Pin SOD-323&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MM3Z2V4T1-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="MM3Z3V6T1G" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD2512X110N">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="ON Semiconductor MM3Z3V6T1G Zener Diode, 3.6V 5% 200 mW SMT 2-Pin SOD-323" constant="no"/>
-<attribute name="HEIGHT" value="1.1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="onsemi" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MM3Z3V6T1G" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-MM3Z3V6T1G" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/MM3Z3V6T1G?qs=HVbQlW5zcXWbZo78nv8gqg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="DRV8876RGTR">
 <description>&lt;Motor / Motion / Ignition Controllers &amp; Drivers 37-V, 3.5-A brushed DC motor driver with integrated current sensing and current sense output 16-VQFN -40 to 125&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -10810,6 +10740,76 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </deviceset>
 </devicesets>
 </library>
+<library name="BAT54S_R1_00001">
+<description>&lt;Schottky Diodes &amp; Rectifiers /L44/TR/7"/HF/3K/SOT-23/SKY/SOT/SSM-02TCS/SSM02-QI10/PJ///&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P240X110-3N">
+<description>&lt;b&gt;PJA3440-+-&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="0.85" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="-0.95" dx="0.85" dy="0.6" layer="1"/>
+<smd name="3" x="1.25" y="0" dx="0.85" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.925" y1="1.77" x2="1.925" y2="1.77" width="0.05" layer="51"/>
+<wire x1="1.925" y1="1.77" x2="1.925" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="1.925" y1="-1.77" x2="-1.925" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="-1.925" y1="-1.77" x2="-1.925" y2="1.77" width="0.05" layer="51"/>
+<wire x1="-0.65" y1="1.46" x2="0.65" y2="1.46" width="0.1" layer="51"/>
+<wire x1="0.65" y1="1.46" x2="0.65" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-1.46" x2="-0.65" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="-1.46" x2="-0.65" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="0.51" x2="0.3" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.475" y1="1.46" x2="0.475" y2="1.46" width="0.2" layer="21"/>
+<wire x1="0.475" y1="1.46" x2="0.475" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="0.475" y1="-1.46" x2="-0.475" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="-0.475" y1="-1.46" x2="-0.475" y2="1.46" width="0.2" layer="21"/>
+<wire x1="-1.675" y1="1.5" x2="-0.825" y2="1.5" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BAT54S_R1_00001">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="A" x="0" y="0" length="middle"/>
+<pin name="K" x="0" y="-2.54" length="middle"/>
+<pin name="A/K" x="22.86" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BAT54S_R1_00001" prefix="D">
+<description>&lt;b&gt;Schottky Diodes &amp; Rectifiers /L44/TR/7"/HF/3K/SOT-23/SKY/SOT/SSM-02TCS/SSM02-QI10/PJ///&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.tw/datasheet/2/1057/BAT54_SERIES-1868754.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BAT54S_R1_00001" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P240X110-3N">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="A/K" pad="3"/>
+<connect gate="G$1" pin="K" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Schottky Diodes &amp; Rectifiers /L44/TR/7&quot;/HF/3K/SOT-23/SKY/SOT/SSM-02TCS/SSM02-QI10/PJ///" constant="no"/>
+<attribute name="HEIGHT" value="1.1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="PANJIT" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BAT54S_R1_00001" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="241-BAT54S_R1_00001" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panjit/BAT54S_R1_00001?qs=sPbYRqrBIVkGy01tP2E0cg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10974,7 +10974,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="C10" library="sfe" deviceset="CAP" device="0402-CAP" value="0.1uF">
 <attribute name="MPN" value="GRM155R71H104KE14D"/>
 </part>
-<part name="Z3" library="MMSZ5231B-7-F" deviceset="MMSZ5231B-7-F" device="">
+<part name="Z2" library="MMSZ5231B-7-F" deviceset="MMSZ5231B-7-F" device="">
 <attribute name="MPN" value="MMSZ5231B-7-F"/>
 </part>
 <part name="JP7" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
@@ -11014,10 +11014,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="MPN" value="CR0603-FX-4700ELF"/>
 </part>
 <part name="GND7" library="sfe" deviceset="GND" device=""/>
-<part name="Z2" library="MM3Z3V6T1G" deviceset="MM3Z3V6T1G" device="" value="DNP">
-<attribute name="MPN" value="MM3Z3V6T1G"/>
-<attribute name="POPULATE" value="0"/>
-</part>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="240">
 <spice>
 <pinmapping spiceprefix="R">
@@ -11041,10 +11037,10 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="C14" library="sfe" deviceset="CAP" device="0402-CAP" value="0.1uF">
 <attribute name="MPN" value="GRM155R71H104KE14D"/>
 </part>
-<part name="D12" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
+<part name="D13" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
 </part>
-<part name="D10" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
+<part name="D11" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
 </part>
 <part name="C19" library="sfe" deviceset="CAP" device="0402-CAP" value="0.1uF">
@@ -11074,10 +11070,10 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="C15" library="sfe" deviceset="CAP" device="0402-CAP" value="0.1uF">
 <attribute name="MPN" value="GRM155R71H104KE14D"/>
 </part>
-<part name="D13" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
+<part name="D14" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
 </part>
-<part name="D11" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
+<part name="D12" library="CPDQT5V0HE-HF" deviceset="CPDQT5V0HE-HF" device="">
 <attribute name="MPN" value="CPDQT5V0HE-HF"/>
 </part>
 <part name="C21" library="sfe" deviceset="CAP" device="0402-CAP" value="0.1uF">
@@ -11107,6 +11103,10 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <part name="R13" library="sfe" deviceset="RESISTOR" device="0402-RES" value="100K">
 <attribute name="MPN" value="AC0402FR-07100KL"/>
 </part>
+<part name="D10" library="BAT54S_R1_00001" deviceset="BAT54S_R1_00001" device="">
+<attribute name="MPN" value="BAT54S_R1_00001"/>
+</part>
+<part name="P+8" library="mux" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11457,7 +11457,7 @@ The current is limited to 3A total for the chip.
 <attribute name="VALUE" x="128.016" y="223.139" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="129.54" y="220.98" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="Z3" gate="G$1" x="66.04" y="223.52" smashed="yes" rot="MR270">
+<instance part="Z2" gate="G$1" x="66.04" y="223.52" smashed="yes" rot="MR270">
 <attribute name="NAME" x="57.15" y="213.36" size="1.778" layer="95" rot="MR270" align="center-left"/>
 <attribute name="VALUE" x="59.69" y="213.36" size="1.778" layer="96" rot="MR270" align="center-left"/>
 <attribute name="MPN" x="66.04" y="223.52" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -11527,12 +11527,6 @@ The current is limited to 3A total for the chip.
 <instance part="GND7" gate="1" x="337.82" y="200.66" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="340.36" y="198.12" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="Z2" gate="G$1" x="314.96" y="243.84" smashed="yes" rot="MR270">
-<attribute name="NAME" x="306.07" y="233.68" size="1.778" layer="95" rot="MR270" align="center-left"/>
-<attribute name="VALUE" x="308.61" y="233.68" size="1.778" layer="96" rot="MR270" align="center-left"/>
-<attribute name="MPN" x="314.96" y="243.84" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="POPULATE" x="314.96" y="243.84" size="1.778" layer="96" rot="MR270" display="off"/>
-</instance>
 <instance part="R11" gate="G$1" x="269.24" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="267.7414" y="219.71" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="272.542" y="219.71" size="1.778" layer="96" rot="R90"/>
@@ -11573,12 +11567,12 @@ The current is limited to 3A total for the chip.
 <attribute name="VALUE" x="132.461" y="102.616" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="134.62" y="104.14" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="D12" gate="G$1" x="119.38" y="132.08" smashed="yes">
+<instance part="D13" gate="G$1" x="119.38" y="132.08" smashed="yes">
 <attribute name="NAME" x="121.92" y="138.43" size="1.778" layer="95"/>
 <attribute name="VALUE" x="121.92" y="135.89" size="1.778" layer="96"/>
 <attribute name="MPN" x="119.38" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D10" gate="G$1" x="119.38" y="142.24" smashed="yes">
+<instance part="D11" gate="G$1" x="119.38" y="142.24" smashed="yes">
 <attribute name="NAME" x="121.92" y="148.59" size="1.778" layer="95"/>
 <attribute name="VALUE" x="121.92" y="146.05" size="1.778" layer="96"/>
 <attribute name="MPN" x="119.38" y="142.24" size="1.778" layer="96" display="off"/>
@@ -11637,12 +11631,12 @@ The current is limited to 3A total for the chip.
 <attribute name="VALUE" x="394.081" y="102.616" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="396.24" y="104.14" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="D13" gate="G$1" x="381" y="132.08" smashed="yes">
+<instance part="D14" gate="G$1" x="381" y="132.08" smashed="yes">
 <attribute name="NAME" x="383.54" y="138.43" size="1.778" layer="95"/>
 <attribute name="VALUE" x="383.54" y="135.89" size="1.778" layer="96"/>
 <attribute name="MPN" x="381" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D11" gate="G$1" x="381" y="142.24" smashed="yes">
+<instance part="D12" gate="G$1" x="381" y="142.24" smashed="yes">
 <attribute name="NAME" x="383.54" y="148.59" size="1.778" layer="95"/>
 <attribute name="VALUE" x="383.54" y="146.05" size="1.778" layer="96"/>
 <attribute name="MPN" x="381" y="142.24" size="1.778" layer="96" display="off"/>
@@ -11700,6 +11694,14 @@ The current is limited to 3A total for the chip.
 <attribute name="MPN" x="332.74" y="121.92" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="334.2386" y="125.73" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="329.438" y="125.73" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="D10" gate="G$1" x="312.42" y="220.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="304.8" y="240.03" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="307.34" y="240.03" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="MPN" x="312.42" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="P+8" gate="1" x="320.04" y="264.16" smashed="yes">
+<attribute name="VALUE" x="319.024" y="267.716" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11759,7 +11761,7 @@ The current is limited to 3A total for the chip.
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="215.9" x2="129.54" y2="203.2" width="0.1524" layer="91"/>
 <junction x="129.54" y="203.2"/>
-<pinref part="Z3" gate="G$1" pin="A"/>
+<pinref part="Z2" gate="G$1" pin="A"/>
 <wire x1="66.04" y1="203.2" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
 <junction x="66.04" y="203.2"/>
 <pinref part="IC4" gate="G$1" pin="GND"/>
@@ -11810,11 +11812,9 @@ The current is limited to 3A total for the chip.
 <segment>
 <pinref part="D5" gate="G$1" pin="2"/>
 <wire x1="299.72" y1="233.68" x2="299.72" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="213.36" x2="314.96" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="213.36" x2="327.66" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="213.36" x2="314.96" y2="228.6" width="0.1524" layer="91"/>
-<junction x="314.96" y="213.36"/>
+<wire x1="299.72" y1="213.36" x2="312.42" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="312.42" y1="213.36" x2="327.66" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="213.36" x2="327.66" y2="233.68" width="0.1524" layer="91"/>
 <junction x="327.66" y="213.36"/>
 <wire x1="269.24" y1="218.44" x2="269.24" y2="213.36" width="0.1524" layer="91"/>
@@ -11834,8 +11834,10 @@ The current is limited to 3A total for the chip.
 <wire x1="414.02" y1="233.68" x2="414.02" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="337.82" y1="213.36" x2="337.82" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="Z2" gate="G$1" pin="A"/>
 <pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="D10" gate="G$1" pin="A"/>
+<wire x1="312.42" y1="213.36" x2="312.42" y2="220.98" width="0.1524" layer="91"/>
+<junction x="312.42" y="213.36"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="EP"/>
@@ -11873,10 +11875,10 @@ The current is limited to 3A total for the chip.
 <label x="111.76" y="144.78" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="D10" gate="G$1" pin="2"/>
+<pinref part="D11" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="142.24" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="D12" gate="G$1" pin="2"/>
+<pinref part="D13" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="139.7" y1="127" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
@@ -11923,10 +11925,10 @@ The current is limited to 3A total for the chip.
 <label x="373.38" y="144.78" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="D11" gate="G$1" pin="2"/>
+<pinref part="D12" gate="G$1" pin="2"/>
 <wire x1="391.16" y1="142.24" x2="401.32" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="142.24" x2="401.32" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="D13" gate="G$1" pin="2"/>
+<pinref part="D14" gate="G$1" pin="2"/>
 <wire x1="401.32" y1="132.08" x2="391.16" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="401.32" y1="127" x2="401.32" y2="129.54" width="0.1524" layer="91"/>
@@ -12002,6 +12004,13 @@ The current is limited to 3A total for the chip.
 <pinref part="JP11" gate="G$1" pin="1"/>
 <wire x1="411.48" y1="142.24" x2="411.48" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="D10" gate="G$1" pin="K"/>
+<wire x1="314.96" y1="220.98" x2="314.96" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="215.9" x2="320.04" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="215.9" x2="320.04" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="P+8" gate="1" pin="VCC"/>
 </segment>
 </net>
 <net name="VIN" class="6">
@@ -12086,7 +12095,7 @@ The current is limited to 3A total for the chip.
 <pinref part="D7" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="223.52" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="228.6" x2="66.04" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="Z3" gate="G$1" pin="K"/>
+<pinref part="Z2" gate="G$1" pin="K"/>
 <wire x1="66.04" y1="223.52" x2="66.04" y2="228.6" width="0.1524" layer="91"/>
 <junction x="66.04" y="228.6"/>
 <pinref part="IC4" gate="G$1" pin="A"/>
@@ -12383,19 +12392,19 @@ The current is limited to 3A total for the chip.
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="248.92" x2="299.72" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="248.92" x2="314.96" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="248.92" x2="312.42" y2="248.92" width="0.1524" layer="91"/>
 <junction x="299.72" y="248.92"/>
 <pinref part="D5" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="248.92" x2="327.66" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="243.84" x2="299.72" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="248.92" x2="327.66" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="248.92" x2="314.96" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="243.84" x2="314.96" y2="248.92" width="0.1524" layer="91"/>
-<junction x="314.96" y="248.92"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="243.84" x2="327.66" y2="248.92" width="0.1524" layer="91"/>
 <junction x="327.66" y="248.92"/>
 <pinref part="IC3" gate="G$1" pin="IN+"/>
-<pinref part="Z2" gate="G$1" pin="K"/>
+<pinref part="D10" gate="G$1" pin="A/K"/>
+<wire x1="312.42" y1="243.84" x2="312.42" y2="248.92" width="0.1524" layer="91"/>
+<junction x="312.42" y="248.92"/>
 </segment>
 </net>
 <net name="AIN_S" class="4">
@@ -12495,7 +12504,7 @@ The current is limited to 3A total for the chip.
 <pinref part="IC5" gate="G$1" pin="PH/IN2"/>
 <wire x1="104.14" y1="127" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 <label x="104.14" y="144.78" size="1.778" layer="95" rot="MR270"/>
-<pinref part="D12" gate="G$1" pin="1"/>
+<pinref part="D13" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="132.08" x2="104.14" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="132.08" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 <junction x="104.14" y="132.08"/>
@@ -12525,7 +12534,7 @@ The current is limited to 3A total for the chip.
 <pinref part="IC5" gate="G$1" pin="EN/IN1"/>
 <wire x1="106.68" y1="127" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
 <label x="106.68" y="144.78" size="1.778" layer="95" rot="MR270"/>
-<pinref part="D10" gate="G$1" pin="1"/>
+<pinref part="D11" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="142.24" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="142.24" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
 <junction x="106.68" y="142.24"/>
@@ -12541,7 +12550,7 @@ The current is limited to 3A total for the chip.
 <pinref part="IC6" gate="G$1" pin="EN/IN1"/>
 <wire x1="368.3" y1="127" x2="368.3" y2="142.24" width="0.1524" layer="91"/>
 <label x="368.3" y="144.78" size="1.778" layer="95" rot="MR270"/>
-<pinref part="D11" gate="G$1" pin="1"/>
+<pinref part="D12" gate="G$1" pin="1"/>
 <wire x1="368.3" y1="142.24" x2="368.3" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="381" y1="142.24" x2="368.3" y2="142.24" width="0.1524" layer="91"/>
 <junction x="368.3" y="142.24"/>
@@ -12663,7 +12672,7 @@ The current is limited to 3A total for the chip.
 <pinref part="IC6" gate="G$1" pin="PH/IN2"/>
 <wire x1="365.76" y1="127" x2="365.76" y2="132.08" width="0.1524" layer="91"/>
 <label x="365.76" y="144.78" size="1.778" layer="95" rot="MR270"/>
-<pinref part="D13" gate="G$1" pin="1"/>
+<pinref part="D14" gate="G$1" pin="1"/>
 <wire x1="365.76" y1="132.08" x2="365.76" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="381" y1="132.08" x2="365.76" y2="132.08" width="0.1524" layer="91"/>
 <junction x="365.76" y="132.08"/>
