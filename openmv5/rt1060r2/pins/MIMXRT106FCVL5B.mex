@@ -48,7 +48,7 @@
                <pin_label pin_num="J2" pin_signal="GPIO_SD_B0_05" label="USD_DATA_3"/>
                <pin_label pin_num="K2" pin_signal="VSS3" label="GND"/>
                <pin_label pin_num="N2" pin_signal="DCDC_GND1" label="GND"/>
-               <pin_label pin_num="P2" pin_signal="GPIO_SD_B1_04" label="STORAGE_SCLK"/>
+               <pin_label pin_num="P2" pin_signal="GPIO_SD_B1_04" label="ON_BATTERY"/>
                <pin_label pin_num="A3" pin_signal="GPIO_EMC_20" label="SDRAM_ADDR_12"/>
                <pin_label pin_num="B3" pin_signal="GPIO_EMC_26" label="SDRAM_CLK"/>
                <pin_label pin_num="C3" pin_signal="GPIO_EMC_36" label="SDRAM_DATA_14"/>
@@ -60,8 +60,8 @@
                <pin_label pin_num="J3" pin_signal="GPIO_SD_B0_01" label="USD_CLK"/>
                <pin_label pin_num="L3" pin_signal="GPIO_SD_B1_06" label="PROGRAM_SS"/>
                <pin_label pin_num="P3" pin_signal="GPIO_SD_B1_08" label="PROGRAM_DATA_0"/>
-               <pin_label pin_num="M3" pin_signal="GPIO_SD_B1_02" label="STORAGE_DATA_1"/>
-               <pin_label pin_num="N3" pin_signal="GPIO_SD_B1_05" label="STORAGE_SS"/>
+               <pin_label pin_num="M3" pin_signal="GPIO_SD_B1_02" label="WIFI_DATA_1"/>
+               <pin_label pin_num="N3" pin_signal="GPIO_SD_B1_05" label="PROGRAM_DQS"/>
                <pin_label pin_num="A4" pin_signal="GPIO_EMC_17" label="SDRAM_ADDR_8"/>
                <pin_label pin_num="B4" pin_signal="GPIO_EMC_19" label="SDRAM_ADDR_11"/>
                <pin_label pin_num="C4" pin_signal="GPIO_EMC_33" label="SDRAM_DATA_11"/>
@@ -71,7 +71,7 @@
                <pin_label pin_num="G4" pin_signal="GPIO_EMC_03" label="SDRAM_DATA_3"/>
                <pin_label pin_num="H4" pin_signal="GPIO_EMC_07" label="SDRAM_DATA_7"/>
                <pin_label pin_num="J4" pin_signal="GPIO_SD_B0_00" label="USD_CMD"/>
-               <pin_label pin_num="M4" pin_signal="GPIO_SD_B1_03" label="STORAGE_DATA_0"/>
+               <pin_label pin_num="M4" pin_signal="GPIO_SD_B1_03" label="WIFI_DATA_0"/>
                <pin_label pin_num="L4" pin_signal="GPIO_SD_B1_07" label="PROGRAM_SCLK"/>
                <pin_label pin_num="N4" pin_signal="GPIO_SD_B1_09" label="PROGRAM_DATA_1"/>
                <pin_label pin_num="P4" pin_signal="GPIO_SD_B1_10" label="PROGRAM_DATA_2"/>
@@ -84,8 +84,8 @@
                <pin_label pin_num="G5" pin_signal="GPIO_EMC_05" label="SDRAM_DATA_5"/>
                <pin_label pin_num="H5" pin_signal="GPIO_EMC_06" label="SDRAM_DATA_6"/>
                <pin_label pin_num="K5" pin_signal="NVCC_SD1" label="3.3V"/>
-               <pin_label pin_num="L5" pin_signal="GPIO_SD_B1_00" label="STORAGE_DATA_3"/>
-               <pin_label pin_num="M5" pin_signal="GPIO_SD_B1_01" label="STORAGE_DATA_2"/>
+               <pin_label pin_num="L5" pin_signal="GPIO_SD_B1_00" label="WIFI_BT_DEVICE_WAKE"/>
+               <pin_label pin_num="M5" pin_signal="GPIO_SD_B1_01" label="P10_PWM_FSIN"/>
                <pin_label pin_num="N5" pin_signal="VSS5" label="GND"/>
                <pin_label pin_num="P5" pin_signal="GPIO_SD_B1_11" label="PROGRAM_DATA_3"/>
                <pin_label pin_num="A6" pin_signal="GPIO_EMC_13" label="SDRAM_ADDR_4"/>
@@ -169,8 +169,7 @@
                <pin_label pin_num="G12" pin_signal="GPIO_AD_B1_14" label="CAMERA_DATA_3"/>
                <pin_label pin_num="H12" pin_signal="GPIO_AD_B1_12" label="CAMERA_DATA_5"/>
                <pin_label pin_num="J12" pin_signal="GPIO_AD_B1_06" label="WIFI_DATA_2"/>
-               <pin_label pin_num="K12" pin_signal="GPIO_AD_B1_05" label="WIFI_DATA_1"/>
-               <pin_label pin_num="L12" pin_signal="GPIO_AD_B1_04" label="WIFI_DATA_0"/>
+               <pin_label pin_num="K12" pin_signal="GPIO_AD_B1_05" label="WIFI_UART_RTS"/>
                <pin_label pin_num="M12" pin_signal="GPIO_AD_B1_03" label="P6_ADC"/>
                <pin_label pin_num="N12" pin_signal="USB_OTG1_CHD_B" label="NC"/>
                <pin_label pin_num="P12" pin_signal="VDD_HIGH_IN" label="3.3V"/>
@@ -208,19 +207,20 @@
                <pin_label pin_num="D9" pin_signal="GPIO_B0_10" label="RGB_LED_R"/>
                <pin_label pin_num="A10" pin_signal="GPIO_B0_11" label="RGB_LED_G"/>
                <pin_label pin_num="C14" pin_signal="GPIO_B1_14" label="RGB_LED_B"/>
-               <pin_label pin_num="B7" pin_signal="GPIO_EMC_39" label="P10_PWM_FSIN"/>
+               <pin_label pin_num="B7" pin_signal="GPIO_EMC_39" label="SDRAM_DQS"/>
                <pin_label pin_num="C10" pin_signal="GPIO_B0_12" label="ETHERNET_INT"/>
                <pin_label pin_num="D10" pin_signal="GPIO_B0_13" label="ETHERNET_RST"/>
                <pin_label pin_num="B11" pin_signal="GPIO_B1_01" label="CAMERA_RST"/>
                <pin_label pin_num="C11" pin_signal="GPIO_B1_02" label="CAMERA_PWDN"/>
                <pin_label pin_num="E10" pin_signal="GPIO_B0_14" label="WIFI_WL_REG_EN"/>
                <pin_label pin_num="K7" pin_signal="PMIC_ON_REQ" label="PMIC_ON_REQUEST"/>
-               <pin_label pin_num="L7" pin_signal="PMIC_STBY_REQ" label="WIFI_BT_DEVICE_WAKE"/>
                <pin_label pin_num="D11" pin_signal="GPIO_B1_03" label="INTERNAL_I2C_INT"/>
                <pin_label pin_num="H14" pin_signal="GPIO_AD_B0_14" label="WIFI_BT_HOST_WAKE"/>
                <pin_label pin_num="L6" pin_signal="WAKEUP" label="P11_WAKEUP"/>
                <pin_label pin_num="M6" pin_signal="ONOFF" label="PMIC_ONOFF"/>
                <pin_label pin_num="E11" pin_signal="GPIO_B0_15" label="WIFI_WL_HOST_WAKE"/>
+               <pin_label pin_num="L12" pin_signal="GPIO_AD_B1_04" label="WIFI_UART_CTS"/>
+               <pin_label pin_num="L7" pin_signal="PMIC_STBY_REQ" label="NC"/>
             </pin_labels>
             <external_user_signals>
                <properties/>
@@ -494,11 +494,6 @@
                   <pin peripheral="FLEXSPI" signal="FLEXSPI_A_DATA2" pin_num="P4" pin_signal="GPIO_SD_B1_10"/>
                   <pin peripheral="FLEXSPI" signal="FLEXSPI_A_DATA1" pin_num="N4" pin_signal="GPIO_SD_B1_09"/>
                   <pin peripheral="FLEXSPI" signal="FLEXSPI_A_DATA0" pin_num="P3" pin_signal="GPIO_SD_B1_08"/>
-                  <pin peripheral="FLEXSPI" signal="FLEXSPI_B_DATA0" pin_num="M4" pin_signal="GPIO_SD_B1_03"/>
-                  <pin peripheral="FLEXSPI" signal="FLEXSPI_B_DATA1" pin_num="M3" pin_signal="GPIO_SD_B1_02"/>
-                  <pin peripheral="FLEXSPI" signal="FLEXSPI_B_DATA2" pin_num="M5" pin_signal="GPIO_SD_B1_01"/>
-                  <pin peripheral="FLEXSPI" signal="FLEXSPI_B_DATA3" pin_num="L5" pin_signal="GPIO_SD_B1_00"/>
-                  <pin peripheral="USDHC2" signal="usdhc_data, 1" pin_num="K12" pin_signal="GPIO_AD_B1_05"/>
                   <pin peripheral="USDHC2" signal="usdhc_data, 2" pin_num="J12" pin_signal="GPIO_AD_B1_06"/>
                   <pin peripheral="USDHC2" signal="usdhc_data, 3" pin_num="K10" pin_signal="GPIO_AD_B1_07"/>
                   <pin peripheral="USDHC2" signal="usdhc_clk" pin_num="M13" pin_signal="GPIO_AD_B1_09"/>
@@ -506,9 +501,6 @@
                   <pin peripheral="USB2" signal="usb_otg2_dn" pin_num="N7" pin_signal="USB_OTG2_DN"/>
                   <pin peripheral="SRC" signal="POR_B" pin_num="M7" pin_signal="POR_B"/>
                   <pin peripheral="SRC" signal="RESET_B" pin_num="M6" pin_signal="ONOFF"/>
-                  <pin peripheral="FLEXSPI" signal="FLEXSPI_B_SS0_B" pin_num="N3" pin_signal="GPIO_SD_B1_05"/>
-                  <pin peripheral="FLEXSPI" signal="FLEXSPI_B_SCLK" pin_num="P2" pin_signal="GPIO_SD_B1_04"/>
-                  <pin peripheral="USDHC2" signal="usdhc_data, 0" pin_num="L12" pin_signal="GPIO_AD_B1_04"/>
                   <pin peripheral="USDHC1" signal="usdhc_cd_b" pin_num="L11" pin_signal="GPIO_AD_B1_02"/>
                   <pin peripheral="CSI" signal="csi_data, 08" pin_num="G14" pin_signal="GPIO_AD_B0_05"/>
                   <pin peripheral="CSI" signal="csi_data, 09" pin_num="F11" pin_signal="GPIO_AD_B0_04"/>
@@ -551,19 +543,27 @@
                   <pin peripheral="PWM2" signal="A, 2" pin_num="D9" pin_signal="GPIO_B0_10"/>
                   <pin peripheral="PWM2" signal="B, 2" pin_num="A10" pin_signal="GPIO_B0_11"/>
                   <pin peripheral="PWM4" signal="A, 2" pin_num="C14" pin_signal="GPIO_B1_14"/>
-                  <pin peripheral="PWM1" signal="B, 3" pin_num="B7" pin_signal="GPIO_EMC_39"/>
                   <pin peripheral="GPIO2" signal="gpio_io, 12" pin_num="C10" pin_signal="GPIO_B0_12"/>
                   <pin peripheral="GPIO2" signal="gpio_io, 13" pin_num="D10" pin_signal="GPIO_B0_13"/>
                   <pin peripheral="GPIO2" signal="gpio_io, 18" pin_num="C11" pin_signal="GPIO_B1_02"/>
                   <pin peripheral="GPIO2" signal="gpio_io, 17" pin_num="B11" pin_signal="GPIO_B1_01"/>
                   <pin peripheral="GPIO2" signal="gpio_io, 14" pin_num="E10" pin_signal="GPIO_B0_14"/>
-                  <pin peripheral="GPIO5" signal="gpio_io, 02" pin_num="L7" pin_signal="PMIC_STBY_REQ"/>
                   <pin peripheral="GPIO2" signal="gpio_io, 19" pin_num="D11" pin_signal="GPIO_B1_03"/>
                   <pin peripheral="GPIO1" signal="gpio_io, 14" pin_num="H14" pin_signal="GPIO_AD_B0_14"/>
                   <pin peripheral="GPIO2" signal="gpio_io, 15" pin_num="E11" pin_signal="GPIO_B0_15"/>
                   <pin peripheral="SNVS" signal="snvs_pmic_on_req" pin_num="K7" pin_signal="PMIC_ON_REQ"/>
                   <pin peripheral="GPIO5" signal="gpio_io, 00" pin_num="L6" pin_signal="WAKEUP"/>
                   <pin peripheral="GPIO1" signal="gpio_io, 08" pin_num="F13" pin_signal="GPIO_AD_B0_08"/>
+                  <pin peripheral="SEMC" signal="semc_dqs" pin_num="B7" pin_signal="GPIO_EMC_39"/>
+                  <pin peripheral="FLEXSPI" signal="FLEXSPI_A_DQS" pin_num="N3" pin_signal="GPIO_SD_B1_05"/>
+                  <pin peripheral="USDHC2" signal="usdhc_data, 0" pin_num="M4" pin_signal="GPIO_SD_B1_03"/>
+                  <pin peripheral="LPUART3" signal="CTS_B" pin_num="L12" pin_signal="GPIO_AD_B1_04"/>
+                  <pin peripheral="LPUART3" signal="RTS_B" pin_num="K12" pin_signal="GPIO_AD_B1_05"/>
+                  <pin peripheral="USDHC2" signal="usdhc_data, 1" pin_num="M3" pin_signal="GPIO_SD_B1_02"/>
+                  <pin peripheral="PWM1" signal="B, 3" pin_num="M5" pin_signal="GPIO_SD_B1_01"/>
+                  <pin peripheral="GPIO3" signal="gpio_io, 00" pin_num="L5" pin_signal="GPIO_SD_B1_00"/>
+                  <pin peripheral="CCM" signal="PMIC_STBY_REQ" pin_num="L7" pin_signal="PMIC_STBY_REQ"/>
+                  <pin peripheral="GPIO3" signal="gpio_io, 04" pin_num="P2" pin_signal="GPIO_SD_B1_04"/>
                </pins>
             </function>
          </functions_list>
@@ -713,10 +713,9 @@
                   <setting id="CCM_ANALOG.PLL3_PFD1_MUL.scale" value="18" locked="true"/>
                   <setting id="CCM_ANALOG.PLL3_PFD2_BYPASS.sel" value="CCM_ANALOG.PLL3_PFD2" locked="false"/>
                   <setting id="CCM_ANALOG.PLL3_PFD3_BYPASS.sel" value="CCM_ANALOG.PLL3_PFD3" locked="false"/>
-                  <setting id="CCM_ANALOG.PLL5.denom" value="960000" locked="false"/>
-                  <setting id="CCM_ANALOG.PLL5.div" value="28" locked="false"/>
-                  <setting id="CCM_ANALOG.PLL5.num" value="1" locked="false"/>
                   <setting id="CCM_ANALOG.PLL6_BYPASS.sel" value="CCM_ANALOG.PLL6" locked="false"/>
+                  <setting id="CCM_ANALOG_MISC1_LVDSCLK1_IBEN_CFG" value="Outputs" locked="false"/>
+                  <setting id="CCM_ANALOG_MISC1_LVDSCLK1_OBEN_CFG" value="Outputs" locked="false"/>
                   <setting id="CCM_ANALOG_PLL_USB1_EN_USB_CLKS_CFG" value="Enabled" locked="false"/>
                   <setting id="CCM_ANALOG_PLL_USB1_EN_USB_CLKS_OUT_CFG" value="Enabled" locked="false"/>
                   <setting id="CCM_ANALOG_PLL_USB1_POWER_CFG" value="Yes" locked="false"/>
