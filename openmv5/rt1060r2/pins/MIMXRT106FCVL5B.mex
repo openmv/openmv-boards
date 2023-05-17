@@ -220,7 +220,7 @@
                <pin_label pin_num="M6" pin_signal="ONOFF" label="PMIC_ONOFF"/>
                <pin_label pin_num="E11" pin_signal="GPIO_B0_15" label="WIFI_WL_HOST_WAKE"/>
                <pin_label pin_num="L12" pin_signal="GPIO_AD_B1_04" label="WIFI_UART_CTS"/>
-               <pin_label pin_num="L7" pin_signal="PMIC_STBY_REQ" label="NC"/>
+               <pin_label pin_num="L7" pin_signal="PMIC_STBY_REQ" label="USER_BUTTON"/>
             </pin_labels>
             <external_user_signals>
                <properties/>
@@ -562,8 +562,8 @@
                   <pin peripheral="USDHC2" signal="usdhc_data, 1" pin_num="M3" pin_signal="GPIO_SD_B1_02"/>
                   <pin peripheral="PWM1" signal="B, 3" pin_num="M5" pin_signal="GPIO_SD_B1_01"/>
                   <pin peripheral="GPIO3" signal="gpio_io, 00" pin_num="L5" pin_signal="GPIO_SD_B1_00"/>
-                  <pin peripheral="CCM" signal="PMIC_STBY_REQ" pin_num="L7" pin_signal="PMIC_STBY_REQ"/>
                   <pin peripheral="GPIO3" signal="gpio_io, 04" pin_num="P2" pin_signal="GPIO_SD_B1_04"/>
+                  <pin peripheral="GPIO5" signal="gpio_io, 02" pin_num="L7" pin_signal="PMIC_STBY_REQ"/>
                </pins>
             </function>
          </functions_list>
