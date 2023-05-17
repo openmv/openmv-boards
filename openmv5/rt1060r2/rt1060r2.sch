@@ -12311,8 +12311,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MPN" value="RC0402JR-075K1L"/>
 </part>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
-<part name="IC9" library="MIMXRT1052DVL6B" deviceset="MIMXRT1052DVL6B" device="">
-<attribute name="MPN" value="MIMXRT1052DVL6B"/>
+<part name="IC9" library="MIMXRT1052DVL6B" deviceset="MIMXRT1052DVL6B" device="" value="MIMXRT106FCVL5B">
+<attribute name="DESCRIPTION" value="Processors - Application Specialized MIMXRT1062DVL6B/LFBGA196///STANDARD MARKING * TRAY"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MIMXRT1062DVL6B"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-MIMXRT1062DVL6B"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MIMXRT1062DVL6B"/>
+<attribute name="MPN" value="MIMXRT106FCVL5B"/>
 </part>
 <part name="C32" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF" device="-0805-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37429/1" value="22uF">
 <attribute name="MPN" value="CL21A226MQQNNNE"/>
@@ -17746,7 +17750,7 @@ pins and the LED pin</text>
 <text x="2.54" y="10.16" size="2.794" layer="97">This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 License.</text>
 <text x="2.54" y="2.54" size="2.794" layer="97">To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/</text>
 <wire x1="0" y1="35.56" x2="165.1" y2="35.56" width="0.1524" layer="94" style="longdash"/>
-<text x="12.7" y="368.3" size="7.62" layer="94" font="vector" ratio="20">MIMXRT10XX</text>
+<text x="12.7" y="368.3" size="7.62" layer="94" font="vector" ratio="20">MIMXRT1062</text>
 <text x="66.04" y="302.26" size="1.778" layer="97">SDRAM_DQS</text>
 <text x="139.7" y="170.18" size="1.778" layer="97">P_FLASH_DQS</text>
 <text x="40.64" y="353.06" size="1.778" layer="97" rot="R90">3.3V</text>
