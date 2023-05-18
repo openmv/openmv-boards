@@ -12079,6 +12079,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 </part>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
 <part name="IC8" library="MIMXRT1052DVL6B" deviceset="MIMXRT1052DVL6B" device="" value="MIMXRT106FCVL5B">
+<attribute name="DESCRIPTION" value="Processors - Application Specialized MIMXRT106FCVL5B/LFBGA196///STANDARD MARKING * TRAY"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MIMXRT106FCVL5B"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-MIMXRT106FCVL5B"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MIMXRT106FCVL5B"/>
 <attribute name="MPN" value="MIMXRT106FCVL5B"/>
 </part>
 <part name="C37" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF" device="-0805-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37429/1" value="22uF">
@@ -12881,7 +12885,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.p
 <wire x1="208.28" y1="429.26" x2="208.28" y2="421.64" width="0.1524" layer="150" style="longdash"/>
 <wire x1="208.28" y1="421.64" x2="106.68" y2="421.64" width="0.1524" layer="150" style="longdash"/>
 <wire x1="106.68" y1="421.64" x2="106.68" y2="429.26" width="0.1524" layer="150" style="longdash"/>
-<text x="109.22" y="424.18" size="2.54" layer="150" font="vector" ratio="20">* CKE is pulled down by 100K on the RT1052</text>
+<text x="109.22" y="424.18" size="2.54" layer="150" font="vector" ratio="20">* CKE is pulled down by 100K on the RT1062</text>
 <wire x1="703.58" y1="441.96" x2="858.52" y2="441.96" width="0.1524" layer="150" style="longdash"/>
 <wire x1="858.52" y1="441.96" x2="858.52" y2="434.34" width="0.1524" layer="150" style="longdash"/>
 <wire x1="858.52" y1="434.34" x2="703.58" y2="434.34" width="0.1524" layer="150" style="longdash"/>

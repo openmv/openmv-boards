@@ -6611,12 +6611,12 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <attribute name="VALUE" x="3.543" y="27.7205" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="IC8" library="MIMXRT1052DVL6B" package="BGA196C65P14X14_1000X1000X143" value="MIMXRT106FCVL5B" x="16.6" y="27.6" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Processors - Application Specialized MIMXRT1052DVL6B/LFBGA196///STANDARD MARKING * TRAY" x="16.6" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Processors - Application Specialized MIMXRT106FCVL5B/LFBGA196///STANDARD MARKING * TRAY" x="16.6" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="1.43mm" x="16.6" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="NXP" x="16.6" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MIMXRT1052DVL6B" x="16.6" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-MIMXRT1052DVL6B" x="16.6" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MIMXRT1052DVL6B?qs=r5DSvlrkXmLhWvqckzJtSg%3D%3D" x="16.6" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MIMXRT106FCVL5B" x="16.6" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-MIMXRT106FCVL5B" x="16.6" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MIMXRT106FCVL5B" x="16.6" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MIMXRT106FCVL5B" x="16.6" y="27.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="16.6" y="27.6" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="16.6" y="27.6" size="1.27" layer="27" rot="R90" align="center"/>
