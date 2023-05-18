@@ -12261,7 +12261,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="IC6" library="ATECC608B-MAHDA-T" deviceset="ATECC608B-MAHDA-T" device="">
 <attribute name="MPN" value="ATECC608B-MAHDA-T"/>
 </part>
-<part name="C29" library="0402" deviceset="CAP_0402" device="" value="1uF">
+<part name="C29" library="0402" deviceset="CAP_0402" device="" value="0.1uF">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -14296,7 +14296,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="251.46" y1="167.64" x2="251.46" y2="160.02" width="0.1524" layer="150" style="longdash"/>
 <wire x1="251.46" y1="160.02" x2="149.86" y2="160.02" width="0.1524" layer="150" style="longdash"/>
 <wire x1="149.86" y1="160.02" x2="149.86" y2="167.64" width="0.1524" layer="150" style="longdash"/>
-<text x="152.4" y="162.56" size="2.54" layer="150" font="vector" ratio="20">* CKE is pulled down by 100K on the RT1060</text>
+<text x="152.4" y="162.56" size="2.54" layer="150" font="vector" ratio="20">* CKE is pulled down by 100K on the RT1062</text>
 <text x="40.64" y="142.24" size="1.778" layer="97" rot="R90">3.3V</text>
 <text x="165.1" y="142.24" size="1.778" layer="97" rot="R90">3.3V</text>
 </plain>

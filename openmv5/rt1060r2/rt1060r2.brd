@@ -6464,7 +6464,7 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <attribute name="NAME" x="12" y="36.6" size="1.27" layer="26" rot="MR270" align="center"/>
 <attribute name="VALUE" x="12" y="36.6" size="1.27" layer="28" rot="MR270" align="center"/>
 </element>
-<element name="C29" library="0402" package="0402" value="1uF" x="10.2" y="34.4" smashed="yes" rot="MR270">
+<element name="C29" library="0402" package="0402" value="0.1uF" x="10.2" y="34.4" smashed="yes" rot="MR270">
 <attribute name="MPN" value="C0402C104Z4VAC" x="10.2" y="34.4" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="9.565" y="35.035" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="12.105" y="35.035" size="1.27" layer="28" rot="MR270"/>
