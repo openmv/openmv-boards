@@ -16615,14 +16615,14 @@ BOOTMOD = b01 -&gt; SBL BOOT</text>
 <label x="15.24" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="4">
+<net name="P13" class="4">
 <segment>
 <pinref part="J6" gate="G$1" pin="3"/>
 <wire x1="241.3" y1="124.46" x2="231.14" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R45" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$2" class="4">
+<net name="P14" class="4">
 <segment>
 <pinref part="J6" gate="G$1" pin="4"/>
 <wire x1="231.14" y1="127" x2="241.3" y2="127" width="0.1524" layer="91"/>

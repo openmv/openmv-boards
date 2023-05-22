@@ -7685,35 +7685,35 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <attribute name="NAME" x="16.965" y="40.535" size="0.8128" layer="26" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="18.905" y="40.535" size="0.8128" layer="28" ratio="10" rot="MR270"/>
 </element>
-<element name="R13" library="0402" package="0402" value="100K" x="-7.2" y="-9.2" smashed="yes">
-<attribute name="MPN" value="AC0402FR-07100KL" x="-7.2" y="-9.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.835" y="-8.665" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-7.835" y="-10.605" size="0.8128" layer="27" ratio="10"/>
+<element name="R13" library="0402" package="0402" value="100K" x="13.2" y="21.2" smashed="yes" rot="MR90">
+<attribute name="MPN" value="AC0402FR-07100KL" x="13.2" y="21.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="13.735" y="20.565" size="0.8128" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="11.795" y="20.565" size="0.8128" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="R4" library="0402" package="0402" value="100K" x="-7.2" y="-13.2" smashed="yes">
-<attribute name="MPN" value="AC0402FR-07100KL" x="-7.2" y="-13.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.835" y="-12.665" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-7.835" y="-14.605" size="0.8128" layer="27" ratio="10"/>
+<element name="R4" library="0402" package="0402" value="100K" x="14.4" y="21.2" smashed="yes" rot="MR90">
+<attribute name="MPN" value="AC0402FR-07100KL" x="14.4" y="21.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="14.935" y="20.565" size="0.8128" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="12.995" y="20.565" size="0.8128" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="R50" library="0402" package="0402" value="DNP" x="-7.2" y="-17.2" smashed="yes">
-<attribute name="MPN" value="DNP" x="-7.2" y="-17.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.835" y="-16.665" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-7.835" y="-18.605" size="0.8128" layer="27" ratio="10"/>
+<element name="R50" library="0402" package="0402" value="DNP" x="14.4" y="19" smashed="yes" rot="MR90">
+<attribute name="MPN" value="DNP" x="14.4" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="14.935" y="18.365" size="0.8128" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="12.995" y="18.365" size="0.8128" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="R51" library="0402" package="0402" value="DNP" x="-7.2" y="-21.2" smashed="yes">
-<attribute name="MPN" value="DNP" x="-7.2" y="-21.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.835" y="-20.665" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-7.835" y="-22.605" size="0.8128" layer="27" ratio="10"/>
+<element name="R51" library="0402" package="0402" value="DNP" x="13.2" y="19" smashed="yes" rot="MR90">
+<attribute name="MPN" value="DNP" x="13.2" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="13.735" y="18.365" size="0.8128" layer="26" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="11.795" y="18.365" size="0.8128" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="R45" library="0402" package="0402" value="0" x="-7.2" y="-25.2" smashed="yes">
-<attribute name="MPN" value="RC0402JR-070RL" x="-7.2" y="-25.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.835" y="-24.665" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-7.835" y="-26.605" size="0.8128" layer="27" ratio="10"/>
+<element name="R45" library="0402" package="0402" value="0" x="29.6" y="7.6" smashed="yes" rot="MR270">
+<attribute name="MPN" value="RC0402JR-070RL" x="29.6" y="7.6" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="29.065" y="8.235" size="0.8128" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="31.005" y="8.235" size="0.8128" layer="28" ratio="10" rot="MR270"/>
 </element>
-<element name="R44" library="0402" package="0402" value="0" x="-7.2" y="-29.2" smashed="yes">
-<attribute name="MPN" value="RC0402JR-070RL" x="-7.2" y="-29.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-7.835" y="-28.665" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-7.835" y="-30.605" size="0.8128" layer="27" ratio="10"/>
+<element name="R44" library="0402" package="0402" value="0" x="29.6" y="9.8" smashed="yes" rot="MR270">
+<attribute name="MPN" value="RC0402JR-070RL" x="29.6" y="9.8" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="29.065" y="10.435" size="0.8128" layer="26" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="31.005" y="10.435" size="0.8128" layer="28" ratio="10" rot="MR270"/>
 </element>
 </elements>
 <signals>
@@ -8414,6 +8414,8 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <wire x1="18.9" y1="23.35" x2="18.875" y2="23.375" width="0" layer="19" extent="1-16"/>
 <wire x1="17.3" y1="21.8" x2="18.875" y2="23.375" width="0" layer="19" extent="1-16"/>
 <wire x1="15.8" y1="21.8" x2="17.3" y2="21.8" width="0" layer="19" extent="16-16"/>
+<wire x1="14.4" y1="21.7" x2="15.8" y2="21.8" width="0" layer="19" extent="16-16"/>
+<wire x1="13.2" y1="21.7" x2="14.4" y2="21.7" width="0" layer="19" extent="16-16"/>
 <wire x1="21.9" y1="22.5" x2="18.9" y2="23.35" width="0" layer="19" extent="16-16"/>
 <wire x1="22.5" y1="22.6" x2="21.9" y2="22.5" width="0" layer="19" extent="1-16"/>
 <wire x1="23.5" y1="25" x2="22.5" y2="22.6" width="0" layer="19" extent="1-1"/>
@@ -8492,8 +8494,6 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <wire x1="1.6" y1="1.6" x2="2.5" y2="2.7" width="0" layer="19" extent="16-16"/>
 <wire x1="31.46" y1="1.6" x2="21.6" y2="10.1" width="0" layer="19" extent="16-16"/>
 <wire x1="32.4" y1="2.8" x2="31.46" y2="1.6" width="0" layer="19" extent="16-16"/>
-<wire x1="-6.7" y1="-9.2" x2="1.6" y2="1.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.7" y1="-13.2" x2="-6.7" y2="-9.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DCMI_D0" class="5">
 <contactref element="J3" pad="31"/>
@@ -8741,9 +8741,9 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <contactref element="R6" pad="1"/>
 <contactref element="R13" pad="1"/>
 <contactref element="R51" pad="2"/>
-<wire x1="-7.7" y1="-9.2" x2="-6.7" y2="-21.2" width="0" layer="19" extent="1-1"/>
-<wire x1="11.35" y1="1.265" x2="-7.7" y2="-9.2" width="0" layer="19" extent="1-16"/>
+<wire x1="11.35" y1="1.265" x2="13.2" y2="20.7" width="0" layer="19" extent="16-16"/>
 <wire x1="13.3" y1="0.8" x2="11.35" y2="1.265" width="0" layer="19" extent="16-16"/>
+<wire x1="13.2" y1="19.5" x2="11.35" y2="1.265" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="CC1">
 <contactref element="R1" pad="1"/>
@@ -8816,9 +8816,9 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <contactref element="R5" pad="1"/>
 <contactref element="R4" pad="1"/>
 <contactref element="R50" pad="2"/>
-<wire x1="19.8" y1="0.8" x2="20.95" y2="0.662" width="0" layer="19" extent="16-16"/>
-<wire x1="-7.7" y1="-13.2" x2="19.8" y2="0.8" width="0" layer="19" extent="1-16"/>
-<wire x1="-6.7" y1="-17.2" x2="-7.7" y2="-13.2" width="0" layer="19" extent="1-1"/>
+<wire x1="14.4" y1="19.5" x2="14.4" y2="20.7" width="0" layer="19" extent="16-16"/>
+<wire x1="19.8" y1="0.8" x2="14.4" y2="19.5" width="0" layer="19" extent="16-16"/>
+<wire x1="20.95" y1="0.662" x2="19.8" y2="0.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LED_ST">
 <contactref element="D1" pad="1"/>
@@ -9180,7 +9180,7 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <contactref element="R48" pad="1"/>
 <contactref element="R44" pad="1"/>
 <wire x1="25.9" y1="6.5" x2="28.3" y2="10.9" width="0" layer="19" extent="16-16"/>
-<wire x1="-7.7" y1="-29.2" x2="25.9" y2="6.5" width="0" layer="19" extent="1-16"/>
+<wire x1="29.6" y1="10.3" x2="25.9" y2="6.5" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="P12_RST_N_EXT">
 <contactref element="J7" pad="8"/>
@@ -9209,14 +9209,14 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <contactref element="FL5" pad="3"/>
 <contactref element="R50" pad="1"/>
 <wire x1="26.7" y1="10.9" x2="15.625" y2="31.825" width="0" layer="19" extent="1-16"/>
-<wire x1="-7.7" y1="-17.2" x2="26.7" y2="10.9" width="0" layer="19" extent="1-16"/>
+<wire x1="14.4" y1="18.5" x2="26.7" y2="10.9" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="JTAG_TRSTB" class="4">
 <contactref element="IC9" pad="G10"/>
 <contactref element="FL5" pad="1"/>
 <contactref element="R51" pad="1"/>
 <wire x1="26.7" y1="10.1" x2="16.275" y2="29.225" width="0" layer="19" extent="1-16"/>
-<wire x1="-7.7" y1="-21.2" x2="26.7" y2="10.1" width="0" layer="19" extent="1-16"/>
+<wire x1="13.2" y1="18.5" x2="26.7" y2="10.1" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="P12_RST_N">
 <contactref element="IC9" pad="M7"/>
@@ -9232,7 +9232,7 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <contactref element="R49" pad="1"/>
 <contactref element="R45" pad="1"/>
 <wire x1="28.5" y1="8.7" x2="28.3" y2="10.1" width="0" layer="19" extent="16-16"/>
-<wire x1="-7.7" y1="-25.2" x2="28.5" y2="8.7" width="0" layer="19" extent="1-16"/>
+<wire x1="29.6" y1="8.1" x2="28.5" y2="8.7" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DCMI_SCL" class="13">
 <contactref element="J3" pad="32"/>
@@ -9867,15 +9867,15 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <wire x1="16.4" y1="39.4" x2="19.525" y2="25.975" width="0" layer="19" extent="1-1"/>
 <wire x1="17.5" y1="39.4" x2="16.4" y2="39.4" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1" class="4">
+<signal name="P13" class="4">
 <contactref element="J6" pad="3"/>
 <contactref element="R45" pad="2"/>
-<wire x1="-6.7" y1="-25.2" x2="31.46" y2="6.68" width="0" layer="19" extent="1-1"/>
+<wire x1="29.6" y1="7.1" x2="31.46" y2="6.68" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$2" class="4">
+<signal name="P14" class="4">
 <contactref element="J6" pad="4"/>
 <contactref element="R44" pad="2"/>
-<wire x1="-6.7" y1="-29.2" x2="31.46" y2="9.22" width="0" layer="19" extent="1-1"/>
+<wire x1="29.6" y1="9.3" x2="31.46" y2="9.22" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
