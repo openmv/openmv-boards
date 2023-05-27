@@ -7719,90 +7719,6 @@ Source: &lt;a href="http://www.issi.com/WW/pdf/25LP-WP064D.pdf"&gt; Datasheet &l
 </deviceset>
 </devicesets>
 </library>
-<library name="ATECC608B-MAHDA-T">
-<description>&lt;CryptoAuthentication 8-Pin UDFN EP T/R&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SON50P300X200X60-9N">
-<description>&lt;b&gt;8-Lead Plastic DFN (MN)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="2" x="-1.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="3" x="-1.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="4" x="-1.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="5" x="1.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="6" x="1.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="7" x="1.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="8" x="1.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="9" x="0" y="0" dx="1.6" dy="1.4" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.125" y1="1.25" x2="2.125" y2="1.25" width="0.05" layer="51"/>
-<wire x1="2.125" y1="1.25" x2="2.125" y2="-1.25" width="0.05" layer="51"/>
-<wire x1="2.125" y1="-1.25" x2="-2.125" y2="-1.25" width="0.05" layer="51"/>
-<wire x1="-2.125" y1="-1.25" x2="-2.125" y2="1.25" width="0.05" layer="51"/>
-<wire x1="-1.5" y1="1" x2="1.5" y2="1" width="0.1" layer="51"/>
-<wire x1="1.5" y1="1" x2="1.5" y2="-1" width="0.1" layer="51"/>
-<wire x1="1.5" y1="-1" x2="-1.5" y2="-1" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="-1" x2="-1.5" y2="1" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="0.25" x2="-0.75" y2="1" width="0.1" layer="51"/>
-<circle x="-1.875" y="1.4" radius="0.125" width="0.25" layer="25"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ATECC608B-MAHDA-T">
-<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-15.24" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
-<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="NC_1" x="0" y="0" length="middle"/>
-<pin name="NC_2" x="0" y="-2.54" length="middle"/>
-<pin name="NC_3" x="0" y="-5.08" length="middle"/>
-<pin name="GND" x="0" y="-7.62" length="middle"/>
-<pin name="EP" x="15.24" y="-20.32" length="middle" rot="R90"/>
-<pin name="VCC" x="30.48" y="0" length="middle" rot="R180"/>
-<pin name="NC_4" x="30.48" y="-2.54" length="middle" rot="R180"/>
-<pin name="SCL" x="30.48" y="-5.08" length="middle" rot="R180"/>
-<pin name="SDA" x="30.48" y="-7.62" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ATECC608B-MAHDA-T" prefix="IC">
-<description>&lt;b&gt;CryptoAuthentication 8-Pin UDFN EP T/R&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608B-CryptoAuthentication-Device-Summary-Data-Sheet-DS40002239A.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ATECC608B-MAHDA-T" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SON50P300X200X60-9N">
-<connects>
-<connect gate="G$1" pin="EP" pad="9"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="NC_1" pad="1"/>
-<connect gate="G$1" pin="NC_2" pad="2"/>
-<connect gate="G$1" pin="NC_3" pad="3"/>
-<connect gate="G$1" pin="NC_4" pad="7"/>
-<connect gate="G$1" pin="SCL" pad="6"/>
-<connect gate="G$1" pin="SDA" pad="5"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="CryptoAuthentication 8-Pin UDFN EP T/R" constant="no"/>
-<attribute name="HEIGHT" value="0.6mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Microchip" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ATECC608B-MAHDA-T" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="579-TECC608B-MAHDA-T" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATECC608B-MAHDA-T?qs=W%2FMpXkg%252BdQ71cGyt0Wo3Jw%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="MXC4005XC">
 <description>&lt;Accelerometers Monolithic and Wafer Level Packaged Three-Axis Accelerometer&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -11974,6 +11890,126 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="SE050C1HQ1_Z01SCZ">
+<description>&lt;Security ICs / Authentication ICs ECC, RSA, AES, 3DES, MIFARE KDF, CL-IF, I&lt;sup&gt;2&lt;/sup&gt;C Master&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="QFN40P300X300X33-21N">
+<description>&lt;b&gt;HX2QFN20&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.55" y="0.8" dx="0.7" dy="0.2" layer="1"/>
+<smd name="2" x="-1.55" y="0.4" dx="0.7" dy="0.2" layer="1"/>
+<smd name="3" x="-1.55" y="0" dx="0.7" dy="0.2" layer="1"/>
+<smd name="4" x="-1.55" y="-0.4" dx="0.7" dy="0.2" layer="1"/>
+<smd name="5" x="-1.55" y="-0.8" dx="0.7" dy="0.2" layer="1"/>
+<smd name="6" x="-0.8" y="-1.55" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="7" x="-0.4" y="-1.55" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="8" x="0" y="-1.55" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="9" x="0.4" y="-1.55" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="10" x="0.8" y="-1.55" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="11" x="1.55" y="-0.8" dx="0.7" dy="0.2" layer="1"/>
+<smd name="12" x="1.55" y="-0.4" dx="0.7" dy="0.2" layer="1"/>
+<smd name="13" x="1.55" y="0" dx="0.7" dy="0.2" layer="1"/>
+<smd name="14" x="1.55" y="0.4" dx="0.7" dy="0.2" layer="1"/>
+<smd name="15" x="1.55" y="0.8" dx="0.7" dy="0.2" layer="1"/>
+<smd name="16" x="0.8" y="1.55" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="17" x="0.4" y="1.55" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="18" x="0" y="1.55" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="19" x="-0.4" y="1.55" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="20" x="-0.8" y="1.55" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="21" x="0" y="0" dx="1.95" dy="1.95" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.125" y1="2.125" x2="2.125" y2="2.125" width="0.05" layer="51"/>
+<wire x1="2.125" y1="2.125" x2="2.125" y2="-2.125" width="0.05" layer="51"/>
+<wire x1="2.125" y1="-2.125" x2="-2.125" y2="-2.125" width="0.05" layer="51"/>
+<wire x1="-2.125" y1="-2.125" x2="-2.125" y2="2.125" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="1.1" x2="-1.1" y2="1.5" width="0.1" layer="51"/>
+<circle x="-1.9" y="1.4" radius="0.1" width="0.2" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SE050C1HQ1_Z01SCZ">
+<wire x1="5.08" y1="20.32" x2="45.72" y2="20.32" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-25.4" x2="45.72" y2="20.32" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-25.4" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
+<text x="46.99" y="25.4" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="46.99" y="22.86" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="ISO_14443_LB" x="0" y="0" length="middle"/>
+<pin name="NC_1" x="0" y="-2.54" length="middle"/>
+<pin name="ISO_7816_IO1" x="0" y="-5.08" length="middle"/>
+<pin name="NC_2" x="0" y="-7.62" length="middle"/>
+<pin name="NC_3" x="0" y="-10.16" length="middle"/>
+<pin name="NC_4" x="20.32" y="-30.48" length="middle" rot="R90"/>
+<pin name="NC_5" x="22.86" y="-30.48" length="middle" rot="R90"/>
+<pin name="NC_6" x="25.4" y="-30.48" length="middle" rot="R90"/>
+<pin name="I2C_SDA" x="27.94" y="-30.48" length="middle" rot="R90"/>
+<pin name="I2C_SCL" x="30.48" y="-30.48" length="middle" direction="in" rot="R90"/>
+<pin name="VOUT" x="50.8" y="0" length="middle" rot="R180"/>
+<pin name="ISO_7816_RST_N" x="50.8" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="ISO_7816_CLK" x="50.8" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="VIN" x="50.8" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="ENA" x="50.8" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="EP" x="17.78" y="25.4" length="middle" rot="R270"/>
+<pin name="NC_7" x="20.32" y="25.4" length="middle" rot="R270"/>
+<pin name="VSS" x="22.86" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="VCC" x="25.4" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="ISO_14443_LA" x="27.94" y="25.4" length="middle" rot="R270"/>
+<pin name="ISO_7816_IO2" x="30.48" y="25.4" length="middle" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SE050C1HQ1_Z01SCZ" prefix="IC">
+<description>&lt;b&gt;Security ICs / Authentication ICs ECC, RSA, AES, 3DES, MIFARE KDF, CL-IF, I&lt;sup&gt;2&lt;/sup&gt;C Master&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SE050C1HQ1_Z01SCZ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN40P300X300X33-21N">
+<connects>
+<connect gate="G$1" pin="ENA" pad="11"/>
+<connect gate="G$1" pin="EP" pad="21"/>
+<connect gate="G$1" pin="I2C_SCL" pad="10"/>
+<connect gate="G$1" pin="I2C_SDA" pad="9"/>
+<connect gate="G$1" pin="ISO_14443_LA" pad="17"/>
+<connect gate="G$1" pin="ISO_14443_LB" pad="1"/>
+<connect gate="G$1" pin="ISO_7816_CLK" pad="13"/>
+<connect gate="G$1" pin="ISO_7816_IO1" pad="3"/>
+<connect gate="G$1" pin="ISO_7816_IO2" pad="16"/>
+<connect gate="G$1" pin="ISO_7816_RST_N" pad="14"/>
+<connect gate="G$1" pin="NC_1" pad="2"/>
+<connect gate="G$1" pin="NC_2" pad="4"/>
+<connect gate="G$1" pin="NC_3" pad="5"/>
+<connect gate="G$1" pin="NC_4" pad="6"/>
+<connect gate="G$1" pin="NC_5" pad="7"/>
+<connect gate="G$1" pin="NC_6" pad="8"/>
+<connect gate="G$1" pin="NC_7" pad="20"/>
+<connect gate="G$1" pin="VCC" pad="18"/>
+<connect gate="G$1" pin="VIN" pad="12"/>
+<connect gate="G$1" pin="VOUT" pad="15"/>
+<connect gate="G$1" pin="VSS" pad="19"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Security ICs / Authentication ICs ECC, RSA, AES, 3DES, MIFARE KDF, CL-IF, I&lt;sup&gt;2&lt;/sup&gt;C Master" constant="no"/>
+<attribute name="HEIGHT" value="0.33mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="NXP" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SE050C1HQ1/Z01SCZ" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-SE050C1HQ1Z01SCZ" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/SE050C1HQ1-Z01SCZ?qs=uwxL4vQweFPAe9Cpm7Fm%252BQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12258,9 +12294,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="P+28" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND14" library="sfe" deviceset="GND" device=""/>
 <part name="P+37" library="SparkFun" deviceset="VCC" device=""/>
-<part name="IC6" library="ATECC608B-MAHDA-T" deviceset="ATECC608B-MAHDA-T" device="">
-<attribute name="MPN" value="ATECC608B-MAHDA-T"/>
-</part>
 <part name="C29" library="0402" deviceset="CAP_0402" device="" value="0.1uF">
 <spice>
 <pinmapping spiceprefix="C">
@@ -13181,6 +13214,27 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R44" library="0402" deviceset="RES_0402" device="" value="0">
 <attribute name="MPN" value="RC0402JR-070RL"/>
 </part>
+<part name="S2" library="KMS231GLFS" deviceset="KMS231GLFS" device="">
+<attribute name="MPN" value="KMS231GLFS"/>
+</part>
+<part name="R70" library="0402" deviceset="RES_0402" device="" value="10K">
+<attribute name="MPN" value="AC0402FR-1310KL"/>
+</part>
+<part name="GND42" library="sfe" deviceset="GND" device=""/>
+<part name="IC6" library="SE050C1HQ1_Z01SCZ" deviceset="SE050C1HQ1_Z01SCZ" device=""/>
+<part name="GND43" library="sfe" deviceset="GND" device=""/>
+<part name="C111" library="0402" deviceset="CAP_0402" device="" value="0.1uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="MPN" value="C0402C104Z4VAC"/>
+</part>
+<part name="C112" library="0402" deviceset="CAP_0402" device="" value="4.7uF">
+<attribute name="MPN" value="JMK105BBJ475MV-F"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -13991,6 +14045,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="120.65" y="77.47" size="1.778" layer="95" rot="R270"/>
 <attribute name="TP_SIGNAL_NAME" x="118.11" y="74.93" size="1.778" layer="97" rot="R270"/>
 </instance>
+<instance part="S2" gate="G$1" x="142.24" y="83.82" smashed="yes">
+<attribute name="NAME" x="168.91" y="91.44" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="168.91" y="88.9" size="1.778" layer="96" align="center-left"/>
+<attribute name="MPN" x="142.24" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R70" gate="G$1" x="187.96" y="83.82" smashed="yes" rot="R180">
+<attribute name="MPN" x="187.96" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="186.69" y="82.3214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="186.69" y="87.122" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND42" gate="1" x="137.16" y="63.5" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="139.7" y="60.96" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14012,6 +14079,18 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="35.56" y="76.2"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <wire x1="116.84" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="S2" gate="G$1" pin="NO_1"/>
+<wire x1="142.24" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="83.82" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="73.66" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="NO_2"/>
+<wire x1="175.26" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="GND42" gate="1" pin="GND"/>
+<wire x1="137.16" y1="66.04" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
+<junction x="137.16" y="73.66"/>
 </segment>
 </net>
 <net name="RAW" class="0">
@@ -14118,6 +14197,31 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="106.68" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
 <junction x="106.68" y="116.84"/>
 <label x="127" y="116.84" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="RST_BUTTON" class="0">
+<segment>
+<pinref part="S2" gate="G$1" pin="COM_2"/>
+<wire x1="142.24" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="78.74" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="COM_1"/>
+<wire x1="139.7" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="81.28" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
+<junction x="139.7" y="81.28"/>
+<wire x1="139.7" y1="88.9" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="88.9" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="COM_3"/>
+<wire x1="175.26" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="R70" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="83.82" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
+<junction x="175.26" y="83.82"/>
+</segment>
+</net>
+<net name="P12_RST_N" class="0">
+<segment>
+<pinref part="R70" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
+<label x="190.5" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -15127,11 +15231,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="SHEET" x="248.92" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="180.34" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="IC6" gate="G$1" x="35.56" y="104.14" smashed="yes">
-<attribute name="NAME" x="62.23" y="111.76" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="62.23" y="109.22" size="1.778" layer="96" align="center-left"/>
-<attribute name="MPN" x="35.56" y="104.14" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="C29" gate="G$1" x="76.2" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="74.676" y="81.661" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="74.676" y="76.581" size="1.778" layer="96" rot="MR270"/>
@@ -15184,28 +15283,45 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="P+42" gate="1" x="190.5" y="129.54" smashed="yes">
 <attribute name="VALUE" x="189.484" y="133.096" size="1.778" layer="96"/>
 </instance>
+<instance part="IC6" gate="G$1" x="15.24" y="101.6" smashed="yes">
+<attribute name="NAME" x="62.23" y="127" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="62.23" y="124.46" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="GND43" gate="1" x="12.7" y="50.8" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="15.24" y="48.26" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C111" gate="G$1" x="96.52" y="76.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="94.996" y="81.661" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="94.996" y="76.581" size="1.778" layer="96" rot="MR270"/>
+<attribute name="MPN" x="96.52" y="76.2" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="C112" gate="G$1" x="106.68" y="83.82" smashed="yes" rot="R180">
+<attribute name="NAME" x="105.156" y="78.359" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="105.156" y="83.439" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="106.68" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="2">
 <segment>
-<pinref part="IC6" gate="G$1" pin="GND"/>
-<wire x1="35.56" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="96.52" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="EP"/>
-<wire x1="50.8" y1="66.04" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="76.2" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
-<junction x="50.8" y="66.04"/>
 <wire x1="76.2" y1="53.34" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
 <junction x="76.2" y="66.04"/>
 <wire x1="76.2" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="66.04" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C112" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="76.2" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<junction x="86.36" y="66.04"/>
+<pinref part="C111" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="76.2" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<junction x="96.52" y="66.04"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="1"/>
@@ -15221,19 +15337,36 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="GND39" gate="1" pin="GND"/>
 <wire x1="190.5" y1="53.34" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="VSS"/>
+<wire x1="38.1" y1="127" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="EP"/>
+<wire x1="33.02" y1="129.54" x2="33.02" y2="127" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="129.54" x2="12.7" y2="129.54" width="0.1524" layer="91"/>
+<junction x="33.02" y="129.54"/>
+<wire x1="12.7" y1="129.54" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="GND43" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="VCC"/>
-<wire x1="66.04" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="104.14" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="104.14" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="104.14" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
 <junction x="76.2" y="104.14"/>
 <pinref part="C29" gate="G$1" pin="1"/>
 <pinref part="P+41" gate="1" pin="VCC"/>
 <pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="93.98" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="91.44" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="83.82" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="ENA"/>
+<wire x1="66.04" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
+<junction x="76.2" y="91.44"/>
+<pinref part="IC6" gate="G$1" pin="VIN"/>
+<wire x1="66.04" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
+<junction x="76.2" y="93.98"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="G$1" pin="VDD"/>
@@ -15262,11 +15395,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="INT_I2C_SDA" class="13">
 <segment>
-<pinref part="IC6" gate="G$1" pin="SDA"/>
-<wire x1="66.04" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
-<label x="68.58" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="99.06" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="G$1" pin="SDA"/>
@@ -15275,13 +15403,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="208.28" y="88.9"/>
 <label x="236.22" y="88.9" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="I2C_SDA"/>
+<wire x1="43.18" y1="71.12" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
+<label x="43.18" y="53.34" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="INT_I2C_SCL" class="13">
-<segment>
-<pinref part="IC6" gate="G$1" pin="SCL"/>
-<wire x1="66.04" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
-<label x="68.58" y="99.06" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="R27" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="99.06" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
@@ -15290,6 +15418,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="144.78" y="91.44"/>
 <label x="127" y="91.44" size="1.778" layer="95"/>
 <wire x1="144.78" y1="91.44" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="I2C_SCL"/>
+<wire x1="45.72" y1="71.12" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
+<label x="45.72" y="53.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="INT_I2C_INT" class="0">
@@ -15301,6 +15434,24 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="218.44" y1="86.36" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
 <junction x="218.44" y="86.36"/>
 <label x="236.22" y="86.36" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="C_VOUT" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="VOUT"/>
+<wire x1="66.04" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="101.6" x2="71.12" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="129.54" x2="40.64" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="VCC"/>
+<wire x1="40.64" y1="129.54" x2="40.64" y2="127" width="0.1524" layer="91"/>
+<pinref part="C111" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="83.82" x2="96.52" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
+<junction x="71.12" y="101.6"/>
+<wire x1="96.52" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
+<junction x="96.52" y="101.6"/>
+<pinref part="C112" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="101.6" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
