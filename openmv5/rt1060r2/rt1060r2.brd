@@ -323,7 +323,6 @@ SBL
 <wire x1="29.5" y1="12.6" x2="29.5" y2="12.7" width="0.2032" layer="21"/>
 <wire x1="29.5" y1="15.4" x2="29.5" y2="15.5" width="0.2032" layer="21"/>
 <wire x1="29.5" y1="18" x2="29.5" y2="18.1" width="0.2032" layer="21"/>
-<text x="32.285" y="23.615" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">USER</text>
 <wire x1="18.2" y1="4.4" x2="18.2" y2="3.6" width="0.2032" layer="22"/>
 <wire x1="17.8" y1="4" x2="18.6" y2="4" width="0.2032" layer="22"/>
 <wire x1="19.3" y1="4" x2="20.1" y2="4" width="0.2032" layer="22"/>
@@ -7679,12 +7678,12 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <attribute name="VALUE" x="11.805" y="37.465" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R42" library="0402" package="0402" value="1K" x="16.4" y="39.9" smashed="yes" rot="MR270">
-<attribute name="MPN" value="AC0402FR-1310KL" x="16.4" y="39.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC" x="16.4" y="39.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="15.865" y="40.535" size="0.8128" layer="26" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="17.805" y="40.535" size="0.8128" layer="28" ratio="10" rot="MR270"/>
 </element>
 <element name="R43" library="0402" package="0402" value="1K" x="17.5" y="39.9" smashed="yes" rot="MR270">
-<attribute name="MPN" value="AC0402FR-1310KL" x="17.5" y="39.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC" x="17.5" y="39.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="16.965" y="40.535" size="0.8128" layer="26" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="18.905" y="40.535" size="0.8128" layer="28" ratio="10" rot="MR270"/>
 </element>
@@ -7741,6 +7740,7 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <attribute name="MANUFACTURER_PART_NUMBER" value="SE050C1HQ1/Z01SCZ" x="11.6" y="35.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-SE050C1HQ1Z01SCZ" x="11.6" y="35.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/SE050C1HQ1-Z01SCZ?qs=uwxL4vQweFPAe9Cpm7Fm%252BQ%3D%3D" x="11.6" y="35.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="SE050C1HQ1/Z01SCZ" x="11.6" y="35.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="11.6" y="35.5" size="1.27" layer="26" rot="MR0" align="center"/>
 <attribute name="VALUE" x="11.6" y="35.5" size="1.27" layer="28" rot="MR0" align="center"/>
 </element>

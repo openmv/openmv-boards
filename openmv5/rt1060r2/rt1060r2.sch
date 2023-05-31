@@ -13189,10 +13189,10 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&g
 </part>
 <part name="P+19" library="SparkFun" deviceset="VCC" device=""/>
 <part name="R42" library="0402" deviceset="RES_0402" device="" value="1K">
-<attribute name="MPN" value="AC0402FR-1310KL"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="R43" library="0402" deviceset="RES_0402" device="" value="1K">
-<attribute name="MPN" value="AC0402FR-1310KL"/>
+<attribute name="MPN" value="CRCW04021K00FKEDC"/>
 </part>
 <part name="P+23" library="SparkFun" deviceset="VCC" device=""/>
 <part name="R13" library="0402" deviceset="RES_0402" device="" value="100K">
@@ -13221,7 +13221,9 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&g
 <attribute name="MPN" value="AC0402FR-1310KL"/>
 </part>
 <part name="GND42" library="sfe" deviceset="GND" device=""/>
-<part name="IC6" library="SE050C1HQ1_Z01SCZ" deviceset="SE050C1HQ1_Z01SCZ" device=""/>
+<part name="IC6" library="SE050C1HQ1_Z01SCZ" deviceset="SE050C1HQ1_Z01SCZ" device="">
+<attribute name="MPN" value="SE050C1HQ1/Z01SCZ"/>
+</part>
 <part name="GND43" library="sfe" deviceset="GND" device=""/>
 <part name="C111" library="0402" deviceset="CAP_0402" device="" value="0.1uF">
 <spice>
@@ -15286,6 +15288,7 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&g
 <instance part="IC6" gate="G$1" x="15.24" y="101.6" smashed="yes">
 <attribute name="NAME" x="62.23" y="127" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="62.23" y="124.46" size="1.778" layer="96" align="center-left"/>
+<attribute name="MPN" x="15.24" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND43" gate="1" x="12.7" y="50.8" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="15.24" y="48.26" size="1.778" layer="96" rot="MR0"/>
