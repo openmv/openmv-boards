@@ -10744,78 +10744,6 @@ Source: &lt;a href="https://www.ckswitches.com/media/1482/kms.pdf"&gt; Datasheet
 </deviceset>
 </devicesets>
 </library>
-<library name="RB521S30T5G">
-<description>&lt;Schottky Diodes &amp; Rectifiers SCHOTTKY DIODE&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SODFL1608X70N">
-<description>&lt;b&gt;SOD523 CASE 50201 ISSUE E&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.75" y="0" dx="0.64" dy="0.42" layer="1"/>
-<smd name="2" x="0.75" y="0" dx="0.64" dy="0.42" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.22" y1="0.6" x2="1.22" y2="0.6" width="0.05" layer="51"/>
-<wire x1="1.22" y1="0.6" x2="1.22" y2="-0.6" width="0.05" layer="51"/>
-<wire x1="1.22" y1="-0.6" x2="-1.22" y2="-0.6" width="0.05" layer="51"/>
-<wire x1="-1.22" y1="-0.6" x2="-1.22" y2="0.6" width="0.05" layer="51"/>
-<wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0.6" y1="0.4" x2="0.6" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="0.6" y1="-0.4" x2="-0.6" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="-0.4" x2="-0.6" y2="0.4" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="0.08" x2="-0.28" y2="0.4" width="0.1" layer="51"/>
-<wire x1="-1.07" y1="0.4" x2="0.6" y2="0.4" width="0.2" layer="21"/>
-<wire x1="-0.6" y1="-0.4" x2="0.6" y2="-0.4" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RB521S30T5G">
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="8.636" y2="2.54" width="0.254" layer="94"/>
-<wire x1="8.636" y1="1.524" x2="8.636" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="6.604" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="6.604" y1="-1.524" x2="6.604" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
-<text x="12.7" y="8.89" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="12.7" y="6.35" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="K" x="2.54" y="0" visible="pad" length="short"/>
-<pin name="A" x="17.78" y="0" visible="pad" length="short" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="7.62" y="0"/>
-<vertex x="12.7" y="2.54"/>
-<vertex x="12.7" y="-2.54"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RB521S30T5G" prefix="D">
-<description>&lt;b&gt;Schottky Diodes &amp; Rectifiers SCHOTTKY DIODE&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/RB521S30T5G.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="RB521S30T5G" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SODFL1608X70N">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Schottky Diodes &amp; Rectifiers SCHOTTKY DIODE" constant="no"/>
-<attribute name="HEIGHT" value="0.7mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="onsemi" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RB521S30T5G" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-RB521S30T5G" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/RB521S30T5G?qs=M3GgpExcU2%2FPpNUGuFHiAQ%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="testpad" urn="urn:adsk.eagle:library:385">
 <description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
 Cream on SMD OFF.&lt;br&gt;
@@ -12010,6 +11938,76 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&g
 </deviceset>
 </devicesets>
 </library>
+<library name="BAT54CLT3G">
+<description>&lt;&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT96P237X111-3N">
+<description>&lt;b&gt;SOT-23 (TO-236) CASE 318-08&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.2" y="0.955" dx="1" dy="0.6" layer="1"/>
+<smd name="2" x="-1.2" y="-0.955" dx="1" dy="0.6" layer="1"/>
+<smd name="3" x="1.2" y="0" dx="1" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.95" y1="1.77" x2="1.95" y2="1.77" width="0.05" layer="51"/>
+<wire x1="1.95" y1="1.77" x2="1.95" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="1.95" y1="-1.77" x2="-1.95" y2="-1.77" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="-1.77" x2="-1.95" y2="1.77" width="0.05" layer="51"/>
+<wire x1="-0.65" y1="1.46" x2="0.65" y2="1.46" width="0.1" layer="51"/>
+<wire x1="0.65" y1="1.46" x2="0.65" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-1.46" x2="-0.65" y2="-1.46" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="-1.46" x2="-0.65" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="0.505" x2="0.305" y2="1.46" width="0.1" layer="51"/>
+<wire x1="-0.35" y1="1.46" x2="0.35" y2="1.46" width="0.2" layer="21"/>
+<wire x1="0.35" y1="1.46" x2="0.35" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="0.35" y1="-1.46" x2="-0.35" y2="-1.46" width="0.2" layer="21"/>
+<wire x1="-0.35" y1="-1.46" x2="-0.35" y2="1.46" width="0.2" layer="21"/>
+<wire x1="-1.7" y1="1.505" x2="-0.7" y2="1.505" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BAT54CLT3G">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="A1" x="0" y="0" length="middle"/>
+<pin name="A2" x="0" y="-2.54" length="middle"/>
+<pin name="K" x="22.86" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BAT54CLT3G" prefix="D">
+<description>&lt;b&gt;&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BAT54CLT1-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BAT54CLT3G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT96P237X111-3N">
+<connects>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="A2" pad="2"/>
+<connect gate="G$1" pin="K" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="HEIGHT" value="1.11mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BAT54CLT3G" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BAT54CLT3G" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi/BAT54CLT3G?qs=CBDP9nzV7kkNgCKU97dzRw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13170,12 +13168,6 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&g
 <part name="L8" library="0402" deviceset="INDUCTOR_0402" device="" value="100">
 <attribute name="MPN" value="MFBM1V1005-101-R"/>
 </part>
-<part name="D3" library="RB521S30T5G" deviceset="RB521S30T5G" device="">
-<attribute name="MPN" value="RB521S30T5G"/>
-</part>
-<part name="D4" library="RB521S30T5G" deviceset="RB521S30T5G" device="">
-<attribute name="MPN" value="RB521S30T5G"/>
-</part>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1" value="TPTP10R"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1" value="TPTP10R"/>
 <part name="R48" library="0402" deviceset="RES_0402" device="" value="DNP">
@@ -13237,6 +13229,11 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&g
 <part name="C112" library="0402" deviceset="CAP_0402" device="" value="4.7uF">
 <attribute name="MPN" value="JMK105BBJ475MV-F"/>
 </part>
+<part name="C113" library="0402" deviceset="CAP_0402" device="" value="4.7uF">
+<attribute name="MPN" value="JMK105BBJ475MV-F"/>
+</part>
+<part name="GND44" library="SparkFun" deviceset="GND" device=""/>
+<part name="D15" library="BAT54CLT3G" deviceset="BAT54CLT3G" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13973,7 +13970,7 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&g
 <text x="233.68" y="152.4" size="1.778" layer="97">3.7V-5.7V</text>
 <text x="121.92" y="88.9" size="1.778" layer="97">BAT_3.3V</text>
 <text x="121.92" y="78.74" size="1.778" layer="97">BAT_GND</text>
-<text x="124.46" y="114.3" size="1.778" layer="97" rot="R180">3.3V</text>
+<text x="144.78" y="114.3" size="1.778" layer="97" rot="R180">3.3V</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -14029,16 +14026,6 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&g
 <attribute name="VALUE" x="217.17" y="125.73" size="1.778" layer="96" rot="R270" align="center-left"/>
 <attribute name="MPN" x="215.9" y="137.16" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="D3" gate="G$1" x="106.68" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="109.22" y="123.19" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="109.22" y="120.65" size="1.778" layer="96" align="center-left"/>
-<attribute name="MPN" x="106.68" y="119.38" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="D4" gate="G$1" x="106.68" y="114.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="104.14" y="110.49" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="104.14" y="113.03" size="1.778" layer="96" rot="R180" align="center-left"/>
-<attribute name="MPN" x="106.68" y="114.3" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
 <instance part="TP1" gate="G$1" x="119.38" y="86.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="120.65" y="87.63" size="1.778" layer="95" rot="R270"/>
 <attribute name="TP_SIGNAL_NAME" x="118.11" y="85.09" size="1.778" layer="97" rot="R270"/>
@@ -14059,6 +14046,10 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&g
 </instance>
 <instance part="GND42" gate="1" x="137.16" y="63.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="139.7" y="60.96" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="D15" gate="G$1" x="101.6" y="116.84" smashed="yes">
+<attribute name="NAME" x="120.65" y="124.46" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="120.65" y="121.92" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -14138,12 +14129,12 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&g
 <pinref part="IC2" gate="G$1" pin="VOUT"/>
 <wire x1="96.52" y1="152.4" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
 <label x="96.52" y="152.4" size="1.778" layer="95"/>
-<wire x1="96.52" y1="144.78" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="144.78" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="114.3" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
 <junction x="96.52" y="114.3"/>
 <junction x="96.52" y="144.78"/>
-<pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="106.68" y1="144.78" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="D15" gate="G$1" pin="A1"/>
+<wire x1="101.6" y1="116.84" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P11_WAKEUP" class="0">
@@ -14185,20 +14176,16 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/SE050-DATASHEET.pdf"&g
 <net name="SNVS_BAT" class="0">
 <segment>
 <pinref part="TP1" gate="G$1" pin="TP"/>
-<wire x1="116.84" y1="86.36" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="106.68" y1="86.36" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="86.36" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="D15" gate="G$1" pin="A2"/>
+<wire x1="101.6" y1="86.36" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD_SNVS_CPU" class="0">
 <segment>
-<pinref part="D4" gate="G$1" pin="K"/>
-<pinref part="D3" gate="G$1" pin="K"/>
-<wire x1="106.68" y1="111.76" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="116.84" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
-<junction x="106.68" y="116.84"/>
-<label x="127" y="116.84" size="1.778" layer="95" rot="R180"/>
+<wire x1="124.46" y1="116.84" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
+<label x="144.78" y="116.84" size="1.778" layer="95" rot="R180"/>
+<pinref part="D15" gate="G$1" pin="K"/>
 </segment>
 </net>
 <net name="RST_BUTTON" class="0">
@@ -17648,6 +17635,14 @@ pins and the LED pin</text>
 <attribute name="VALUE" x="69.342" y="77.47" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="66.04" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="C113" gate="G$1" x="10.16" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.636" y="101.219" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="8.636" y="106.299" size="1.778" layer="96" rot="R180"/>
+<attribute name="MPN" x="10.16" y="106.68" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="GND44" gate="1" x="10.16" y="91.44" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="12.7" y="88.9" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17714,6 +17709,11 @@ pins and the LED pin</text>
 <wire x1="15.24" y1="99.06" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND44" gate="1" pin="GND"/>
+<pinref part="C113" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="93.98" x2="10.16" y2="99.06" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -17752,6 +17752,9 @@ pins and the LED pin</text>
 <wire x1="15.24" y1="114.3" x2="15.24" y2="111.76" width="0.1524" layer="91"/>
 <junction x="15.24" y="114.3"/>
 <junction x="15.24" y="111.76"/>
+<pinref part="C113" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="106.68" x2="10.16" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="114.3" x2="15.24" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <junction x="43.18" y="91.44"/>
