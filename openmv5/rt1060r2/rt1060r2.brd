@@ -9769,17 +9769,11 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <wire x1="7.9" y1="1.9" x2="9.165" y2="1.95" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VDD_SNVS">
-<contactref element="Q2" pad="1"/>
-<contactref element="Q3" pad="1"/>
-<contactref element="Q4" pad="1"/>
 <contactref element="C9" pad="2"/>
 <contactref element="IC2" pad="5"/>
 <contactref element="D15" pad="1"/>
-<wire x1="15.7" y1="5.25" x2="24.65" y2="11.8" width="0" layer="19" extent="16-16"/>
+<wire x1="15.7" y1="5.25" x2="31.045" y2="24.4" width="0" layer="19" extent="1-16"/>
 <wire x1="16.4" y1="4.1" x2="15.7" y2="5.25" width="0" layer="19" extent="16-16"/>
-<wire x1="10.9" y1="7.65" x2="15.7" y2="5.25" width="0" layer="19" extent="16-16"/>
-<wire x1="9.5" y1="8.95" x2="10.9" y2="7.65" width="0" layer="19" extent="16-16"/>
-<wire x1="31.045" y1="24.4" x2="9.5" y2="8.95" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD_HIGH_CAP">
 <contactref element="IC9" pad="P8"/>
@@ -9883,8 +9877,14 @@ This DRC check is for 8-Layer Extended Capability boards with 4 mil drills to be
 <contactref element="IC9" pad="M9"/>
 <contactref element="C86" pad="1"/>
 <contactref element="D15" pad="3"/>
+<contactref element="Q2" pad="1"/>
+<contactref element="Q3" pad="1"/>
+<contactref element="Q4" pad="1"/>
+<wire x1="19.525" y1="28.575" x2="32" y2="26.8" width="0" layer="19" extent="1-1"/>
 <wire x1="19.45" y1="28.6" x2="19.525" y2="28.575" width="0" layer="19" extent="1-16"/>
-<wire x1="32" y1="26.8" x2="19.45" y2="28.6" width="0" layer="19" extent="1-16"/>
+<wire x1="24.65" y1="11.8" x2="32" y2="26.8" width="0" layer="19" extent="1-16"/>
+<wire x1="10.9" y1="7.65" x2="24.65" y2="11.8" width="0" layer="19" extent="16-16"/>
+<wire x1="9.5" y1="8.95" x2="10.9" y2="7.65" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="JTAG_TRSTB_INT_UNUSED">
 <contactref element="R49" pad="2"/>

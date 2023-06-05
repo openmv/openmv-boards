@@ -14113,16 +14113,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BAT54CLT1-D.PDF"&gt; Da
 </net>
 <net name="VDD_SNVS" class="0">
 <segment>
-<wire x1="154.94" y1="137.16" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<label x="154.94" y="149.86" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<wire x1="215.9" y1="137.16" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
-<label x="215.9" y="149.86" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <wire x1="78.74" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="114.3" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -14186,6 +14176,16 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BAT54CLT1-D.PDF"&gt; Da
 <wire x1="124.46" y1="116.84" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
 <label x="144.78" y="116.84" size="1.778" layer="95" rot="R180"/>
 <pinref part="D15" gate="G$1" pin="K"/>
+</segment>
+<segment>
+<wire x1="154.94" y1="137.16" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<label x="154.94" y="149.86" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="215.9" y1="137.16" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="G"/>
+<label x="215.9" y="149.86" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RST_BUTTON" class="0">
@@ -14383,7 +14383,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BAT54CLT1-D.PDF"&gt; Da
 <label x="165.1" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VDD_SNVS" class="0">
+<net name="VDD_SNVS_CPU" class="0">
 <segment>
 <pinref part="Q4" gate="G$1" pin="G"/>
 <wire x1="157.48" y1="119.38" x2="157.48" y2="129.54" width="0.1524" layer="91"/>
