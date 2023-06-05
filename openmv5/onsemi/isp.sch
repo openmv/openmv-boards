@@ -8554,90 +8554,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tlv62568"&gt; Datasheet &lt;/a&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="PMXB120EPEZ">
-<description>&lt;MOSFET 30 V, P-channel Trench MOSFET&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="PMXB120EPEZ">
-<description>&lt;b&gt;PMXB120EPEZ-5&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.375" y="-0.45" dx="0.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="2" x="0.375" y="-0.45" dx="0.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="3" x="0" y="0.45" dx="0.4" dy="0.4" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.55" y1="0.5" x2="0.55" y2="0.5" width="0.1" layer="51"/>
-<wire x1="0.55" y1="0.5" x2="0.55" y2="-0.5" width="0.1" layer="51"/>
-<wire x1="0.55" y1="-0.5" x2="-0.55" y2="-0.5" width="0.1" layer="51"/>
-<wire x1="-0.55" y1="-0.5" x2="-0.55" y2="0.5" width="0.1" layer="51"/>
-<wire x1="-1.55" y1="1.65" x2="1.55" y2="1.65" width="0.1" layer="51"/>
-<wire x1="1.55" y1="1.65" x2="1.55" y2="-1.65" width="0.1" layer="51"/>
-<wire x1="1.55" y1="-1.65" x2="-1.55" y2="-1.65" width="0.1" layer="51"/>
-<wire x1="-1.55" y1="-1.65" x2="-1.55" y2="1.65" width="0.1" layer="51"/>
-<wire x1="0.4" y1="0.5" x2="0.55" y2="0.5" width="0.2" layer="21"/>
-<wire x1="0.55" y1="0.5" x2="0.55" y2="0" width="0.2" layer="21"/>
-<wire x1="-0.4" y1="0.5" x2="-0.55" y2="0.5" width="0.2" layer="21"/>
-<wire x1="-0.55" y1="0.5" x2="-0.55" y2="0" width="0.2" layer="21"/>
-<wire x1="-0.375" y1="-1.1" x2="-0.375" y2="-1.1" width="0.1" layer="21"/>
-<wire x1="-0.375" y1="-1.1" x2="-0.375" y2="-1.2" width="0.1" layer="21" curve="180"/>
-<wire x1="-0.375" y1="-1.2" x2="-0.375" y2="-1.2" width="0.1" layer="21"/>
-<wire x1="-0.375" y1="-1.2" x2="-0.375" y2="-1.1" width="0.1" layer="21" curve="180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PMXB120EPEZ">
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="5.842" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.842" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="5.842" y1="5.588" x2="5.842" y2="4.572" width="0.254" layer="94"/>
-<wire x1="5.842" y1="-0.508" x2="5.842" y2="0.508" width="0.254" layer="94"/>
-<wire x1="5.842" y1="2.032" x2="5.842" y2="3.048" width="0.254" layer="94"/>
-<circle x="6.35" y="2.54" radius="3.81" width="0.254" layer="94"/>
-<text x="11.43" y="3.81" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="11.43" y="1.27" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="G" x="0" y="0" visible="pad" length="short"/>
-<pin name="D" x="7.62" y="10.16" visible="pad" length="short" rot="R270"/>
-<pin name="S" x="7.62" y="-5.08" visible="pad" length="short" rot="R90"/>
-<polygon width="0.254" layer="94">
-<vertex x="7.112" y="2.54"/>
-<vertex x="6.35" y="3.048"/>
-<vertex x="6.35" y="2.032"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PMXB120EPEZ" prefix="Q">
-<description>&lt;b&gt;MOSFET 30 V, P-channel Trench MOSFET&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PMXB120EPEZ.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="PMXB120EPEZ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PMXB120EPEZ">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="MOSFET 30 V, P-channel Trench MOSFET" constant="no"/>
-<attribute name="HEIGHT" value="0.4mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PMXB120EPEZ" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PMXB120EPEZ" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PMXB120EPEZ?qs=gNSudQoqUYCYLaOobF3dPA%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="AP0202AT2L00XPGA0">
 <packages>
 <package name="AP0202AT2L00XPGA0">
@@ -9639,6 +9555,88 @@ Nick Garner - TeleSense</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SSM3J15FV_L3F">
+<description>&lt;MOSFET Small-signal MOSFET High Speed Switching&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SSM3J15FVL3F">
+<description>&lt;b&gt;SOT-723-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.4" y="-0.575" dx="0.45" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="0.4" y="-0.575" dx="0.45" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="0.575" dx="0.5" dy="0.45" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.6" y1="-0.4" x2="0.6" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.6" y1="-0.4" x2="0.6" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.6" y1="0.4" x2="-0.6" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.6" y1="0.4" x2="-0.6" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="1.8" x2="1.6" y2="1.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.8" x2="1.6" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.8" x2="-1.6" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.8" x2="-1.6" y2="1.8" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="-1.3" x2="-0.4" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="-1.3" x2="-0.4" y2="-1.4" width="0.2" layer="21" curve="180"/>
+<wire x1="-0.4" y1="-1.4" x2="-0.4" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="-1.4" x2="-0.4" y2="-1.3" width="0.2" layer="21" curve="180"/>
+<wire x1="-0.4" y1="-1.3" x2="-0.4" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="-1.3" x2="-0.4" y2="-1.4" width="0.2" layer="21" curve="180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SSM3J15FV,L3F">
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="5.842" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.842" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="5.842" y1="5.588" x2="5.842" y2="4.572" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-0.508" x2="5.842" y2="0.508" width="0.254" layer="94"/>
+<wire x1="5.842" y1="2.032" x2="5.842" y2="3.048" width="0.254" layer="94"/>
+<circle x="6.35" y="2.54" radius="3.81" width="0.254" layer="94"/>
+<text x="11.43" y="3.81" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="11.43" y="1.27" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="G" x="0" y="0" visible="pad" length="short"/>
+<pin name="D" x="7.62" y="10.16" visible="pad" length="short" rot="R270"/>
+<pin name="S" x="7.62" y="-5.08" visible="pad" length="short" rot="R90"/>
+<polygon width="0.254" layer="94">
+<vertex x="7.62" y="2.54"/>
+<vertex x="6.604" y="3.048"/>
+<vertex x="6.604" y="2.032"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SSM3J15FV,L3F" prefix="Q">
+<description>&lt;b&gt;MOSFET Small-signal MOSFET High Speed Switching&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=593&amp;prodName=SSM3J15FV"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SSM3J15FV,L3F" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SSM3J15FVL3F">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="MOSFET Small-signal MOSFET High Speed Switching" constant="no"/>
+<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Toshiba" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSM3J15FV,L3F" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="757-SSM3J15FVL3F" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3J15FVL3F?qs=PDgMCp4xDJb4qTgE7FAUzA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9801,8 +9799,8 @@ Nick Garner - TeleSense</description>
 <attribute name="MPN" value="CL21A226MQQNNNE"/>
 </part>
 <part name="GND11" library="supply" deviceset="GND" device=""/>
-<part name="Q1" library="PMXB120EPEZ" deviceset="PMXB120EPEZ" device="">
-<attribute name="MPN" value="PMXB120EPEZ"/>
+<part name="Q1" library="SSM3J15FV_L3F" deviceset="SSM3J15FV,L3F" device="">
+<attribute name="MPN" value="SSM3J15FV,L3F"/>
 </part>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100K">
 <spice>
@@ -9830,7 +9828,7 @@ Nick Garner - TeleSense</description>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="J1" library="DF12-36-DS" deviceset="DF12-36-DS" device="">
-<attribute name="MPN" value="DF12NB-36DS-0.5V(51)"/>
+<attribute name="MPN" value="DF12NB(3.0)-36DS-0.5V(51)"/>
 </part>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.5K">

@@ -2790,37 +2790,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="PMXB120EPEZ">
-<description>&lt;MOSFET 30 V, P-channel Trench MOSFET&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="PMXB120EPEZ">
-<description>&lt;b&gt;PMXB120EPEZ-5&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.375" y="-0.45" dx="0.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="2" x="0.375" y="-0.45" dx="0.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="3" x="0" y="0.45" dx="0.4" dy="0.4" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.55" y1="0.5" x2="0.55" y2="0.5" width="0.1" layer="51"/>
-<wire x1="0.55" y1="0.5" x2="0.55" y2="-0.5" width="0.1" layer="51"/>
-<wire x1="0.55" y1="-0.5" x2="-0.55" y2="-0.5" width="0.1" layer="51"/>
-<wire x1="-0.55" y1="-0.5" x2="-0.55" y2="0.5" width="0.1" layer="51"/>
-<wire x1="-1.55" y1="1.65" x2="1.55" y2="1.65" width="0.1" layer="51"/>
-<wire x1="1.55" y1="1.65" x2="1.55" y2="-1.65" width="0.1" layer="51"/>
-<wire x1="1.55" y1="-1.65" x2="-1.55" y2="-1.65" width="0.1" layer="51"/>
-<wire x1="-1.55" y1="-1.65" x2="-1.55" y2="1.65" width="0.1" layer="51"/>
-<wire x1="0.4" y1="0.5" x2="0.55" y2="0.5" width="0.2" layer="21"/>
-<wire x1="0.55" y1="0.5" x2="0.55" y2="0" width="0.2" layer="21"/>
-<wire x1="-0.4" y1="0.5" x2="-0.55" y2="0.5" width="0.2" layer="21"/>
-<wire x1="-0.55" y1="0.5" x2="-0.55" y2="0" width="0.2" layer="21"/>
-<wire x1="-0.375" y1="-1.1" x2="-0.375" y2="-1.1" width="0.1" layer="21"/>
-<wire x1="-0.375" y1="-1.1" x2="-0.375" y2="-1.2" width="0.1" layer="21" curve="180"/>
-<wire x1="-0.375" y1="-1.2" x2="-0.375" y2="-1.2" width="0.1" layer="21"/>
-<wire x1="-0.375" y1="-1.2" x2="-0.375" y2="-1.1" width="0.1" layer="21" curve="180"/>
-</package>
-</packages>
-</library>
 <library name="AP0202AT2L00XPGA0">
 <packages>
 <package name="AP0202AT2L00XPGA0">
@@ -3319,6 +3288,35 @@ Nick Garner - TeleSense</description>
 </package>
 </packages>
 </library>
+<library name="SSM3J15FV_L3F">
+<description>&lt;MOSFET Small-signal MOSFET High Speed Switching&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SSM3J15FVL3F">
+<description>&lt;b&gt;SOT-723-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.4" y="-0.575" dx="0.45" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="0.4" y="-0.575" dx="0.45" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="0.575" dx="0.5" dy="0.45" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.6" y1="-0.4" x2="0.6" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.6" y1="-0.4" x2="0.6" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.6" y1="0.4" x2="-0.6" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.6" y1="0.4" x2="-0.6" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="1.8" x2="1.6" y2="1.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.8" x2="1.6" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.8" x2="-1.6" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.8" x2="-1.6" y2="1.8" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="-1.3" x2="-0.4" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="-1.3" x2="-0.4" y2="-1.4" width="0.2" layer="21" curve="180"/>
+<wire x1="-0.4" y1="-1.4" x2="-0.4" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="-1.4" x2="-0.4" y2="-1.3" width="0.2" layer="21" curve="180"/>
+<wire x1="-0.4" y1="-1.3" x2="-0.4" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-0.4" y1="-1.3" x2="-0.4" y2="-1.4" width="0.2" layer="21" curve="180"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3732,14 +3730,14 @@ This DRC check is for 6-LayerExtended Capability boards with 4 mil drills to be 
 <attribute name="PROD_ID" value="CAP-08402" x="18.542" y="4.953" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="21.082" y="2.794" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="Q1" library="PMXB120EPEZ" package="PMXB120EPEZ" value="PMXB120EPEZ" x="25.019" y="9.144" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="MOSFET 30 V, P-channel Trench MOSFET" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.4mm" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PMXB120EPEZ" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PMXB120EPEZ" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PMXB120EPEZ?qs=gNSudQoqUYCYLaOobF3dPA%3D%3D" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="PMXB120EPEZ" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="Q1" library="SSM3J15FV_L3F" package="SSM3J15FVL3F" value="SSM3J15FV,L3F" x="25.019" y="9.144" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="MOSFET Small-signal MOSFET High Speed Switching" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Toshiba" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSM3J15FV,L3F" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="757-SSM3J15FVL3F" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3J15FVL3F?qs=PDgMCp4xDJb4qTgE7FAUzA%3D%3D" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="SSM3J15FV,L3F" x="25.019" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.019" y="9.144" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="25.019" y="9.144" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
@@ -3775,7 +3773,7 @@ This DRC check is for 6-LayerExtended Capability boards with 4 mil drills to be 
 <attribute name="VALUE" x="16.383" y="3.302" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="J1" library="DF12-36-DS" package="DF12-36-DS" value="DF12-36-DS" x="17.78" y="12.7" smashed="yes">
-<attribute name="MPN" value="DF12NB-36DS-0.5V(51)" x="17.78" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="DF12NB(3.0)-36DS-0.5V(51)" x="17.78" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="11.08" y="15.7" size="0.635" layer="25"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.5K" x="10.287" y="15.24" smashed="yes" rot="MR90">
@@ -4095,9 +4093,8 @@ This DRC check is for 6-LayerExtended Capability boards with 4 mil drills to be 
 <wire x1="25.08" y1="6.462" x2="24.892" y2="6.274" width="0.254" layer="1"/>
 <wire x1="25.146" y1="5.072" x2="24.892" y2="5.326" width="0.254" layer="1"/>
 <wire x1="24.892" y1="6.274" x2="24.892" y2="5.326" width="0.254" layer="1"/>
-<wire x1="25.469" y1="9.519" x2="25.469" y2="14.859" width="0.254" layer="1"/>
 <wire x1="22.03" y1="14.859" x2="22.03" y2="14.5001" width="0.254" layer="1"/>
-<wire x1="25.469" y1="14.859" x2="22.03" y2="14.859" width="0.254" layer="1"/>
+<wire x1="22.03" y1="14.859" x2="25.469" y2="14.859" width="0.254" layer="1"/>
 <wire x1="24.13" y1="4.572" x2="25.146" y2="4.572" width="0.127" layer="1"/>
 <wire x1="25.146" y1="4.572" x2="25.146" y2="5.072" width="0.127" layer="1"/>
 <wire x1="13.53" y1="14.5001" x2="13.53" y2="15.621" width="0.254" layer="1"/>
@@ -4137,7 +4134,18 @@ This DRC check is for 6-LayerExtended Capability boards with 4 mil drills to be 
 <wire x1="24.8285" y1="1.0715" x2="24.8285" y2="1.016" width="0.254" layer="16"/>
 <via x="24.8285" y="1.016" extent="1-16" drill="0.254"/>
 <wire x1="24.8285" y1="1.016" x2="24.8285" y2="1.031" width="0.254" layer="1"/>
-<wire x1="13.716" y1="5.58" x2="11.2395" y2="3.691" width="0" layer="19" extent="1-16"/>
+<wire x1="25.469" y1="14.859" x2="25.594" y2="14.734" width="0.254" layer="1"/>
+<wire x1="25.594" y1="14.734" x2="25.594" y2="9.544" width="0.254" layer="1"/>
+<wire x1="20.03" y1="14.5001" x2="22.03" y2="14.5001" width="0" layer="19" extent="16-16"/>
+<wire x1="17.526" y1="16.002" x2="20.0025" y2="16.002" width="0" layer="19" extent="1-1"/>
+<wire x1="15.03" y1="14.5001" x2="17.53" y2="14.5001" width="0" layer="19" extent="1-16"/>
+<wire x1="13.53" y1="14.5001" x2="15.03" y2="14.5001" width="0" layer="19" extent="1-16"/>
+<wire x1="11.049" y1="15.875" x2="13.5255" y2="15.621" width="0" layer="19" extent="1-1"/>
+<wire x1="25.08" y1="6.462" x2="25.594" y2="9.544" width="0" layer="19" extent="1-1"/>
+<wire x1="24.249" y1="1.651" x2="24.13" y2="4.572" width="0" layer="19" extent="16-16"/>
+<wire x1="10.287" y1="12.581" x2="10.287" y2="15.74" width="0" layer="19" extent="16-16"/>
+<wire x1="13.188" y1="7.051" x2="10.287" y2="11.938" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2395" y1="3.691" x2="13.716" y2="5.58" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DCMI_D2" class="4">
 <contactref element="IC1" pad="P$74"/>
@@ -4193,13 +4201,14 @@ This DRC check is for 6-LayerExtended Capability boards with 4 mil drills to be 
 <wire x1="22.479" y1="10.795" x2="23.368" y2="9.906" width="0.127" layer="1"/>
 <wire x1="23.368" y1="9.906" x2="24.511" y2="9.906" width="0.127" layer="1"/>
 <wire x1="24.511" y1="9.906" x2="25.019" y2="9.398" width="0.127" layer="1"/>
-<wire x1="25.019" y1="9.219" x2="25.469" y2="8.769" width="0.127" layer="1"/>
 <wire x1="21.844" y1="12.827" x2="22.479" y2="12.192" width="0.127" layer="1"/>
 <wire x1="25.019" y1="9.398" x2="25.019" y2="9.219" width="0.127" layer="1"/>
 <wire x1="16.03" y1="10.8999" x2="16.03" y2="12.474" width="0.127" layer="16"/>
 <wire x1="16.03" y1="12.474" x2="16.383" y2="12.827" width="0.127" layer="16"/>
 <via x="16.383" y="12.827" extent="1-16" drill="0.127"/>
 <wire x1="16.383" y1="12.827" x2="16.03" y2="12.474" width="0.127" layer="1"/>
+<wire x1="25.019" y1="9.219" x2="25.494" y2="8.744" width="0.127" layer="1"/>
+<wire x1="25.494" y1="8.744" x2="25.594" y2="8.744" width="0.127" layer="1"/>
 <wire x1="16.7265" y1="5.2145" x2="16.03" y2="10.8999" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DCMI_D4" class="4">
@@ -4431,9 +4440,10 @@ This DRC check is for 6-LayerExtended Capability boards with 4 mil drills to be 
 <contactref element="IC2" pad="3"/>
 <contactref element="R5" pad="1"/>
 <contactref element="Q1" pad="3"/>
-<wire x1="23.614" y1="9.144" x2="24.569" y2="9.144" width="0.254" layer="1"/>
-<wire x1="24.569" y1="9.144" x2="24.569" y2="7.762" width="0.254" layer="1"/>
+<wire x1="23.614" y1="9.144" x2="24.444" y2="9.144" width="0.254" layer="1"/>
 <wire x1="24.569" y1="7.762" x2="25.08" y2="7.762" width="0.254" layer="1"/>
+<wire x1="24.444" y1="9.144" x2="24.569" y2="9.019" width="0.254" layer="1"/>
+<wire x1="24.569" y1="9.019" x2="24.569" y2="7.762" width="0.254" layer="1"/>
 </signal>
 <signal name="VDDIO_S" class="3">
 <contactref element="IC1" pad="P$9"/>
