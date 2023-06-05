@@ -12342,12 +12342,12 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BAT54CLT1-D.PDF"&gt; Da
 <attribute name="MPN" value="RC0402JR-075K1L"/>
 </part>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
-<part name="IC9" library="MIMXRT1052DVL6B" deviceset="MIMXRT1052DVL6B" device="" value="MIMXRT106FCVL5B">
-<attribute name="DESCRIPTION" value="Processors - Application Specialized MIMXRT1062DVL6B/LFBGA196///STANDARD MARKING * TRAY"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MIMXRT1062DVL6B"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-MIMXRT1062DVL6B"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MIMXRT1062DVL6B"/>
-<attribute name="MPN" value="MIMXRT106FCVL5B"/>
+<part name="IC9" library="MIMXRT1052DVL6B" deviceset="MIMXRT1052DVL6B" device="" value="MIMXRT106FDVL6B">
+<attribute name="DESCRIPTION" value="Processors - Application Specialized MIMXRT106FDVL6B/LFBGA196///STANDARD MARKING * TRAY"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MIMXRT106FDVL6B"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-MIMXRT106FDVL6B"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MIMXRT106FDVL6B"/>
+<attribute name="MPN" value="MIMXRT106FDVL6B"/>
 </part>
 <part name="C32" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22UF" device="-0805-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37429/1" value="22uF">
 <attribute name="MPN" value="CL21A226MQQNNNE"/>
@@ -14162,6 +14162,11 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BAT54CLT1-D.PDF"&gt; Da
 <label x="198.12" y="129.54" size="1.778" layer="95"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
 </segment>
+<segment>
+<pinref part="R70" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
+<label x="190.5" y="83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SNVS_BAT" class="0">
 <segment>
@@ -14188,7 +14193,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BAT54CLT1-D.PDF"&gt; Da
 <label x="215.9" y="149.86" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="RST_BUTTON" class="0">
+<net name="ONOFF_BUTTON" class="0">
 <segment>
 <pinref part="S2" gate="G$1" pin="COM_2"/>
 <wire x1="142.24" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
@@ -14204,13 +14209,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/BAT54CLT1-D.PDF"&gt; Da
 <pinref part="R70" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="83.82" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
 <junction x="175.26" y="83.82"/>
-</segment>
-</net>
-<net name="P12_RST_N" class="0">
-<segment>
-<pinref part="R70" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
-<label x="190.5" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

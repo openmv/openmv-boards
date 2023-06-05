@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding= "UTF-8" ?>
 <configuration name="MIMXRT1062xxxxB" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_12 http://mcuxpresso.nxp.com/XSD/mex_configuration_12.xsd" uuid="fd24acff-fbbd-4de3-a1d2-42aea5e237ed" version="12" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <common>
-      <processor>MIMXRT1062xxxxA</processor>
-      <package>MIMXRT1062CVL5A</package>
+      <processor>MIMXRT1062xxxxB</processor>
+      <package>MIMXRT1062DVL6B</package>
       <mcu_data>ksdk2_0</mcu_data>
       <cores selected="core0">
          <core name="Cortex-M7F" id="core0" description="M7 core"/>
@@ -1009,39 +1009,6 @@
                   <instance name="MPU_2" uuid="412120dd-bd04-4701-8898-16ff0a5dccba" type="mpu_utility" type_id="mpu_utility_bc3ea1f6add76edb6050f698d423d163" mode="MPU" peripheral="MPU" enabled="false" comment="" custom_name_enabled="false" editing_lock="false">
                      <config_set name="mpu_init">
                         <setting name="mpuInit" value="disabled"/>
-                     </config_set>
-                  </instance>
-                  <instance name="USB1" uuid="6161f001-b2ba-4631-9c1c-10190d76da7a" type="usb" type_id="usb_cbf31fb9a3cef21890d93e737c3d2690" mode="device" peripheral="USB1" enabled="false" comment="" custom_name_enabled="false" editing_lock="false">
-                     <config_set name="deviceSetting">
-                        <setting name="vendor_id" value="0x1FC9"/>
-                        <setting name="product_id" value="0x0090"/>
-                        <setting name="manufacturer_string" value="NXP"/>
-                        <setting name="product_string" value="Product"/>
-                        <setting name="self_powered" value="false"/>
-                        <setting name="max_power" value="500"/>
-                        <array name="interfaces">
-                           <struct name="0">
-                              <setting name="interface_class" value="kClassCic"/>
-                              <struct name="setting_cic">
-                                 <setting name="interface_name" value="CIC VCOM"/>
-                                 <setting name="subclass" value="kSubclassAcm"/>
-                                 <setting name="protocol" value="kProtocolNone"/>
-                                 <setting name="implementation" value="kImplementationCicVcom"/>
-                                 <array name="endpoints_settings">
-                                    <struct name="0">
-                                       <setting name="setting_name" value="Default"/>
-                                       <array name="endpoints"/>
-                                    </struct>
-                                 </array>
-                                 <setting name="data_interface_count" value="1"/>
-                              </struct>
-                           </struct>
-                        </array>
-                     </config_set>
-                     <config_set name="commonSettings">
-                        <struct name="mpu_init">
-                           <setting name="mpu_init_component" value="MPU_2"/>
-                        </struct>
                      </config_set>
                   </instance>
                   <instance name="FLEXSPI" uuid="54ccd7a2-198d-4e62-9ed1-a908f4f12f4b" type="flexspi" type_id="flexspi_380e74d39208b17ae8a8dd5f2724ca53" mode="general" peripheral="FLEXSPI" enabled="true" comment="" custom_name_enabled="false" editing_lock="false">
