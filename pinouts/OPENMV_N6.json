@@ -1,228 +1,228 @@
 {
   "pins": {
-    "960240-6202-AR_Pin_Long": {
+    "L_1-1": {
       "name": "P0",
-      "gpio": "PA0",
+      "gpio": "PD7",
       "voltage": "3.3V",
-      "functions": ["GPIO", "ADC1 CH0", "UART4 TX", "Timer 2 CH1"],
-      "description": "General purpose I/O, analog capable"
-    },
-    "960240-6202-AR_Pin_Long_1": {
-      "name": "P1",
-      "gpio": "PA1",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "ADC1 CH1", "UART4 RX", "Timer 2 CH2"],
-      "description": "General purpose I/O, analog capable"
-    },
-    "960240-6202-AR_Pin_Long_2": {
-      "name": "P2",
-      "gpio": "PA8",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "I2C3 SCL", "Timer 1 CH1", "MCO1"],
-      "description": "General purpose I/O, I2C clock"
-    },
-    "960240-6202-AR_Pin_Long_3": {
-      "name": "P3",
-      "gpio": "PA15",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "SPI3 NSS", "Timer 2 CH1", "JTDI"],
-      "description": "General purpose I/O, SPI chip select"
-    },
-    "960240-6202-AR_Pin_Long_4": {
-      "name": "P4",
-      "gpio": "PB3",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "SPI3 SCK", "Timer 2 CH2", "JTDO"],
-      "description": "General purpose I/O, SPI clock"
-    },
-    "960240-6202-AR_Pin_Long_5": {
-      "name": "P5",
-      "gpio": "PB4",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "SPI3 MISO", "Timer 3 CH1", "NJTRST"],
-      "description": "General purpose I/O, SPI data in"
-    },
-    "960240-6202-AR_Pin_Long_6": {
-      "name": "P6",
-      "gpio": "PB5",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "SPI3 MOSI", "I2C1 SMBA", "Timer 3 CH2"],
+      "functions": ["GPIO", "SPI2 MOSI"],
       "description": "General purpose I/O, SPI data out"
     },
-    "960240-6202-AR_Pin_Long_7": {
-      "name": "P7",
-      "gpio": "PB6",
+    "L_1-2": {
+      "name": "P1",
+      "gpio": "PD11",
       "voltage": "3.3V",
-      "functions": ["GPIO", "I2C1 SCL", "UART1 TX", "Timer 4 CH1"],
-      "description": "General purpose I/O, I2C clock"
+      "functions": ["GPIO", "SPI2 MISO"],
+      "description": "General purpose I/O, SPI data in"
     },
-    "960240-6202-AR_Pin_Long_8": {
-      "name": "P8",
-      "gpio": "PB7",
+    "L_1-3": {
+      "name": "P2",
+      "gpio": "PA12",
       "voltage": "3.3V",
-      "functions": ["GPIO", "I2C1 SDA", "UART1 RX", "Timer 4 CH2"],
-      "description": "General purpose I/O, I2C data"
+      "functions": ["GPIO", "SPI2 SCK", "UART4 TX", "CAN1 TX", "ADC12 INP13"],
+      "description": "General purpose I/O, SPI clock"
     },
-    "960240-6202-AR_Pin_Long_9": {
-      "name": "P9",
+    "L_1-4": {
+      "name": "P3",
+      "gpio": "PA11",
+      "voltage": "3.3V",
+      "functions": ["GPIO", "SPI2 NSS", "UART4 RX", "CAN1 RX", "ADC12 INP12"],
+      "description": "General purpose I/O, SPI chip select"
+    },
+    "L_1-5": {
+      "name": "P4",
       "gpio": "PB10",
       "voltage": "3.3V",
-      "functions": ["GPIO", "I2C2 SCL", "UART3 TX", "Timer 2 CH3"],
+      "functions": ["GPIO", "I2C2 SCL", "USART3 TX", "TIM2 CH3"],
       "description": "General purpose I/O, I2C clock"
     },
-    "960240-6202-AR_Pin_Long_10": {
-      "name": "P10",
+    "L_1-6": {
+      "name": "P5",
       "gpio": "PB11",
       "voltage": "3.3V",
-      "functions": ["GPIO", "I2C2 SDA", "UART3 RX", "Timer 2 CH4"],
+      "functions": ["GPIO", "I2C2 SDA", "USART3 RX", "TIM2 CH4"],
       "description": "General purpose I/O, I2C data"
     },
-    "960240-6202-AR_Pin_Long_11": {
-      "name": "P11",
-      "gpio": "PB12",
+    "L_1-7": {
+      "name": "P6",
+      "gpio": "PG0",
       "voltage": "3.3V",
-      "functions": ["GPIO", "SPI2 NSS", "I2C2 SMBA", "CAN2 RX"],
-      "description": "General purpose I/O, SPI chip select"
+      "functions": ["GPIO", "TIM12 CH1", "ADC2 INP18"],
+      "description": "General purpose I/O, analog capable"
     },
-    "960240-6202-AR_Pin_Long_12": {
-      "name": "P12",
-      "gpio": "PB13",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "SPI2 SCK", "CAN2 TX", "Timer 1 CH1N"],
-      "description": "General purpose I/O, SPI clock"
-    },
-    "960240-6202-AR_Pin_Long_13": {
-      "name": "P13",
-      "gpio": "PB14",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "SPI2 MISO", "Timer 12 CH1", "UART3 RTS"],
-      "description": "General purpose I/O, SPI data in"
-    },
-    "960240-6202-AR_Pin_Long_14": {
-      "name": "P14",
-      "gpio": "PB15",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "SPI2 MOSI", "Timer 12 CH2", "UART3 CTS"],
-      "description": "General purpose I/O, SPI data out"
-    },
-    "960240-6202-AR_Pin_Long_15": {
-      "name": "P15",
-      "gpio": "PC6",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "UART6 TX", "Timer 8 CH1", "SDIO D6"],
-      "description": "General purpose I/O, UART transmit"
-    },
-    "960240-6202-AR_Pin_Long_16": {
-      "name": "VIN",
-      "gpio": null,
-      "voltage": "3.6-5V",
-      "functions": ["Power Input"],
-      "description": "Main power input, 3.6V to 5V"
-    },
-    "960240-6202-AR_Pin_Long_17": {
+    "L_1-8": {
       "name": "3V3",
       "gpio": null,
       "voltage": "3.3V",
       "functions": ["Power Output"],
-      "description": "3.3V regulated output, max 200mA"
+      "description": "3.3V regulated output"
     },
-    "960240-6202-AR_Pin_Long_18": {
-      "name": "GND",
-      "gpio": null,
-      "voltage": "0V",
-      "functions": ["Ground"],
-      "description": "Ground reference"
-    },
-    "960240-6202-AR_Pin_Long_19": {
-      "name": "GND",
-      "gpio": null,
-      "voltage": "0V",
-      "functions": ["Ground"],
-      "description": "Ground reference"
-    },
-    "960240-6202-AR_Pin_Long_20": {
-      "name": "RST",
+    "L_2-1": {
+      "name": "MDI LED",
       "gpio": null,
       "voltage": "3.3V",
-      "functions": ["Reset"],
-      "description": "Active low reset, active low with internal pull-up"
+      "functions": ["Ethernet"],
+      "description": "Ethernet activity LED"
     },
-    "960240-6202-AR_Pin_Long_21": {
-      "name": "BOOT",
+    "L_2-2": {
+      "name": "MDI RX-",
+      "gpio": null,
+      "voltage": "3.3V",
+      "functions": ["Ethernet"],
+      "description": "Ethernet receive negative"
+    },
+    "L_2-3": {
+      "name": "MDI RX+",
+      "gpio": null,
+      "voltage": "3.3V",
+      "functions": ["Ethernet"],
+      "description": "Ethernet receive positive"
+    },
+    "L_2-4": {
+      "name": "MDI TX-",
+      "gpio": null,
+      "voltage": "3.3V",
+      "functions": ["Ethernet"],
+      "description": "Ethernet transmit negative"
+    },
+    "L_2-5": {
+      "name": "MDI TX+",
+      "gpio": null,
+      "voltage": "3.3V",
+      "functions": ["Ethernet"],
+      "description": "Ethernet transmit positive"
+    },
+    "L_2-6": {
+      "name": "PWR WKUP",
+      "gpio": null,
+      "voltage": "3.3V",
+      "functions": ["Power"],
+      "description": "Power wakeup signal"
+    },
+    "L_2-7": {
+      "name": "GND",
+      "gpio": null,
+      "voltage": "0V",
+      "functions": ["Ground"],
+      "description": "Ground reference"
+    },
+    "L_2-8": {
+      "name": "GND",
+      "gpio": null,
+      "voltage": "0V",
+      "functions": ["Ground"],
+      "description": "Ground reference"
+    },
+    "R_1-1": {
+      "name": "P18",
+      "gpio": "PB7",
+      "voltage": "3.3V",
+      "functions": ["GPIO", "SPI4 MOSI", "TIM15 CH2"],
+      "description": "General purpose I/O, SPI data out"
+    },
+    "R_1-2": {
+      "name": "P17",
+      "gpio": "PB6",
+      "voltage": "3.3V",
+      "functions": ["GPIO", "SPI4 MISO", "TIM15 CH1"],
+      "description": "General purpose I/O, SPI data in"
+    },
+    "R_1-3": {
+      "name": "P16",
+      "gpio": "PE12",
+      "voltage": "3.3V",
+      "functions": ["GPIO", "SPI4 SCK", "CAN3 RX"],
+      "description": "General purpose I/O, SPI clock"
+    },
+    "R_1-4": {
+      "name": "P15",
+      "gpio": "PE11",
+      "voltage": "3.3V",
+      "functions": ["GPIO", "SPI4 NSS", "CAN3 TX"],
+      "description": "General purpose I/O, SPI chip select"
+    },
+    "R_1-5": {
+      "name": "P14",
+      "gpio": "PE8",
+      "voltage": "3.3V",
+      "functions": ["GPIO", "UART7 TX"],
+      "description": "General purpose I/O, UART transmit"
+    },
+    "R_1-6": {
+      "name": "P13",
+      "gpio": "PE7",
+      "voltage": "3.3V",
+      "functions": ["GPIO", "UART7 RX"],
+      "description": "General purpose I/O, UART receive"
+    },
+    "R_1-7": {
+      "name": "BOOT0",
       "gpio": null,
       "voltage": "3.3V",
       "functions": ["Boot Select"],
       "description": "Pull high to enter DFU bootloader"
     },
-    "960240-6202-AR_Pin_Long_22": {
-      "name": "P16",
-      "gpio": "PC7",
+    "R_1-8": {
+      "name": "3V3",
+      "gpio": null,
       "voltage": "3.3V",
-      "functions": ["GPIO", "UART6 RX", "Timer 8 CH2", "SDIO D7"],
-      "description": "General purpose I/O, UART receive"
+      "functions": ["Power Output"],
+      "description": "3.3V regulated output"
     },
-    "960240-6202-AR_Pin_Long_23": {
-      "name": "P17",
-      "gpio": "PD12",
+    "R_2-1": {
+      "name": "P12",
+      "gpio": null,
       "voltage": "3.3V",
-      "functions": ["GPIO", "Timer 4 CH1", "UART3 RTS", "FMC A17"],
-      "description": "General purpose I/O, timer output"
+      "functions": ["Reset"],
+      "description": "Reset output, active low"
     },
-    "960240-6202-AR_Pin_Long_24": {
-      "name": "P18",
+    "R_2-2": {
+      "name": "P11",
+      "gpio": "PC13",
+      "voltage": "3.3V",
+      "functions": ["GPIO", "Wakeup"],
+      "description": "General purpose I/O, wakeup capable"
+    },
+    "R_2-3": {
+      "name": "P10",
+      "gpio": "PD6",
+      "voltage": "3.3V",
+      "functions": ["GPIO", "TIM15 CH2"],
+      "description": "General purpose I/O, PWM capable"
+    },
+    "R_2-4": {
+      "name": "P9",
+      "gpio": "PG12",
+      "voltage": "3.3V",
+      "functions": ["GPIO", "TIM17 CH1"],
+      "description": "General purpose I/O, PWM capable"
+    },
+    "R_2-5": {
+      "name": "P8",
       "gpio": "PD13",
       "voltage": "3.3V",
-      "functions": ["GPIO", "Timer 4 CH2", "UART3 CTS", "FMC A18"],
-      "description": "General purpose I/O, timer output"
+      "functions": ["GPIO", "TIM4 CH2"],
+      "description": "General purpose I/O, PWM capable"
     },
-    "960240-6202-AR_Pin_Long_25": {
-      "name": "DAC1",
-      "gpio": "PA4",
+    "R_2-6": {
+      "name": "P7",
+      "gpio": "PG13",
       "voltage": "3.3V",
-      "functions": ["GPIO", "DAC1 OUT", "SPI1 NSS", "ADC1 CH4"],
-      "description": "DAC output channel 1, 12-bit"
+      "functions": ["GPIO", "TIM4 CH1", "USART3 RTS"],
+      "description": "General purpose I/O, PWM capable"
     },
-    "960240-6202-AR_Pin_Long_26": {
-      "name": "DAC2",
-      "gpio": "PA5",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "DAC2 OUT", "SPI1 SCK", "ADC1 CH5"],
-      "description": "DAC output channel 2, 12-bit"
+    "R_2-7": {
+      "name": "VIN",
+      "gpio": null,
+      "voltage": "4.7-5.7V",
+      "functions": ["Power Input"],
+      "description": "Main power input, 4.7V to 5.7V"
     },
-    "960240-6202-AR_Pin_Long_27": {
-      "name": "SWD",
-      "gpio": "PA13",
-      "voltage": "3.3V",
-      "functions": ["SWDIO", "JTMS"],
-      "description": "Serial wire debug data I/O"
-    },
-    "960240-6202-AR_Pin_Long_28": {
-      "name": "SWC",
-      "gpio": "PA14",
-      "voltage": "3.3V",
-      "functions": ["SWCLK", "JTCK"],
-      "description": "Serial wire debug clock"
-    },
-    "960240-6202-AR_Pin_Long_29": {
-      "name": "P19",
-      "gpio": "PE2",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "SPI4 SCK", "SAI1 MCLK_A", "FMC A23"],
-      "description": "General purpose I/O"
-    },
-    "960240-6202-AR_Pin_Long_30": {
-      "name": "P20",
-      "gpio": "PE3",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "SAI1 SD_B", "FMC A19"],
-      "description": "General purpose I/O"
-    },
-    "960240-6202-AR_Pin_Long_31": {
-      "name": "P21",
-      "gpio": "PE6",
-      "voltage": "3.3V",
-      "functions": ["GPIO", "SPI4 MOSI", "SAI1 SD_A", "Timer 9 CH2"],
-      "description": "General purpose I/O"
+    "R_2-8": {
+      "name": "GND",
+      "gpio": null,
+      "voltage": "0V",
+      "functions": ["Ground"],
+      "description": "Ground reference"
     }
   }
 }

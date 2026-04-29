@@ -4,7 +4,13 @@
       "type": "OPENMV_N6",
       "display": "OpenMV-N6",
       "model": "models/OPENMV_N6.glb",
-      "pinout": "pinouts/OPENMV_N6.json"
+      "pinout": "pinouts/OPENMV_N6.json",
+      "orientation": {
+        "front":  { "pos": [0, 0, 1],  "up": [0, 1, 0] },
+        "back":   { "pos": [0, 0, -1], "up": [0, 1, 0] },
+        "top":    { "pos": [0, 1, 0],  "up": [0, 0, 1] },
+        "bottom": { "pos": [0, -1, 0], "up": [0, 0, 1] }
+      }
     }
   ]
 }
